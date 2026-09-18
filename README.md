@@ -11,6 +11,8 @@ It designs the creative layer above image/video prompt generation:
 - emotional arc,
 - runtime planning,
 - dynamic storyboard count,
+- necessary brief confirmation,
+- AI-video generation segment planning,
 - director shooting script,
 - shot-size strategy,
 - framing and camera movement,
@@ -33,6 +35,10 @@ For Vlog language:
 
 > Close shots / close-ups / detail shots dominate; medium shots come next; wide and long shots are sparse and purposeful.
 
+For AI-video production:
+
+> A shot is not automatically a generation clip. Compatible micro-shots can be grouped into coherent 5–10 second generation segments, normally kept under 10 seconds.
+
 ## Standard Skill structure
 
 This repository follows the Agent Skills pattern:
@@ -43,11 +49,13 @@ This repository follows the Agent Skills pattern:
 
 ## References
 
+- brief-confirmation.md — minimal necessary user confirmation gate
 - story-structure.md — dynamic shot count and narrative modules
+- generation-segments.md — 5–10 second AI-video production units
 - shot-language.md — Vlog shot scale, framing, camera, blocking
 - interaction-library.md — couple behavior and relationship beats
 - style-modes.md — Vlog-first content directions
-- output-schema.md — story script and director-script schema
+- output-schema.md — story, segment and director-script schema
 - quality-checklist.md — acceptance criteria and anti-patterns
 - examples.md — runtime-based planning examples
 
