@@ -220,3 +220,25 @@ Avoid:
 - sudden cut after high action,
 - generic hug inserted only because it is “romantic,”
 - scenery with no relationship connection.
+
+
+## 7. Shot planning versus generation planning
+
+Director-level shot duration and downstream AI-video clip duration should be planned separately.
+
+A final edit may use:
+- a 1.5-second reaction,
+- a 2-second hand detail,
+- a 3-second two-person close shot,
+
+without requiring three separate generated clips.
+
+When adjacent shots belong to the same location, time, continuous action, and emotional beat, group them into a **5–10 second generation segment** while preserving their shot-level edit intentions.
+
+The preferred hierarchy is:
+
+Story → Sequence / Scene → Generation Segment → Shot / Micro-shot → Action / Reaction
+
+This preserves professional directing detail while making the plan practical for video-generation workflows.
+
+Read `generation-segments.md` for grouping rules.
