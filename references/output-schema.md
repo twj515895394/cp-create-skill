@@ -16,12 +16,13 @@ Include:
 - total runtime,
 - pace type,
 - estimated shot-count range,
-- why that range fits,
+- estimated generation-segment count when AI-video handoff is relevant,
+- why the ranges fit,
 - where the piece accelerates,
 - where it slows,
 - expected climax / payoff.
 
-Do not lock an exact number until the story structure is designed.
+Do not lock an exact shot count until the story structure is designed.
 
 ## 3. Story script layer
 
@@ -38,14 +39,47 @@ Recommended fields:
 
 This layer should be readable even without camera terminology.
 
-## 4. Director shooting script layer
+## 4. Generation segment layer
+
+Use this layer when the work will feed an AI-video pipeline.
+
+A generation segment is not the same as a shot. It is a practical production unit that may contain several compatible shots or action beats.
+
+Default target:
+- 5–10 seconds,
+- usually 6–8 seconds,
+- normally avoid more than 10 seconds.
+
+Recommended fields:
+
+| Field | Meaning |
+|---|---|
+| Segment ID | Production unit identifier |
+| Duration target | Intended generated clip length |
+| Location/time | Shared scene context |
+| Segment objective | Why this segment exists |
+| Included Shot IDs | Director shots grouped inside |
+| Segment mode | Multi-shot or continuous-take |
+| Start state | Character/action state at entry |
+| Action progression | Internal beat sequence |
+| End state | State that hands off to next segment |
+| Camera logic | Coherent visual approach |
+| Continuity anchor | Prop, position, direction, wardrobe, light |
+| Sound continuity | Dialogue/ambience/music bridge |
+| Transition in/out | Relationship to adjacent segments |
+| Generation note | Downstream practical constraint |
+
+A segment should feel like one coherent moment, not unrelated shots bundled for convenience.
+
+## 5. Director shooting script layer
 
 Recommended per-shot fields:
 
 | Field | Meaning |
 |---|---|
 | Shot ID | Sequential identifier |
-| Duration | Expected screen time |
+| Segment ID | Parent generation segment when applicable |
+| Duration | Expected screen time in final edit |
 | Story module | Functional role |
 | Narrative purpose | Why this shot exists |
 | Location/time | Scene context |
@@ -64,12 +98,13 @@ Recommended per-shot fields:
 
 Not every user needs every field. Use the full schema for production-ready requests.
 
-## 5. Editing strategy
+## 6. Editing strategy
 
 Cover:
 - cut rhythm,
 - pacing changes,
 - montage density,
+- how generated 5–10 second source segments may be trimmed into shorter final shots,
 - where ambient sound should breathe,
 - music function,
 - sound bridges,
@@ -84,7 +119,7 @@ Use stylized transitions only when they support:
 - memory,
 - strong rhythmic design.
 
-## 6. Sound strategy
+## 7. Sound strategy
 
 Possible layers:
 - music bed,
@@ -101,7 +136,7 @@ Possible layers:
 
 Environmental sound increases realism and should not always be buried by music.
 
-## 7. Performance direction
+## 8. Performance direction
 
 Give behavior-based direction instead of emotional adjectives only.
 
@@ -118,11 +153,23 @@ Prefer:
 - looking away,
 - practical actions continuing during conversation.
 
-## 8. Handoff to downstream prompt skills
+## 9. Handoff to downstream prompt skills
 
-When another skill will generate image/video prompts, provide a clean blueprint with:
-- shot ID,
-- duration,
+When another skill will generate image/video prompts, provide a clean blueprint at **segment level and shot level**.
+
+Segment handoff:
+- Segment ID,
+- duration target,
+- scene/time,
+- mode,
+- action progression,
+- camera logic,
+- start/end state,
+- continuity anchors.
+
+Shot handoff:
+- Shot ID,
+- duration in final edit,
 - shot size,
 - framing,
 - camera motion,
