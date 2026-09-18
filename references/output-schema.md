@@ -10,21 +10,23 @@ Include:
 - visual feeling,
 - emotional destination.
 
-## 2. Core Experience Design — mandatory for venue/activity Vlogs
+## 2. Core Experience Mix — mandatory for venue-based Vlogs
 
-Before listing emotional labels, state the concrete experiences that make this particular video worth watching.
+Before listing emotional labels, state the **mix of concrete scene events** that makes this visit feel real and specific.
+
+Do not interpret “experience” as “ride/project only.” Include ordinary visit moments whenever they improve realism, pacing, or relationship texture.
 
 Recommended fields:
 
 | Field | Requirement |
 |---|---|
-| Experience / project | Concrete attraction, activity, food, performance, route, game, etc. |
-| Why it was selected | What unique visual/behavioral opportunity it creates |
-| Couple dynamic unlocked | Competition, fear/bravery contrast, teamwork, teasing, care, shared attention, etc. |
-| Mini-arc | Before / during / after behavior opportunity |
+| Scene event | Concrete ride, walk, queue, snack, shop, rest, photo, show, transition, etc. |
+| Scene-event type | High / medium / low intensity or category such as ride / food / walk / rest |
+| Why selected | Place identity, behavior, pacing, realism, relationship, or visual value |
+| Observable behavior opportunity | What can physically happen here |
 | Runtime value | Why it deserves screen time in this specific duration |
 
-For a named venue, this section should reveal the venue fingerprint immediately.
+For a named venue, this section should reveal the venue fingerprint **without becoming an attraction checklist**.
 
 Do not output only abstract bullets such as “共同体验 / 性格反差 / 玩闹 / 照顾”. Those are analysis labels, not content.
 
@@ -42,18 +44,21 @@ Recommended fields:
 |---|---|
 | Time range | Approximate section runtime |
 | Concrete place | Exact type of place within the overall destination |
-| Concrete activity / project | What the couple actually does |
-| Dramatic function | Why this activity is useful for this couple/story |
-| Relationship beat | What visibly happens between them because of the activity |
+| Scene-event type | Ride / walk / queue / food / shop / rest / show / transition etc. |
+| Concrete event | What physically happens |
+| Story value | Relationship, realism, pacing, place identity, transition, or atmosphere |
+| Relationship behavior | What visibly happens between them, if relevant |
 | Visual anchor | Distinctive physical object/environment |
 | Transition | How the story moves onward |
 
 Examples of acceptable specificity:
-- 乐园入口检票区 → 入园后看导览地图
+- 乐园入口检票区 → 入园、整理票据/手机、打开导览图
+- 主题街区闲逛 → 女生被橱窗吸引停下，男生走出两步后回头找她
 - 过山车排队区/上车站台 → 上车、压安全杆、发车、俯冲反应
-- 花车巡游路线旁 → 找位置、指向花车、交换反应
-- 爆米花摊 → 点单、接桶、边走边抢着吃
-- 喷泉休息区 → 坐下整理购物袋、递水
+- 爆米花摊 → 点单、接桶、边走边吃
+- 商店镜子前 → 试戴夸张发箍、互相吐槽
+- 喷泉休息区 → 放下购物袋、揉脚、递水
+- 花车巡游路线旁 → 找位置、踮脚、交换反应
 - 烟花观赏区 → 等候、抬头、共同看烟花
 
 Do not write vague labels such as “游玩”“互动”“吃东西”“看景色”.
