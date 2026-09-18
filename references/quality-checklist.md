@@ -2,6 +2,13 @@
 
 Run this before finalizing a complete couple script/director plan.
 
+## Brief quality
+
+- Were critical missing requirements confirmed?
+- Were non-critical details inferred instead of turning the process into a questionnaire?
+- If assumptions were made, are the important ones visible?
+- Did the skill avoid asking for information already provided?
+
 ## Story
 
 - Is there a clear shared experience?
@@ -9,6 +16,18 @@ Run this before finalizing a complete couple script/director plan.
 - Does the ending feel earned?
 - Is there at least one meaningful change in pace or emotion?
 - Does each sequence have a reason to exist?
+
+## Generation segments
+
+When AI-video production is relevant:
+
+- Are compatible shots grouped into practical production units?
+- Are segments generally 5–10 seconds and normally under 10 seconds?
+- Does each segment stay within one coherent location/time/action/emotional moment?
+- Are unrelated shots kept separate even if grouping them would save generation calls?
+- Is the segment marked multi-shot only when the downstream workflow can support internal cuts?
+- Otherwise, has it been converted into a coherent continuous-take plan?
+- Do segment start/end states support continuity with adjacent clips?
 
 ## Relationship
 
@@ -42,6 +61,7 @@ Run this before finalizing a complete couple script/director plan.
 - Are transitions restrained?
 - Does the ending have enough hold time?
 - Is there a balance between montage and breathing room?
+- Can longer generated segments realistically yield the intended shorter final-edit shots?
 
 ## Sound
 
@@ -84,9 +104,18 @@ Close-ups show faces but no behavior or reaction.
 ### 10. Abrupt ending
 The video simply runs out instead of resolving emotionally.
 
+### 11. Micro-clip generation trap
+Every 1–3 second edit shot is treated as a separate AI-video generation request.
+
+### 12. Overloaded generation segment
+Too many unrelated actions, locations, camera styles, or emotional beats are forced into one 10+ second clip.
+
 ## Final acceptance test
 
 A good result should make the viewer feel:
 “I watched these two people spend meaningful time together,”
 not:
 “I watched a collection of romantic shots.”
+
+And the production plan should feel:
+“detailed enough for a director, practical enough for downstream AI-video generation.”
