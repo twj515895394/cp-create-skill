@@ -28,43 +28,50 @@ The goal is not to stack romantic poses. Build believable intimacy through share
    - Use functional story modules rather than a fixed number of shots.
    - Read references/story-structure.md.
 
-4. **Determine shot count dynamically**
+4. **Build a concrete Content Map / Scene Route before the storyboard**
+   - For complete Vlogs, explicitly state where the couple goes, what exact activity/project happens in each place, what relationship beat occurs, and how the story transitions.
+   - Ban vague labels such as “游玩项目 / 互动 / 吃东西 / 看风景” when a concrete activity can be named.
+   - For recognizable activities, use physically believable process details and constraints.
+   - Read references/scene-specificity.md.
+
+5. **Determine shot count dynamically**
    - Never force a fixed storyboard count.
    - Derive shot count from total duration, pace, action density, scene count, and emotional breathing room.
    - Adjust durations per shot instead of mechanically dividing time equally.
    - Read references/story-structure.md.
 
-5. **Create generation segments for AI-video handoff**
+6. **Create generation segments for AI-video handoff**
    - A shot is an editing/directing unit; a generation segment is a production unit.
    - Group adjacent shots when they share location, time, continuity, action, and emotional purpose.
    - For AI-video workflows, prefer generation segments around **5–10 seconds**, usually 6–8 seconds, and normally avoid exceeding 10 seconds.
    - Preserve fine-grained shots inside each segment.
    - Read references/generation-segments.md.
 
-6. **Direct for Vlog language**
+7. **Direct for Vlog language**
    - Default shot-size priority: **close-up / close shot / detail > medium shot > wide / long shot**.
    - Wide and long shots are sparse and purposeful: location establishment, transition, spatial reset, emotional punctuation, or final environment payoff.
    - Do not make a Vlog feel like landscape coverage or a conventional film made mostly of wide masters.
    - Read references/shot-language.md.
 
-7. **Build relationship beats**
+8. **Build relationship beats**
    - Prioritize two-person relationship visibility, natural reaction, shared action, playful interaction, practical life details, care, and quiet companionship.
    - Avoid repetitive “look at each other / hold hands / hug / kiss” loops.
    - Read references/interaction-library.md.
 
-8. **Write layered production output**
+9. **Write layered production output**
    - **Story Script**: what happens, why it matters, emotional progression, actions, optional dialogue/voiceover.
    - **Generation Segments**: practical 5–10 second production units for downstream AI-video creation when relevant.
-   - **Director Script**: shot duration, framing, camera position, movement, blocking, action, interaction, environment, sound, transition, edit intention, continuity.
-   - Read references/output-schema.md.
+   - **Director Script**: shot duration, concrete scene/project, framing, camera position, movement, blocking, rich Picture & Performance, sound, transition, edit intention, continuity.
+   - **画面与表演 / Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut, not generic emotional summaries.
+   - Read references/performance-writing.md and references/output-schema.md.
 
-9. **Check rhythm and continuity**
+10. **Check rhythm and continuity**
    - Every shot should have one primary expressive purpose.
    - Every generation segment should feel like one coherent moment with internal progression.
    - Cuts should be motivated by action, gaze, space, time, emotion, sound, or rhythm.
    - Use contrast: lively sections need breathing space; romantic endings should usually reduce action while increasing emotional weight.
 
-10. **Run quality control**
+11. **Run quality control**
    - Read references/quality-checklist.md.
    - Fix any result that feels like pose compilation, generic AI romance, random montage, landscape tourism, constant high-intensity sweetness, or generation segments that are too fragmented or overloaded.
 
@@ -72,6 +79,9 @@ The goal is not to stack romantic poses. Build believable intimacy through share
 
 - **No fixed shot count.** Duration and content determine the storyboard.
 - **Shot ≠ generation segment.** Keep director-level precision while grouping compatible shots into practical downstream video units.
+- **Complete Vlogs require a concrete Content Map / Scene Route before the detailed storyboard.** The reader must understand the full video content, locations, and activities at a glance.
+- **“画面与表演 / Picture & Performance” is the most important storyboard field.** Write it in enough detail to visualize and perform the shot from first frame to cut.
+- **No vague activity placeholders.** Name the actual activity/project and make it physically believable.
 - **AI-video generation segments normally target 5–10 seconds and should usually stay under 10 seconds.**
 - **Vlog framing is intimate.** Close shots and details dominate; medium shots support body interaction; wide/long shots are limited.
 - **Relationship over scenery.** Locations support the couple story, not the reverse.
@@ -92,6 +102,8 @@ Read only what the task needs:
 
 - Missing/ambiguous user requirements → references/brief-confirmation.md
 - Narrative architecture and dynamic shot count → references/story-structure.md
+- Concrete places, activities and full-video scene route → references/scene-specificity.md
+- Detailed 画面与表演 writing → references/performance-writing.md
 - AI-video grouping and 5–10 second production units → references/generation-segments.md
 - Shot scale, framing, camera, movement, blocking → references/shot-language.md
 - Couple interaction and relationship beats → references/interaction-library.md
@@ -108,11 +120,12 @@ When the user asks for a complete design, output:
 2. Couple relationship dynamic
 3. Emotional arc
 4. Runtime and pacing strategy
-5. Story script
-6. Generation-segment plan when AI-video production is relevant
-7. Director shooting script / storyboard
-8. Editing and sound strategy
-9. Continuity and performance notes
-10. Quality-control summary
+5. Full-video Content Map / Scene Route
+6. Story script
+7. Generation-segment plan when AI-video production is relevant
+8. Director shooting script / storyboard, with detailed 画面与表演 as the primary column
+9. Editing and sound strategy
+10. Continuity and performance notes
+11. Quality-control summary
 
 Do not force all sections when the user asks for only one layer.
