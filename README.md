@@ -13,6 +13,8 @@ It designs the creative layer above image/video prompt generation:
 - dynamic storyboard count,
 - necessary brief confirmation,
 - AI-video generation segment planning,
+- venue/theme-driven creative expansion,
+- proactive activity/project selection,
 - concrete full-video scene route / activity map,
 - director shooting script,
 - detailed Picture & Performance direction,
@@ -52,6 +54,7 @@ This repository follows the Agent Skills pattern:
 ## References
 
 - brief-confirmation.md — minimal necessary user confirmation gate
+- creative-expansion.md — proactive venue-driven activity selection and anti-formula rules
 - story-structure.md — dynamic shot count and narrative modules
 - scene-specificity.md — concrete places, activities/projects and realistic scene progression
 - performance-writing.md — detailed 画面与表演 writing standard
