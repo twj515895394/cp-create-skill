@@ -14,7 +14,7 @@ Ask before writing when one or more critical items are missing and cannot be saf
 
 - target runtime,
 - aspect ratio / platform when composition depends on it,
-- core scene or activity when the user has not provided any usable premise,
+- core destination/theme when the user has not provided any usable premise,
 - who the couple are / relationship stage when it materially changes behavior,
 - a requested reference style that could mean either “copy structure” or “copy visual treatment,”
 - required or forbidden story elements that appear contradictory,
@@ -23,7 +23,15 @@ Ask before writing when one or more critical items are missing and cannot be saf
 Ask only the smallest set of questions needed.
 
 ### Level B — Useful but inferable
-Do not block. Infer a sensible default and state the assumption briefly:
+Do not block. Infer a sensible default and state the assumption briefly.
+
+If the user already names a real destination or venue, do **not** ask them to list activities that the agent can reasonably research or creatively select. Venue/activity discovery is part of the creative job.
+
+Examples:
+- “上海迪士尼，60秒情侣Vlog” → select/research suitable attractions and experiences yourself.
+- “海边约会” → invent a coherent set of beach-specific activities instead of asking “具体做什么”.
+
+Inferable items include:
 
 - exact pace,
 - time of day,
@@ -92,3 +100,21 @@ Weak:
 
 Better:
 “我先确认 3 点：总时长、主要场景/约会内容、成片比例（16:9 还是 9:16）。其他导演细节我可以按自然甜蜜 Vlog 默认设计。”
+
+
+## 7. Research instead of unnecessary clarification
+
+When missing information is public and retrievable rather than personal preference:
+- prefer research/tool use over asking the user,
+- then make a creative selection.
+
+For a named venue, exact attractions, shows, themed areas, or food experiences are usually public venue information.
+
+Ask the user only if the choice depends on a personal constraint or preference that cannot be inferred, for example:
+- no thrill rides,
+- child-friendly only,
+- accessibility needs,
+- must include a particular attraction,
+- avoid water rides.
+
+Do not offload ordinary creative research back to the user.
