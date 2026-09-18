@@ -9,6 +9,23 @@ Run this before finalizing a complete couple script/director plan.
 - If assumptions were made, are the important ones visible?
 - Did the skill avoid asking for information already provided?
 
+## Content clarity
+
+- Can a reader understand the full video from the Content Map / Scene Route alone?
+- Are all major places concrete rather than vague labels?
+- Are activities/projects named specifically?
+- For activity-based scenes, are physical stages and constraints believable?
+- If a real venue is referenced, has the plan avoided inventing unsupported branded attraction names?
+
+## Picture & Performance
+
+- Is “画面与表演” the richest field in the shot table?
+- Can the shot be visualized from first frame to cut by reading that field alone?
+- Does it include opening state, action progression, partner reaction, eye-line/micro-expression, prop/environment interaction, and end state when relevant?
+- Are emotions expressed through observable behavior rather than adjectives such as “开心”“甜蜜”“宠溺” alone?
+- Does the performance respect the physical reality of the activity?
+- Are generic one-line descriptions rewritten before delivery?
+
 ## Story
 
 - Is there a clear shared experience?
@@ -109,6 +126,12 @@ Every 1–3 second edit shot is treated as a separate AI-video generation reques
 
 ### 12. Overloaded generation segment
 Too many unrelated actions, locations, camera styles, or emotional beats are forced into one 10+ second clip.
+
+### 13. Vague activity writing
+The plan says “游玩项目 / 互动 / 吃东西 / 看风景” without naming what physically happens.
+
+### 14. Empty Picture & Performance
+The key column contains only summaries such as “女生开心地看他”“两人自然互动”“男生宠溺一笑” instead of playable action/reaction progression.
 
 ## Final acceptance test
 
