@@ -14,7 +14,7 @@ These are diagnostic tools, not a mandatory sequence.
 
 The actual story must be invented from:
 - the place,
-- available activities,
+- concrete things people can do there,
 - couple personalities,
 - runtime,
 - time of day,
@@ -23,165 +23,257 @@ The actual story must be invented from:
 
 If the result feels like a checklist completed in order, rewrite it.
 
-## 2. Venue-first creative thinking
+## 2. Think in concrete scene events, not only "projects"
+
+The creative unit is a **Scene Event**: a specific thing that happens in a specific place.
+
+A Scene Event may be:
+
+- attraction / ride / game,
+- walking and browsing,
+- queueing or waiting,
+- food and drink,
+- shopping,
+- taking photos,
+- watching a parade/show,
+- resting,
+- navigating,
+- transport,
+- weather-related behavior,
+- practical care,
+- spontaneous interruption,
+- quiet observation,
+- transition between areas.
+
+A concrete scene does **not** need an attraction or "project" in every row.
+
+Example at a theme park:
+- entering through the gate and unfolding the map,
+- walking down a themed street while one person keeps getting distracted by storefronts,
+- riding one roller coaster,
+- buying popcorn and stealing from each other's bucket,
+- sitting on a bench because one person is tired,
+- wandering through a shop and trying on a silly headband,
+- squeezing through the crowd to find a parade viewing spot,
+- waiting for fireworks after dark.
+
+All are valid concrete scenes.
+
+## 3. Venue-first creative thinking
 
 When the user gives a destination or venue, actively ask:
 
-- What can people specifically do here?
-- Which activities create strong visual behavior?
-- Which activities naturally expose personality differences?
-- Which activities create useful action/reaction?
-- Which activities create physical proximity or separation?
-- Which activities create a before/during/after mini-arc?
-- Which activities can support a meaningful ending?
+- What do people realistically do here over the course of a visit?
+- Which moments are high-energy?
+- Which moments are ordinary and lived-in?
+- Where would people naturally slow down, wait, eat, browse, or rest?
+- Which moments naturally expose personality differences?
+- Which moments create useful action/reaction?
+- Which moments create physical proximity or separation?
+- Which moments can support a meaningful ending?
 
-Do not wait for the user to name every project.
+Do not wait for the user to name every scene.
 
-## 3. Proactive activity discovery
+## 4. Proactive discovery without attraction obsession
 
 If a real venue is named:
 
 1. Use known or researchable venue information when tools are available.
-2. Select concrete activities that fit the runtime and desired relationship tone.
-3. Do not ask the user to enumerate attractions unless personal preference is essential.
-4. If exact branded project names are uncertain, research first or use accurate generic project types.
-5. Never invent a branded attraction.
+2. Discover a **mix of venue-specific experiences**, not only headline attractions.
+3. Select only the experiences that serve this runtime and relationship.
+4. Do not ask the user to enumerate attractions unless personal preference is essential.
+5. Never invent branded attractions.
 
-The creative task is to **choose**, not merely to repeat user-provided nouns.
+Research can cover:
+- attractions,
+- themed areas,
+- streets and promenades,
+- restaurants/snacks,
+- shops,
+- parades/shows,
+- night spectacles,
+- scenic rest points,
+- transport,
+- characteristic crowd/waiting behavior.
 
-## 4. Activity as a relationship engine
+The creative task is to build a believable visit, not a ride checklist.
 
-Each selected activity should do more than provide scenery.
+## 5. Balance event intensity
+
+A natural Vlog needs contrast.
+
+Use a mix of:
+- **high-intensity events**: ride, game, chase, performance climax,
+- **medium-intensity events**: browsing, ordering food, taking photos, shopping,
+- **low-intensity events**: waiting, walking, sitting, resting, watching, quiet conversation.
+
+Do not make every segment high-energy.
+Do not make every segment a named attraction.
+Do not make every segment a "relationship beat" that visibly advances romance.
+
+Ordinary moments create credibility and give stronger moments room to matter.
+
+## 6. Attractions as relationship engines — when selected
+
+When a ride/game is chosen, it should do more than provide scenery.
 
 Ask:
-**What does this activity make the couple do that another activity would not?**
-
-Examples:
+**What does this particular activity make the couple do that another scene would not?**
 
 ### Roller coaster
-Useful because it creates:
+Can create:
 - anticipation,
 - fear/bravery contrast,
 - restraint-limited body language,
-- involuntary touch/grip,
+- involuntary grip,
 - screaming/laughter,
 - post-ride teasing.
 
-### Interactive shooting game
-Useful because it creates:
+### Interactive game
+Can create:
 - competition,
 - score comparison,
-- cheating accusations,
-- one person secretly helping,
+- mock cheating accusations,
 - victory/defeat reactions.
 
-### Parade
-Useful because it creates:
-- crowd navigation,
-- finding a viewing spot,
-- pointing things out,
-- shared attention,
-- quieter side-by-side observation.
+A project earns screen time because it creates useful behavior, not because "the venue should have a project."
 
-### Food / snack stop
-Useful because it creates:
-- decision-making,
+## 7. Ordinary scenes as relationship texture
+
+Non-project scenes can be just as important.
+
+### Walking / wandering
+Can create:
+- one person walking too fast,
+- stopping at storefronts,
+- pointing something out,
+- losing and regaining pace,
+- casual side-by-side conversation.
+
+### Food / snack
+Can create:
+- indecision,
 - sharing,
 - stealing bites,
-- messy practical detail,
+- occupied hands,
+- messy practical details,
 - care and humor.
 
-### Night show / fireworks
-Useful because it creates:
-- waiting,
-- crowd compression,
-- quiet shared gaze,
-- time-of-day payoff,
-- emotional closure.
+### Rest
+Can create:
+- fatigue,
+- putting bags down,
+- passing water,
+- rubbing sore feet,
+- quieter eye contact,
+- comfortable silence.
 
-The activity itself should generate the interaction.
+### Shopping
+Can create:
+- trying on ridiculous accessories,
+- judging each other's taste,
+- carrying bags,
+- taking candid photos.
 
-## 5. Build emotional progression through different activity affordances
+### Waiting
+Can create:
+- checking time,
+- people-watching,
+- leaning on a railing,
+- small talk,
+- boredom turning into teasing.
+
+These scenes are not filler if they contain concrete behavior.
+
+## 8. Build progression through varied experiences
 
 Do not write:
-“关系逐渐升温.”
+"关系逐渐升温."
 
-Make the rise visible through activities.
+Make the progression emerge from the visit.
 
-Example logic:
+Example:
+- casual entry/wandering establishes rhythm,
+- one attraction creates a strong involuntary reaction,
+- snack/shop scene turns excitement into playful familiarity,
+- rest/waiting scene reveals practical care,
+- parade/night spectacle creates shared attention and closure.
 
-- low-pressure shared choice → establishes rhythm,
-- mildly competitive/funny activity → exposes personality,
-- high-adrenaline ride → creates involuntary reaction and physical closeness,
-- food/rest beat → converts excitement into lived-in intimacy,
-- night spectacle → converts companionship into emotional payoff.
+This is only an example. Do not force this exact sequence.
 
-The progression should come from **what they go through together**, not from a narrator declaring that they became closer.
+## 9. Important events may have mini-arcs
 
-## 6. Activity mini-arcs
-
-Important activities should usually contain a mini-arc:
+For scenes with enough dramatic value, consider:
 
 **Before → During → After**
 
 Example — roller coaster:
 - Before: one person boasts they are not scared.
 - During: restraint locks, climb begins, confidence fades, one grabs the other.
-- After: they walk out, one teases the other using what just happened.
+- After: they walk out, one teases the other.
 
-This makes the project a story event, not B-roll.
+But not every scene needs a mini-arc.
+A 5-second walking or snack moment can simply capture one believable interaction.
 
-Not every stage needs its own shot. Select the most expressive beats for the runtime.
-
-## 7. Venue fingerprint test
+## 10. Venue fingerprint test
 
 Before finalizing, ask:
 
-> If I replace this venue with a shopping mall, ordinary park, or another generic destination, would most of the script still work unchanged?
+> If I replace this venue with a generic mall or ordinary park, would most of the script still work unchanged?
 
-If yes, the story lacks a **venue fingerprint**.
-
-Rewrite using:
-- unique projects,
-- recognizable spatial zones,
+If yes, strengthen the venue fingerprint using any combination of:
+- real attractions,
+- recognizable themed areas,
+- characteristic streets,
+- venue-specific food/merchandise,
+- parades/shows,
+- signage/maps,
+- queueing mechanics,
 - unique sounds,
-- physical mechanics,
-- characteristic props,
-- venue-specific crowd behavior,
-- time-of-day experiences.
+- crowd behavior,
+- night-time experiences.
 
-## 8. Creative selection, not exhaustive coverage
+**Venue fingerprint does not mean attraction density.**
 
-Do not try to show every attraction.
+A Disney-specific shop, themed street, parade crowd, character merchandise, castle sightline, or fireworks wait can be as venue-specific as a ride.
 
-Select a small number of activities with different dramatic functions.
+## 11. Creative selection, not exhaustive coverage
 
-A useful mix may include:
-- one activity for personality contrast,
-- one activity for strong reaction,
-- one activity for playful/practical intimacy,
-- one quieter or visually strong ending.
+Do not try to show every attraction or every category.
 
-But this is a creative pattern, not a fixed quota.
+Select a coherent set of Scene Events that gives:
+- destination identity,
+- behavioral variety,
+- pacing contrast,
+- relationship readability,
+- a believable sense of spending time together.
 
-## 9. Character-to-activity matching
+A 60-second visit may use:
+- 1–2 headline attractions,
+- 2–4 ordinary lived-in moments,
+- 1 spectacle/ending,
 
-Choose activities based on the couple dynamic.
+or a completely different mix if the story calls for it.
 
-Examples:
+These are examples, not quotas.
+
+## 12. Character-to-scene matching
+
+Choose scenes based on the couple dynamic.
 
 Playful girl + steady boyfriend:
-- competitive game lets her provoke him,
-- thrill ride lets his calm persona crack or lets him quietly steady her,
-- snack scene lets her steal food and him adapt.
-
-Both adventurous:
-- choose harder physical activities and make the sweetness come from teamwork rather than fear.
+- thrill ride may expose fear/bravery contrast,
+- shop scene may let her put a silly headband on him,
+- snack scene may create food stealing,
+- rest scene may let his practical care appear naturally.
 
 Shy early-stage couple:
-- choose shared-focus activities where they can look at the same thing instead of forcing face-to-face romance.
+- walking, shared-focus activities, parade viewing, photography, and waiting may work better than forcing constant face-to-face intimacy.
 
-## 10. Avoid abstract bullet-list storytelling
+Both adventurous:
+- project scenes may occupy more runtime, while care emerges through teamwork and recovery.
+
+## 13. Avoid abstract bullet-list storytelling
 
 A list like:
 - shared experience,
@@ -195,30 +287,32 @@ is not a story.
 
 Those are analysis labels.
 
-The output must convert them into:
+Convert them into:
 - specific place,
-- specific activity,
+- specific scene event,
 - specific action,
 - specific reaction,
 - specific change.
 
-## 11. Creative autonomy
+## 14. Creative autonomy
 
 When the brief is broad but usable, the agent should make creative choices.
 
 Example:
-“60秒，上海迪士尼，甜蜜情侣Vlog。”
+"60秒，上海迪士尼，甜蜜情侣Vlog。"
 
-Do not reply only with abstract relationship principles.
+Do not output only relationship principles.
+Do not fill every row with an attraction.
 
 Instead:
-- select plausible actual attraction/entertainment/food moments,
+- understand the venue,
+- choose a believable mix of rides, wandering, food, waiting, shopping, rest, shows, or other moments,
 - create a route,
-- assign each experience a dramatic role,
+- assign only the scenes that need a dramatic function,
 - then build the director plan.
 
-Only ask the user when a preference changes the whole route, such as:
+Ask the user only when a personal preference changes the route, such as:
 - absolutely no thrill rides,
-- must focus on a specific themed land,
+- must include a specific area,
 - mobility/accessibility constraints,
-- a must-have attraction.
+- must avoid water rides.
