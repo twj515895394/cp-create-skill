@@ -1,0 +1,135 @@
+# Generation Segments and Shot Grouping
+
+## 1. Core distinction
+
+A **shot** is a directing/editing unit.
+
+A **generation segment** is a downstream AI-video production unit.
+
+They are not the same thing.
+
+A director plan may contain 1–3 second shots, but downstream generation should normally avoid creating every tiny shot as a separate clip.
+
+## 2. Default generation-segment duration
+
+For AI-video-oriented workflows:
+
+- preferred segment target: **5–10 seconds**,
+- default sweet spot: **6–8 seconds**,
+- normally avoid segments longer than **10 seconds**,
+- shorter segments are allowed only when the content genuinely cannot be grouped without damaging continuity or when the downstream tool has a specific reason.
+
+This is a production guideline, not a mathematical rule.
+
+## 3. When shots should be grouped
+
+Group adjacent shots into one segment when they share most of these:
+
+- same location,
+- same time of day,
+- same wardrobe and props,
+- continuous action,
+- same emotional beat,
+- consistent screen direction,
+- compatible camera language,
+- no hard story reset.
+
+Example:
+
+Segment 04 — café table, 8 seconds
+- Shot 04A: close-up of her tasting dessert,
+- Shot 04B: close reaction from him,
+- Shot 04C: detail of her pushing the spoon toward him.
+
+The segment is generated/managed as one production unit even though the director script still preserves three shot intentions.
+
+## 4. When to split segments
+
+Create a new segment when there is:
+
+- location change,
+- meaningful time jump,
+- major wardrobe/prop change,
+- emotional chapter change,
+- incompatible camera setup,
+- action discontinuity,
+- new story objective,
+- generation complexity that becomes unreliable when combined.
+
+Do not merge unrelated shots merely to reach 5 seconds.
+
+## 5. Two segment modes
+
+### A. Multi-shot segment
+Use when the downstream video workflow supports:
+- storyboard input,
+- internal cuts,
+- multi-shot prompting,
+- shot-conditioned generation.
+
+A 5–10 second segment may contain multiple editorial shots.
+
+### B. Continuous-take segment
+Use when the downstream generator is better at one coherent camera setup.
+
+Convert several micro-actions into:
+- one continuous camera move,
+- one stable setup with multiple action beats,
+- or one close observational take.
+
+This preserves story intent without asking the model to perform unreliable hard cuts.
+
+## 6. Director-script hierarchy
+
+Recommended hierarchy:
+
+Story
+→ Sequence / Scene
+→ Generation Segment
+→ Shot / Micro-shot
+→ Action / Reaction beat
+
+This lets the skill remain professionally detailed while still producing practical AI-video units.
+
+## 7. Segment design fields
+
+Each generation segment should include:
+
+- Segment ID,
+- duration target,
+- location / time,
+- segment objective,
+- included Shot IDs,
+- segment mode: multi-shot or continuous-take,
+- continuity anchor,
+- character state at start,
+- character state at end,
+- key action progression,
+- camera logic,
+- sound continuity,
+- transition in,
+- transition out,
+- downstream generation note.
+
+## 8. Editing implication
+
+The generated clip does not have to be used in full.
+
+A 6–8 second generated segment may yield:
+- a 2-second close reaction,
+- a 2.5-second interaction,
+- a 1-second detail insert,
+
+which are then selected and edited into the final piece.
+
+The director script therefore optimizes for both:
+- final edit rhythm,
+- practical source-footage generation.
+
+## 9. Quality rule
+
+A good segment should feel like:
+“one coherent moment with internal progression.”
+
+A bad segment feels like:
+“several unrelated shots forced together to save generation calls.”
