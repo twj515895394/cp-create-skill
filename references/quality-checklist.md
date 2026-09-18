@@ -11,9 +11,11 @@ Run this before finalizing a complete couple script/director plan.
 
 ## Creative expansion
 
-- Did the agent actively choose concrete activities/projects instead of only paraphrasing user input?
-- If a real venue was named and public information was available, did it research/select useful venue-specific experiences rather than ask the user to provide every project?
-- Does each major activity create a distinct behavior/reaction opportunity?
+- Did the agent actively design concrete scene events instead of only paraphrasing user input?
+- If a real venue was named, did it use a believable mix of projects and non-project moments rather than ask the user to provide everything?
+- Is the plan free from “every scene must contain an attraction” thinking?
+- Do high-, medium-, and low-intensity moments create useful rhythm?
+- Do selected scenes create distinct behavior, place identity, realism, or pacing value?
 - Is relationship progression caused by events rather than stated as abstract “升温”?
 - Does the plan have a clear venue fingerprint?
 - If the destination name were replaced by “普通商场/普通公园”, would the plan break in meaningful ways? If not, rewrite.
@@ -23,8 +25,10 @@ Run this before finalizing a complete couple script/director plan.
 
 - Can a reader understand the full video from the Content Map / Scene Route alone?
 - Are all major places concrete rather than vague labels?
-- Are activities/projects named specifically?
-- For activity-based scenes, are physical stages and constraints believable?
+- Are scene events specific and observable?
+- Are rides/projects named when they actually matter, without forcing one into every scene?
+- For recognizable activities, are physical stages and constraints believable?
+- Are walking, waiting, food, shopping, rest, and transition scenes also written concretely rather than treated as filler?
 - If a real venue is referenced, has the plan avoided inventing unsupported branded attraction names?
 
 ## Picture & Performance
@@ -150,7 +154,13 @@ The outline mechanically lists “共同体验 / 性格反差 / 玩闹 / 生活�
 The script says “上海迪士尼 / 海边 / 夜市 / 京都” but most of the same scenes could be moved to any generic place unchanged.
 
 ### 17. Passive creative behavior
-The agent waits for the user to name every activity even though the destination itself provides enough context to research or creatively select them.
+The agent waits for the user to name every scene even though the destination itself provides enough context to research or creatively design them.
+
+### 18. Attraction obsession
+Every scene is forced to contain a ride, project, game, or named attraction after the user merely requested more concrete content. The visit no longer feels like real Vlog life.
+
+### 19. No breathing room
+The plan jumps from project to project with no walking, waiting, eating, shopping, resting, transition, or observational moments, so the relationship and time flow feel artificial.
 
 ## Final acceptance test
 
