@@ -242,3 +242,53 @@ Story → Sequence / Scene → Generation Segment → Shot / Micro-shot → Acti
 This preserves professional directing detail while making the plan practical for video-generation workflows.
 
 Read `generation-segments.md` for grouping rules.
+
+
+## 8. Scene route before storyboard
+
+For a complete Vlog, do not jump directly from concept to shot table.
+
+First build a concrete scene route that states:
+- where the couple is,
+- what exact activity/project happens there,
+- what relationship beat happens,
+- what physical visual anchors are present,
+- how the story moves to the next place.
+
+This route is mandatory because a technically detailed shot table can still fail if the viewer cannot understand what the 30/60/90-second video actually contains.
+
+For activity-based Vlogs, vague nouns are not acceptable.
+
+Weak:
+- 游乐园游玩
+- 体验项目
+- 吃东西
+- 看表演
+
+Better:
+- 过山车排队区与上车站台：两人入座、压下安全杆、等待发车、第一次俯冲的真实反应
+- 花车巡游路线旁：在人群中找到视线位置，女生先注意到花车并指给男生看
+- 爆米花摊：点焦糖爆米花，女生先偷吃一把，男生发现后把桶换到另一侧
+- 喷泉休息区：坐下整理购物袋，男生拧开水递过去
+
+Read `scene-specificity.md`.
+
+## 9. Activity realism
+
+A scene should include enough real-world process to feel lived rather than invented.
+
+When the story uses a recognizable activity:
+- identify the physical setup,
+- identify what people actually do there,
+- identify realistic constraints,
+- design couple interaction inside those constraints.
+
+Do not treat an activity as a decorative background.
+
+For example, a roller coaster is not merely:
+“他们坐过山车，很刺激。”
+
+The director plan should consider:
+queue / platform / seat / restraint / dispatch / anticipation / acceleration or drop / restricted body movement / wind / post-ride reaction.
+
+Choose only the stages needed for the runtime, but make them physically believable.
