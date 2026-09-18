@@ -89,9 +89,10 @@ The goal is not to stack romantic poses. Build believable intimacy through share
 - **Shot ≠ generation segment.** Keep director-level precision while grouping compatible shots into practical downstream video units.
 - **Complete Vlogs require a concrete Content Map / Scene Route before the detailed storyboard.** The reader must understand the full video content, locations, and activities at a glance.
 - **“画面与表演 / Picture & Performance” is the most important storyboard field.** Write it in enough detail to visualize and perform the shot from first frame to cut.
-- **No vague activity placeholders.** Name the actual activity/project and make it physically believable.
+- **No vague scene placeholders.** Name the concrete scene event and make it physically believable.
+- **Concrete ≠ project-heavy.** Do not force a ride/attraction/game into every scene; ordinary walking, waiting, food, shopping, rest and observation are valid story material when specifically designed.
 - **Rules are guardrails, not the content.** Do not satisfy “共同体验 / 玩闹 / 照顾 / 结尾” as a mechanical checklist.
-- **Venue/theme must drive invention.** When a destination offers concrete experiences, actively select and use them as story engines.
+- **Venue/theme must drive invention.** Use the destination's full experience ecology — not only headline projects — to create a believable visit.
 - **Relationship progression must be event-driven.** Show how specific experiences create reactions and new closeness instead of merely stating “关系升温”.
 - **AI-video generation segments normally target 5–10 seconds and should usually stay under 10 seconds.**
 - **Vlog framing is intimate.** Close shots and details dominate; medium shots support body interaction; wide/long shots are limited.
@@ -129,7 +130,7 @@ When the user asks for a complete design, output:
 
 1. Creative concept
 2. Couple relationship dynamic
-3. Core Experience Design — the concrete activities/projects and why they were selected
+3. Core Experience Mix — the concrete scene events selected across projects, wandering, food, rest, shopping, waiting, shows, and other venue-specific moments
 4. Emotional arc through those experiences
 5. Runtime and pacing strategy
 6. Full-video Content Map / Scene Route
