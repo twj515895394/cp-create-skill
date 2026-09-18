@@ -10,7 +10,27 @@ Include:
 - visual feeling,
 - emotional destination.
 
-## 2. Full-video Content Map / Scene Route — mandatory for complete Vlogs
+## 2. Core Experience Design — mandatory for venue/activity Vlogs
+
+Before listing emotional labels, state the concrete experiences that make this particular video worth watching.
+
+Recommended fields:
+
+| Field | Requirement |
+|---|---|
+| Experience / project | Concrete attraction, activity, food, performance, route, game, etc. |
+| Why it was selected | What unique visual/behavioral opportunity it creates |
+| Couple dynamic unlocked | Competition, fear/bravery contrast, teamwork, teasing, care, shared attention, etc. |
+| Mini-arc | Before / during / after behavior opportunity |
+| Runtime value | Why it deserves screen time in this specific duration |
+
+For a named venue, this section should reveal the venue fingerprint immediately.
+
+Do not output only abstract bullets such as “共同体验 / 性格反差 / 玩闹 / 照顾”. Those are analysis labels, not content.
+
+Read `creative-expansion.md`.
+
+## 3. Full-video Content Map / Scene Route — mandatory for complete Vlogs
 
 Before the detailed storyboard, summarize **what the entire video actually contains**.
 
@@ -23,7 +43,8 @@ Recommended fields:
 | Time range | Approximate section runtime |
 | Concrete place | Exact type of place within the overall destination |
 | Concrete activity / project | What the couple actually does |
-| Relationship beat | What happens between them |
+| Dramatic function | Why this activity is useful for this couple/story |
+| Relationship beat | What visibly happens between them because of the activity |
 | Visual anchor | Distinctive physical object/environment |
 | Transition | How the story moves onward |
 
@@ -39,7 +60,7 @@ Do not write vague labels such as “游玩”“互动”“吃东西”“看�
 
 Read `scene-specificity.md`.
 
-## 3. Runtime strategy
+## 4. Runtime strategy
 
 Include:
 - total runtime,
@@ -53,7 +74,7 @@ Include:
 
 Do not lock an exact shot count until the story and scene route are designed.
 
-## 4. Story script layer
+## 5. Story script layer
 
 Use a simple sequence structure.
 
@@ -69,7 +90,7 @@ Recommended fields:
 
 This layer should be readable even without camera terminology.
 
-## 5. Generation segment layer
+## 6. Generation segment layer
 
 Use this layer when the work will feed an AI-video pipeline.
 
@@ -101,7 +122,7 @@ Recommended fields:
 
 A segment should feel like one coherent moment, not unrelated shots bundled for convenience.
 
-## 6. Director shooting script layer
+## 7. Director shooting script layer
 
 ### Default visible storyboard table
 
@@ -155,7 +176,7 @@ When production detail is needed, the same shot may additionally expose:
 
 Do not replace the rich Picture & Performance paragraph with separate shallow fields such as “Action: smiles / Reaction: smiles.”
 
-## 7. Editing strategy
+## 8. Editing strategy
 
 Cover:
 - cut rhythm,
@@ -176,7 +197,7 @@ Use stylized transitions only when they support:
 - memory,
 - strong rhythmic design.
 
-## 8. Sound strategy
+## 9. Sound strategy
 
 Possible layers:
 - music bed,
@@ -195,7 +216,7 @@ Possible layers:
 
 Environmental sound increases realism and should not always be buried by music.
 
-## 9. Performance direction
+## 10. Performance direction
 
 Give behavior-based direction instead of emotional adjectives only.
 
@@ -213,7 +234,7 @@ Prefer:
 - practical actions continuing during conversation,
 - physical behavior constrained by the actual location/activity.
 
-## 10. Handoff to downstream prompt skills
+## 11. Handoff to downstream prompt skills
 
 When another skill will generate image/video prompts, provide a clean blueprint at **segment level and shot level**.
 
