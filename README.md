@@ -13,7 +13,9 @@ It designs the creative layer above image/video prompt generation:
 - dynamic storyboard count,
 - necessary brief confirmation,
 - AI-video generation segment planning,
+- concrete full-video scene route / activity map,
 - director shooting script,
+- detailed Picture & Performance direction,
 - shot-size strategy,
 - framing and camera movement,
 - blocking and performance,
@@ -51,6 +53,8 @@ This repository follows the Agent Skills pattern:
 
 - brief-confirmation.md — minimal necessary user confirmation gate
 - story-structure.md — dynamic shot count and narrative modules
+- scene-specificity.md — concrete places, activities/projects and realistic scene progression
+- performance-writing.md — detailed 画面与表演 writing standard
 - generation-segments.md — 5–10 second AI-video production units
 - shot-language.md — Vlog shot scale, framing, camera, blocking
 - interaction-library.md — couple behavior and relationship beats
