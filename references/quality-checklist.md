@@ -9,6 +9,16 @@ Run this before finalizing a complete couple script/director plan.
 - If assumptions were made, are the important ones visible?
 - Did the skill avoid asking for information already provided?
 
+## Creative expansion
+
+- Did the agent actively choose concrete activities/projects instead of only paraphrasing user input?
+- If a real venue was named and public information was available, did it research/select useful venue-specific experiences rather than ask the user to provide every project?
+- Does each major activity create a distinct behavior/reaction opportunity?
+- Is relationship progression caused by events rather than stated as abstract “升温”?
+- Does the plan have a clear venue fingerprint?
+- If the destination name were replaced by “普通商场/普通公园”, would the plan break in meaningful ways? If not, rewrite.
+- Are functional modules being used as creative diagnostics rather than a checklist?
+
 ## Content clarity
 
 - Can a reader understand the full video from the Content Map / Scene Route alone?
@@ -132,6 +142,15 @@ The plan says “游玩项目 / 互动 / 吃东西 / 看风景” without naming
 
 ### 14. Empty Picture & Performance
 The key column contains only summaries such as “女生开心地看他”“两人自然互动”“男生宠溺一笑” instead of playable action/reaction progression.
+
+### 15. Checklist storytelling
+The outline mechanically lists “共同体验 / 性格反差 / 玩闹 / 生活细节 / 照顾 / 情绪变化 / 浪漫结尾” without turning them into destination-specific events.
+
+### 16. Venue without venue fingerprint
+The script says “上海迪士尼 / 海边 / 夜市 / 京都” but most of the same scenes could be moved to any generic place unchanged.
+
+### 17. Passive creative behavior
+The agent waits for the user to name every activity even though the destination itself provides enough context to research or creatively select them.
 
 ## Final acceptance test
 
