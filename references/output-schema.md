@@ -10,7 +10,36 @@ Include:
 - visual feeling,
 - emotional destination.
 
-## 2. Runtime strategy
+## 2. Full-video Content Map / Scene Route — mandatory for complete Vlogs
+
+Before the detailed storyboard, summarize **what the entire video actually contains**.
+
+The reader must be able to understand the full runtime without reading the shot table.
+
+Recommended fields:
+
+| Field | Requirement |
+|---|---|
+| Time range | Approximate section runtime |
+| Concrete place | Exact type of place within the overall destination |
+| Concrete activity / project | What the couple actually does |
+| Relationship beat | What happens between them |
+| Visual anchor | Distinctive physical object/environment |
+| Transition | How the story moves onward |
+
+Examples of acceptable specificity:
+- 乐园入口检票区 → 入园后看导览地图
+- 过山车排队区/上车站台 → 上车、压安全杆、发车、俯冲反应
+- 花车巡游路线旁 → 找位置、指向花车、交换反应
+- 爆米花摊 → 点单、接桶、边走边抢着吃
+- 喷泉休息区 → 坐下整理购物袋、递水
+- 烟花观赏区 → 等候、抬头、共同看烟花
+
+Do not write vague labels such as “游玩”“互动”“吃东西”“看景色”.
+
+Read `scene-specificity.md`.
+
+## 3. Runtime strategy
 
 Include:
 - total runtime,
@@ -22,15 +51,16 @@ Include:
 - where it slows,
 - expected climax / payoff.
 
-Do not lock an exact shot count until the story structure is designed.
+Do not lock an exact shot count until the story and scene route are designed.
 
-## 3. Story script layer
+## 4. Story script layer
 
 Use a simple sequence structure.
 
 Recommended fields:
 - sequence / beat,
-- location and time,
+- concrete location and time,
+- concrete activity,
 - what happens,
 - relationship meaning,
 - emotional state,
@@ -39,7 +69,7 @@ Recommended fields:
 
 This layer should be readable even without camera terminology.
 
-## 4. Generation segment layer
+## 5. Generation segment layer
 
 Use this layer when the work will feed an AI-video pipeline.
 
@@ -56,7 +86,7 @@ Recommended fields:
 |---|---|
 | Segment ID | Production unit identifier |
 | Duration target | Intended generated clip length |
-| Location/time | Shared scene context |
+| Concrete location / activity | Exact scene and action context |
 | Segment objective | Why this segment exists |
 | Included Shot IDs | Director shots grouped inside |
 | Segment mode | Multi-shot or continuous-take |
@@ -71,9 +101,38 @@ Recommended fields:
 
 A segment should feel like one coherent moment, not unrelated shots bundled for convenience.
 
-## 5. Director shooting script layer
+## 6. Director shooting script layer
 
-Recommended per-shot fields:
+### Default visible storyboard table
+
+For a complete Vlog director script, prefer this compact production table:
+
+| 时间 | 片段 / 具体场景与项目 | 景别与镜头 | **画面与表演** | 摄影与剪辑 | 声音 |
+|---|---|---|---|---|---|
+
+**“画面与表演” is the most important and most detailed column.**
+
+It should usually contain substantially more information than the other columns.
+
+### What “画面与表演” must contain
+
+Write it as a compact action paragraph, not a caption. It should make the shot visualizable from first frame to cut.
+
+Normally include:
+- opening positions/state of both characters,
+- the exact visible action sequence,
+- who initiates,
+- partner reaction,
+- eye-line and meaningful micro-expression,
+- prop/environment interaction,
+- relationship behavior,
+- end state / cut cue.
+
+Read `performance-writing.md`.
+
+### Expanded internal shot fields
+
+When production detail is needed, the same shot may additionally expose:
 
 | Field | Meaning |
 |---|---|
@@ -82,23 +141,21 @@ Recommended per-shot fields:
 | Duration | Expected screen time in final edit |
 | Story module | Functional role |
 | Narrative purpose | Why this shot exists |
-| Location/time | Scene context |
+| Concrete location/activity | Physical scene and actual project |
 | Shot size | Close / detail / medium / wide etc. |
 | Camera position | Eye-level, side, over-shoulder, follow etc. |
 | Camera movement | Static, handheld, follow, pan etc. |
 | Character blocking | Where both people are and how they move |
-| Primary action | Main visible action |
-| Relationship beat | Tease, care, shared activity, quiet intimacy etc. |
-| Reaction | Important response from partner |
-| Environment/prop | Only relevant details |
+| Picture & Performance | Complete observable action/reaction paragraph |
+| Environment/prop | Physical anchors |
 | Sound | Dialogue, ambience, music, SFX |
 | Edit logic | Why/how to cut |
 | Continuity note | Direction, prop, position, time, wardrobe |
-| Performance note | Natural acting cue |
+| Performance note | Extra acting constraint if necessary |
 
-Not every user needs every field. Use the full schema for production-ready requests.
+Do not replace the rich Picture & Performance paragraph with separate shallow fields such as “Action: smiles / Reaction: smiles.”
 
-## 6. Editing strategy
+## 7. Editing strategy
 
 Cover:
 - cut rhythm,
@@ -119,13 +176,15 @@ Use stylized transitions only when they support:
 - memory,
 - strong rhythmic design.
 
-## 7. Sound strategy
+## 8. Sound strategy
 
 Possible layers:
 - music bed,
 - natural dialogue,
 - laughter,
 - footsteps,
+- ride machinery,
+- station announcements,
 - street ambience,
 - food packaging,
 - transportation,
@@ -136,31 +195,32 @@ Possible layers:
 
 Environmental sound increases realism and should not always be buried by music.
 
-## 8. Performance direction
+## 9. Performance direction
 
 Give behavior-based direction instead of emotional adjectives only.
 
 Better:
-- “She keeps looking at the menu while answering him, then smiles only after he repeats the joke.”
+- “安全压杆扣下后，她低头拉两下确认锁紧；列车开始滑出站台时才下意识抓住男生前臂。男生先故意盯着前方，等她抓紧后才侧头笑，她发现后瞪他一眼但手没松。”
 
 Weaker:
-- “She looks sweet and happy.”
+- “女生害怕，男生宠溺地看她。”
 
 Prefer:
 - incomplete gestures,
 - delayed reactions,
 - overlapping behavior,
 - looking away,
-- practical actions continuing during conversation.
+- practical actions continuing during conversation,
+- physical behavior constrained by the actual location/activity.
 
-## 9. Handoff to downstream prompt skills
+## 10. Handoff to downstream prompt skills
 
 When another skill will generate image/video prompts, provide a clean blueprint at **segment level and shot level**.
 
 Segment handoff:
 - Segment ID,
 - duration target,
-- scene/time,
+- concrete scene/activity,
 - mode,
 - action progression,
 - camera logic,
@@ -173,10 +233,8 @@ Shot handoff:
 - shot size,
 - framing,
 - camera motion,
-- environment,
-- character action,
-- relationship beat,
-- reaction,
+- concrete environment,
+- complete Picture & Performance description,
 - emotional goal,
 - continuity constraints.
 
