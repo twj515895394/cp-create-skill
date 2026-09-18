@@ -61,7 +61,11 @@ Decrease shot count when:
 
 ## 3. Functional story modules
 
-A strong couple Vlog usually uses several of these modules. They are functions, not mandatory acts.
+These modules are **analytical lenses, not a recipe**.
+
+Never generate a story by ticking them off in order. Start from concrete activities/events first, then use the modules to check whether the relationship feels readable and varied.
+
+A strong couple Vlog may use several of these modules, skip others entirely, merge them, or discover different beats from the activity itself.
 
 ### A. Relationship entry
 Purpose:
@@ -292,3 +296,33 @@ The director plan should consider:
 queue / platform / seat / restraint / dispatch / anticipation / acceleration or drop / restricted body movement / wind / post-ride reaction.
 
 Choose only the stages needed for the runtime, but make them physically believable.
+
+
+## 10. Event-driven relationship progression
+
+Do not plan the relationship arc as abstract labels first and then paste activities underneath.
+
+Preferred process:
+1. choose concrete activities/events,
+2. identify what each activity physically makes the characters do,
+3. derive action/reaction and personality contrast,
+4. decide how that experience changes the relationship temperature,
+5. place the events into an emotional order.
+
+Example:
+- A competitive game can reveal teasing and competitiveness.
+- A thrill ride can expose involuntary fear/bravery contrast and physical reliance.
+- A snack/rest beat can turn public excitement into quieter familiarity.
+- A night show can provide shared attention and emotional closure.
+
+The “升温” is the consequence of these events.
+
+## 11. Anti-formula test
+
+After outlining the story, ask:
+- Does every major beat come from something the couple is actually doing?
+- Could the same bullet list be pasted onto a café, beach, amusement park, and shopping mall with almost no change?
+
+If yes, the outline is too abstract. Return to venue/activity design and rewrite.
+
+Read `creative-expansion.md`.
