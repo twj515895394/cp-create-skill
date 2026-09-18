@@ -12,8 +12,11 @@ The goal is not to stack romantic poses. Build believable intimacy through share
 ## Core workflow
 
 1. **Resolve the brief**
-   - Identify target duration, aspect ratio, platform, scene/theme, relationship stage, tone, pace, time of day, must-have moments, prohibited elements, and whether the output is a story script, director script, or both.
-   - If some inputs are absent, make reasonable creative defaults instead of blocking progress.
+   - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, and desired output depth.
+   - Do not interrogate the user. Ask only when missing information would materially change the story or production plan.
+   - If critical information is missing, ask a compact 2–5 question batch.
+   - If non-critical information is missing, infer sensible defaults and proceed.
+   - Read references/brief-confirmation.md.
 
 2. **Choose a narrative mode**
    - Default to Daily Sweet Vlog.
@@ -31,34 +34,45 @@ The goal is not to stack romantic poses. Build believable intimacy through share
    - Adjust durations per shot instead of mechanically dividing time equally.
    - Read references/story-structure.md.
 
-5. **Direct for Vlog language**
+5. **Create generation segments for AI-video handoff**
+   - A shot is an editing/directing unit; a generation segment is a production unit.
+   - Group adjacent shots when they share location, time, continuity, action, and emotional purpose.
+   - For AI-video workflows, prefer generation segments around **5–10 seconds**, usually 6–8 seconds, and normally avoid exceeding 10 seconds.
+   - Preserve fine-grained shots inside each segment.
+   - Read references/generation-segments.md.
+
+6. **Direct for Vlog language**
    - Default shot-size priority: **close-up / close shot / detail > medium shot > wide / long shot**.
    - Wide and long shots are sparse and purposeful: location establishment, transition, spatial reset, emotional punctuation, or final environment payoff.
    - Do not make a Vlog feel like landscape coverage or a conventional film made mostly of wide masters.
    - Read references/shot-language.md.
 
-6. **Build relationship beats**
+7. **Build relationship beats**
    - Prioritize two-person relationship visibility, natural reaction, shared action, playful interaction, practical life details, care, and quiet companionship.
    - Avoid repetitive “look at each other / hold hands / hug / kiss” loops.
    - Read references/interaction-library.md.
 
-7. **Write two layers when useful**
+8. **Write layered production output**
    - **Story Script**: what happens, why it matters, emotional progression, actions, optional dialogue/voiceover.
+   - **Generation Segments**: practical 5–10 second production units for downstream AI-video creation when relevant.
    - **Director Script**: shot duration, framing, camera position, movement, blocking, action, interaction, environment, sound, transition, edit intention, continuity.
    - Read references/output-schema.md.
 
-8. **Check rhythm and continuity**
+9. **Check rhythm and continuity**
    - Every shot should have one primary expressive purpose.
+   - Every generation segment should feel like one coherent moment with internal progression.
    - Cuts should be motivated by action, gaze, space, time, emotion, sound, or rhythm.
    - Use contrast: lively sections need breathing space; romantic endings should usually reduce action while increasing emotional weight.
 
-9. **Run quality control**
+10. **Run quality control**
    - Read references/quality-checklist.md.
-   - Fix any result that feels like pose compilation, generic AI romance, random montage, landscape tourism, or constant high-intensity sweetness.
+   - Fix any result that feels like pose compilation, generic AI romance, random montage, landscape tourism, constant high-intensity sweetness, or generation segments that are too fragmented or overloaded.
 
 ## Non-negotiable principles
 
 - **No fixed shot count.** Duration and content determine the storyboard.
+- **Shot ≠ generation segment.** Keep director-level precision while grouping compatible shots into practical downstream video units.
+- **AI-video generation segments normally target 5–10 seconds and should usually stay under 10 seconds.**
 - **Vlog framing is intimate.** Close shots and details dominate; medium shots support body interaction; wide/long shots are limited.
 - **Relationship over scenery.** Locations support the couple story, not the reverse.
 - **Natural sweetness over forced sweetness.**
@@ -69,13 +83,16 @@ The goal is not to stack romantic poses. Build believable intimacy through share
 - Each shot should primarily communicate one thing.
 - Emotional and pacing progression must change across the piece.
 - Endings should feel intentional and leave emotional residue rather than stop abruptly.
+- Ask only necessary clarification questions; infer minor creative details instead of blocking.
 - Do not generate detailed image/video prompts unless the user explicitly asks for them; this skill designs the creative and director blueprint that downstream prompt skills can consume.
 
 ## Reference loading
 
 Read only what the task needs:
 
+- Missing/ambiguous user requirements → references/brief-confirmation.md
 - Narrative architecture and dynamic shot count → references/story-structure.md
+- AI-video grouping and 5–10 second production units → references/generation-segments.md
 - Shot scale, framing, camera, movement, blocking → references/shot-language.md
 - Couple interaction and relationship beats → references/interaction-library.md
 - Supported content directions → references/style-modes.md
@@ -92,9 +109,10 @@ When the user asks for a complete design, output:
 3. Emotional arc
 4. Runtime and pacing strategy
 5. Story script
-6. Director shooting script / storyboard
-7. Editing and sound strategy
-8. Continuity and performance notes
-9. Quality-control summary
+6. Generation-segment plan when AI-video production is relevant
+7. Director shooting script / storyboard
+8. Editing and sound strategy
+9. Continuity and performance notes
+10. Quality-control summary
 
 Do not force all sections when the user asks for only one layer.
