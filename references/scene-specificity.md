@@ -16,7 +16,23 @@ For a 60-second video, the reader should be able to answer:
 
 If the user cannot understand the video from this map, the plan is too vague.
 
-## 2. Required content-map fields
+## 2. Venue-driven activity selection
+
+Do not merely make existing user ideas more specific. When a destination implies meaningful activities, actively select the activities that make the best story.
+
+For each candidate activity, evaluate:
+- visual distinctiveness,
+- action/reaction potential,
+- personality contrast,
+- relationship opportunity,
+- physical realism,
+- value within the available runtime.
+
+The strongest activities become story events; weaker ones are omitted.
+
+Read `creative-expansion.md`.
+
+## 3. Required content-map fields
 
 Use a compact table with:
 
@@ -35,7 +51,7 @@ Example:
 - Weak activity: "体验项目"
 - Better activity: "排队、压下安全压杆、等待发车、俯冲时一人尖叫一人笑着侧看"
 
-## 3. Ban generic activity language
+## 4. Ban generic activity language
 
 Do not use generic placeholders when a concrete activity can be chosen.
 
@@ -57,7 +73,7 @@ Prefer:
 - 坐在喷泉边整理购物袋
 - 在烟花观赏区提前占位置
 
-## 4. Real-world activity realism
+## 5. Real-world activity realism
 
 When designing an activity, include real physical stages and constraints.
 
@@ -100,16 +116,18 @@ A believable parade beat may include:
 - sharing a short comment,
 - crowd noise continuing into transition.
 
-## 5. Real venue rule
+## 6. Real venue rule
 
 If the user names a real venue:
-- do not invent branded attraction names unless known or provided,
-- use concrete generic attraction types if exact venue facts are unnecessary,
-- if exact venue layout or actual attractions materially matter, ask the user or use research tools when available.
+- proactively research actual attractions/experiences when tools are available and those details improve the story,
+- do not invent branded attraction names,
+- select a coherent subset instead of listing everything,
+- use concrete generic attraction types only when exact names are unnecessary or research is unavailable,
+- ask the user only when personal preferences/constraints materially affect the choice.
 
 Specificity must not become fabrication.
 
-## 6. Spatial progression
+## 7. Spatial progression
 
 Avoid teleporting between vague locations.
 
@@ -124,7 +142,7 @@ Transitions may use:
 - carrying newly acquired props,
 - sound bridge.
 
-## 7. Visual anchors
+## 8. Visual anchors
 
 Every major scene should have at least one concrete anchor:
 - queue railings,
@@ -139,7 +157,7 @@ Every major scene should have at least one concrete anchor:
 
 These anchors help both human crews and downstream generation models understand the scene.
 
-## 8. Content density
+## 9. Content density
 
 A Vlog should not contain more locations than the runtime can support.
 
@@ -149,3 +167,15 @@ For short videos:
 - more meaningful reactions.
 
 Do not confuse “many places” with “rich content.”
+
+
+## 10. Venue fingerprint test
+
+After building the scene route, test whether it truly belongs to the named destination.
+
+Ask:
+> If the venue name were replaced with “普通商场” or “普通公园”, would most of this plan still work unchanged?
+
+If yes, rewrite it using more venue-specific activities, mechanics, spatial zones, sounds, props, crowd behavior, or time-based experiences.
+
+A destination is not merely a background label. It should actively shape the story.
