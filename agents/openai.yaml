@@ -1,0 +1,7 @@
+interface:
+  display_name: "情侣 CP 导演"
+  short_description: "创作情侣CP剧本、Vlog导演剧本、分镜与拍摄剪辑方案"
+  default_prompt: "请根据我的时长、场景和情侣设定，创作一版自然甜蜜的情侣CP剧本，并进一步整理成专业导演拍摄脚本。"
+
+policy:
+  allow_implicit_invocation: true
