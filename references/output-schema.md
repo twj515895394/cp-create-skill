@@ -116,8 +116,16 @@ Recommended fields:
 - character behavior,
 - relationship / story meaning,
 - important entering or exit state when relevant,
-- optional dialogue / voiceover,
+- dialogue / voiceover when appropriate to the brief,
 - transition to next beat.
+
+Dialogue density is **brief-dependent**:
+- a visual-first Vlog may use almost no dialogue,
+- a complete story can still intentionally use only a few lines,
+- a conversational date scene may need natural back-and-forth,
+- a narrative micro-film may rely more heavily on dialogue or voiceover.
+
+Do not add dialogue simply because a story feels “incomplete,” and do not remove useful dialogue merely to make the piece feel more cinematic.
 
 Not every beat needs a dramatic relationship advance. Some exist for rhythm, realism, place identity or time flow.
 
