@@ -74,7 +74,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 ## Core workflow
 
 1. **Resolve the brief**
-   - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, and desired output depth.
+   - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, desired output depth, and any dialogue / voiceover preference when the user specifies one.
    - Do not interrogate the user.
    - Ask only when missing information would materially change the story or production plan.
    - Infer minor creative details and proceed.
@@ -146,6 +146,10 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 
 11. **Direct with Vlog language appropriate to the story**
     - For intimate Vlogs, generally prioritize close-up / close shot / detail, then medium, with wide / long shots used purposefully.
+    - Keep practical shot-size / focal-length distributions when useful; treat them as planning guidance rather than creative law.
+    - Let the shot serve the **event, information, reaction or relationship**, rather than choosing a shot only to display a camera technique.
+    - Give camera movement a reason: follow action, reveal information, change attention, reshape space, or support emotion. Do not move merely to look cinematic.
+    - Remember that relationship can also be expressed through blocking, distance, screen direction, sound, timing and editing—not only facial reaction or physical intimacy.
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
     - Read references/shot-language.md.
 
@@ -158,7 +162,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 
 13. **Write layered production output**
     - **Story engine / concept layer** when useful: what makes these two people and this situation generate story.
-    - **Story Script**: what happens, why it matters, emotional progression, actions, optional dialogue/voiceover.
+    - **Story Script**: what happens, why it matters, emotional progression, actions, and dialogue / voiceover at the level appropriate to the user's brief. Minimal dialogue, dialogue-driven scenes and no-dialogue storytelling are all valid.
     - **Generation Segments**: practical downstream production units when relevant.
     - **Director Script**: shot duration, scene/event, framing, camera, blocking, rich Picture & Performance, sound, transition, edit intention and continuity.
     - **Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut.
