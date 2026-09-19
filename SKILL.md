@@ -1,122 +1,227 @@
 ---
 name: couple-cp-director
-description: Create professional couple/CP scripts and director shooting scripts, especially sweet daily-life Vlogs. Use when the user asks for 情侣CP、情侣Vlog、甜蜜日常、约会、旅行、居家、纪念日、微电影式情侣内容的创意、剧本、导演剧本、分镜、镜头设计、拍摄规划、剪辑节奏或影像叙事。Do not use for prompt-only image generation unless script/directing design is also requested.
+description: Create professional couple/CP scripts and director shooting scripts, especially sweet daily-life Vlogs. Use when the user asks for 情侣CP、情侣Vlog、甜蜜日常、约会、旅行、居家、纪念日、微电影式情侣内容的创意、剧本、导演剧本、分镜、镜头设计、拍摄规划、剪辑节奏、参考视频拆解或影像叙事。Do not use for prompt-only image generation unless script/directing design is also requested.
 ---
 
 # Couple CP Director
 
-Create **story scripts + director-level shooting scripts** for couple/CP content. The primary direction is natural, sweet, cinematic **Vlog storytelling**.
+Create **story scripts + director-level shooting scripts** for couple/CP content.
 
-The goal is not to stack romantic poses. Build believable intimacy through shared experiences, playful reactions, tiny acts of care, companionship, time flow, and emotional progression.
+The primary direction is natural, sweet, cinematic Vlog storytelling, but the deeper goal is:
+
+> Build a believable shared-experience story in which two specific characters reveal themselves through concrete events, reactions, accumulated state and changing relationship rhythm.
+
+Do not treat romance as a sequence of poses. CP feeling can come from play, contrast, practical care, failed attempts, shared tasks, waiting, recovery, private jokes, comfortable silence, repeated motifs, or many other forms.
+
+## Creative freedom policy
+
+This skill intentionally avoids over-constraining the model.
+
+Use three guidance strengths:
+
+### REQUIRED — protect the quality floor
+
+Only a small number of rules are truly hard constraints:
+
+- Major scenes must be concrete and observable rather than vague emotional labels.
+- Complete Vlogs need a readable Content Map / Scene Route before detailed storyboard work.
+- Character-relevant scenes should express character through visible behavior or reaction.
+- Avoid repeatedly solving different scenes with the same generic romance loop.
+- Important activities must respect basic physical reality.
+- Shot planning and AI generation-segment planning are separate layers.
+- Detailed Picture & Performance must be performable and visualizable, not a one-line mood caption.
+- Reference material should be deconstructed for mechanisms rather than copied shot-for-shot.
+
+### PREFERRED — use when it makes the work stronger
+
+Prefer:
+
+- scene events with internal progression,
+- action → reaction → aftermath,
+- before → during → after for important activities,
+- character-specific behavioral contrast,
+- scene-to-scene state carryover,
+- event and rhythm variation,
+- props or motifs that gain meaning,
+- endings that pay off something established earlier,
+- close observational Vlog language,
+- ordinary life details between major events.
+
+These are not quotas. Skip them when they do not serve the story.
+
+### OPTIONAL — creative expansion
+
+Freely use:
+
+- callbacks,
+- recurring jokes,
+- role reversal,
+- mini-conflict,
+- accidental reveal,
+- environmental interruption,
+- competition,
+- surprise,
+- silence,
+- subjective shots,
+- montage,
+- long takes,
+- nonlinear fragments,
+- voiceover,
+- stylized transitions,
+- other story devices appropriate to the brief.
+
+Do not reject a good creative choice merely because it does not fit a preferred pattern.
 
 ## Core workflow
 
 1. **Resolve the brief**
    - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, and desired output depth.
-   - Do not interrogate the user. Ask only when missing information would materially change the story or production plan.
-   - If critical information is missing, ask a compact 2–5 question batch.
-   - If non-critical information is missing, infer sensible defaults and proceed.
+   - Do not interrogate the user.
+   - Ask only when missing information would materially change the story or production plan.
+   - Infer minor creative details and proceed.
    - Read references/brief-confirmation.md.
 
-2. **Choose a narrative mode**
-   - Default to Daily Sweet Vlog.
-   - Other supported modes: travel diary, home-life diary, date-day Vlog, seasonal/holiday memory, anniversary film, observational couple diary, light narrative micro-film.
-   - Read references/style-modes.md when selecting or combining modes.
+2. **Deconstruct references when provided**
+   - If the user supplies a reference video, script, storyboard, creator example or generated draft, analyze the mechanism before designing the new work.
+   - Extract hook, behavior contrast, scene events, state changes, rhythm, relationship construction, shot function and payoff when relevant.
+   - Transfer principles, not exact scenes or surface decoration.
+   - Read references/reference-deconstruction.md.
 
-3. **Expand the premise creatively before structuring it**
+3. **Choose a narrative mode and find the story engine**
+   - Default to Daily Sweet Vlog when the brief does not suggest another direction.
+   - Other supported modes: travel diary, home-life diary, date-day Vlog, seasonal/holiday memory, anniversary film, observational couple diary, light narrative micro-film.
+   - Look for a useful **concept hook**, **relationship engine**, **character-world mismatch**, **shared objective**, or another source of repeatable story energy.
+   - A strong hook is encouraged, not mandatory. Quiet slice-of-life can work without a high-concept premise.
+   - Read references/style-modes.md and references/character-behavior-engine.md.
+
+4. **Translate character traits into behavior**
+   - Do not stop at adjectives such as “稳重 / 活泼 / 高冷 / 温柔”.
+   - When character identity matters, determine how each person tends to initiate, react, handle novelty, recover, tease, care, solve practical problems, or deviate from their default.
+   - Use behavioral tendencies to generate scenes, not to lock characters into rigid archetypes.
+   - Read references/character-behavior-engine.md.
+
+5. **Expand the premise creatively**
    - Treat rules and relationship modules as guardrails, not as the content itself.
-   - When the user gives a destination/theme, proactively discover or invent the concrete activities that make that destination worth filming.
-   - For named real venues, research public attraction/experience information when tools are available instead of asking the user to supply every project.
-   - Choose activities for their dramatic affordances: reaction, competition, fear/bravery, teamwork, care, shared attention, or visual payoff.
+   - When the user gives a destination/theme, proactively discover or invent concrete things worth doing there.
+   - For named real venues, research public experience information when tools are available instead of asking the user to supply every project.
+   - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
    - Read references/creative-expansion.md.
 
-4. **Design the story before shots**
-   - Define the relationship dynamic and emotional arc through the selected experiences.
-   - Use functional story modules as diagnostic options, not a mandatory checklist or fixed sequence.
-   - The relationship should change because of what the couple experiences together, not because the script labels a beat “升温”.
+6. **Build Scene Events and continuity state**
+   - Think in concrete Scene Events rather than “romantic beats” alone.
+   - For important scenes, consider trigger → action → reaction → aftermath → exit state.
+   - Use this as a design lens, not a mandatory template.
+   - Track useful state carryover such as props, fatigue, messy clothing, route choices, jokes, information, time of day or a change in who leads.
+   - Ordinary or quiet scenes may contain only one small action or almost no action if that is their purpose.
+   - Read references/event-engine.md.
+
+7. **Design the story before shots**
+   - Arrange events so the relationship and mood change because of what the couple experiences.
+   - Use functional story modules only as diagnostic options.
+   - Avoid abstract “关系升温” planning without a physical cause.
    - Read references/story-structure.md.
 
-5. **Build a concrete Content Map / Scene Route before the storyboard**
-   - For complete Vlogs, explicitly state where the couple goes, what exact activity/project happens in each place, what relationship beat occurs, and how the story transitions.
-   - Ban vague labels such as “游玩项目 / 互动 / 吃东西 / 看风景” when a concrete activity can be named.
-   - For recognizable activities, use physically believable process details and constraints.
-   - Read references/scene-specificity.md.
+8. **Build a concrete Content Map / Scene Route**
+   - For complete Vlogs, state where the couple is, what specific scene event happens, what visible behavior occurs, what important state enters/leaves the scene, and how the story moves onward.
+   - Ban vague placeholders such as “游玩项目 / 互动 / 吃东西 / 看风景” when a concrete event can be named.
+   - Do not force every scene to contain an attraction, game or dramatic incident.
+   - Read references/scene-specificity.md and references/event-engine.md.
 
-6. **Determine shot count dynamically**
+9. **Determine shot count dynamically**
    - Never force a fixed storyboard count.
-   - Derive shot count from total duration, pace, action density, scene count, and emotional breathing room.
-   - Adjust durations per shot instead of mechanically dividing time equally.
+   - Derive shot count from runtime, pace, event density, reaction needs, scene count and breathing room.
+   - A stronger reference may have fewer shots but more event variation; do not chase shot count by itself.
    - Read references/story-structure.md.
 
-7. **Create generation segments for AI-video handoff**
-   - A shot is an editing/directing unit; a generation segment is a production unit.
-   - Group adjacent shots when they share location, time, continuity, action, and emotional purpose.
-   - For AI-video workflows, prefer generation segments around **5–10 seconds**, usually 6–8 seconds, and normally avoid exceeding 10 seconds.
-   - Preserve fine-grained shots inside each segment.
-   - Read references/generation-segments.md.
+10. **Create generation segments for AI-video handoff**
+    - A shot is an editing/directing unit; a generation segment is a production unit.
+    - Group adjacent shots when they share location, time, continuity, action and emotional purpose.
+    - Prefer 5–10 second generation segments when appropriate, often 6–8 seconds, but do not force duration at the expense of coherence.
+    - One segment should ideally feel like one coherent moment with internal progression.
+    - Read references/generation-segments.md.
 
-8. **Direct for Vlog language**
-   - Default shot-size priority: **close-up / close shot / detail > medium shot > wide / long shot**.
-   - Wide and long shots are sparse and purposeful: location establishment, transition, spatial reset, emotional punctuation, or final environment payoff.
-   - Do not make a Vlog feel like landscape coverage or a conventional film made mostly of wide masters.
-   - Read references/shot-language.md.
+11. **Direct with Vlog language appropriate to the story**
+    - For intimate Vlogs, generally prioritize close-up / close shot / detail, then medium, with wide / long shots used purposefully.
+    - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
+    - Read references/shot-language.md.
 
-9. **Build relationship beats**
-   - Prioritize two-person relationship visibility, natural reaction, shared action, playful interaction, practical life details, care, and quiet companionship.
-   - Avoid repetitive “look at each other / hold hands / hug / kiss” loops.
-   - Read references/interaction-library.md.
+12. **Build relationship visibility without generic romance loops**
+    - Prioritize behavior, reaction, shared tasks, practical details, asymmetry, care, play and quiet companionship when they fit.
+    - Avoid repeatedly defaulting to “look at each other / hold hands / hug / kiss”.
+    - Physical intimacy is one option, not the only measure of progression.
+    - Read references/interaction-library.md.
 
-10. **Write layered production output**
-   - **Story Script**: what happens, why it matters, emotional progression, actions, optional dialogue/voiceover.
-   - **Generation Segments**: practical 5–10 second production units for downstream AI-video creation when relevant.
-   - **Director Script**: shot duration, concrete scene/project, framing, camera position, movement, blocking, rich Picture & Performance, sound, transition, edit intention, continuity.
-   - **画面与表演 / Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut, not generic emotional summaries.
-   - Read references/performance-writing.md and references/output-schema.md.
+13. **Write layered production output**
+    - **Story engine / concept layer** when useful: what makes these two people and this situation generate story.
+    - **Story Script**: what happens, why it matters, emotional progression, actions, optional dialogue/voiceover.
+    - **Generation Segments**: practical downstream production units when relevant.
+    - **Director Script**: shot duration, scene/event, framing, camera, blocking, rich Picture & Performance, sound, transition, edit intention and continuity.
+    - **Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut.
+    - Read references/performance-writing.md and references/output-schema.md.
 
-11. **Check rhythm and continuity**
-   - Every shot should have one primary expressive purpose.
-   - Every generation segment should feel like one coherent moment with internal progression.
-   - Cuts should be motivated by action, gaze, space, time, emotion, sound, or rhythm.
-   - Use contrast: lively sections need breathing space; romantic endings should usually reduce action while increasing emotional weight.
+14. **Check event variety, rhythm and continuity**
+    - Ask whether multiple scenes are secretly the same behavior with different backgrounds.
+    - Keep repetition only when it is intentional: motif, running joke, escalation, contrast or callback.
+    - Let high-density scenes coexist with ordinary and quiet moments.
+    - Use scene state and props selectively to make time feel continuous.
+    - Cuts may be motivated by action, gaze, space, time, emotion, sound, rhythm or deliberate contrast.
 
-12. **Run quality control**
-   - Read references/quality-checklist.md.
-   - Fix any result that feels like pose compilation, generic AI romance, random montage, landscape tourism, constant high-intensity sweetness, or generation segments that are too fragmented or overloaded.
+15. **Run quality control**
+    - Read references/quality-checklist.md.
+    - Fix hard failures.
+    - Treat preferred checks as creative diagnostics, not automatic rejection conditions.
+    - Do not flatten an unusual but coherent idea merely to satisfy a checklist.
 
 ## Non-negotiable principles
 
-- **No fixed shot count.** Duration and content determine the storyboard.
-- **Shot ≠ generation segment.** Keep director-level precision while grouping compatible shots into practical downstream video units.
-- **Complete Vlogs require a concrete Content Map / Scene Route before the detailed storyboard.** The reader must understand the full video content, locations, and activities at a glance.
-- **“画面与表演 / Picture & Performance” is the most important storyboard field.** Write it in enough detail to visualize and perform the shot from first frame to cut.
-- **No vague scene placeholders.** Name the concrete scene event and make it physically believable.
-- **Concrete ≠ project-heavy.** Do not force a ride/attraction/game into every scene; ordinary walking, waiting, food, shopping, rest and observation are valid story material when specifically designed.
-- **Rules are guardrails, not the content.** Do not satisfy “共同体验 / 玩闹 / 照顾 / 结尾” as a mechanical checklist.
-- **Venue/theme must drive invention.** Use the destination's full experience ecology — not only headline projects — to create a believable visit.
-- **Relationship progression must be event-driven.** Show how specific experiences create reactions and new closeness instead of merely stating “关系升温”.
-- **AI-video generation segments normally target 5–10 seconds and should usually stay under 10 seconds.**
-- **Vlog framing is intimate.** Close shots and details dominate; medium shots support body interaction; wide/long shots are limited.
-- **Relationship over scenery.** Locations support the couple story, not the reverse.
+- **No fixed shot count.**
+- **Shot ≠ generation segment.**
+- **Complete Vlogs require a concrete Content Map / Scene Route before detailed storyboard work.**
+- **Major scenes must describe what physically happens, not only how the scene feels.**
+- **Picture & Performance must be playable from first frame to cut.**
+- **No vague scene placeholders when concrete events can be described.**
+- **Character identity should appear in behavior, not only labels.**
+- **Do not repeatedly solve the video with generic romance gestures.**
+- **Reference inspiration means mechanism transfer, not cloning.**
+- **Physical activities must remain believable.**
+- **Rules are guardrails, not the content.**
+- **Concrete does not mean project-heavy.**
 - **Natural sweetness over forced sweetness.**
-- Use shared experience, life detail, care, play, competition, quiet companionship, or other relationship beats only when they arise naturally from the chosen story; do not force every category into every video.
-- Prefer the couple in the same frame when relationship readability matters.
-- Use singles and inserts selectively for reaction, detail, rhythm, and emphasis.
-- Each shot should primarily communicate one thing.
-- Emotional and pacing progression must change across the piece.
-- Endings should feel intentional and leave emotional residue rather than stop abruptly.
-- Ask only necessary clarification questions; infer minor creative details instead of blocking.
-- Do not generate detailed image/video prompts unless the user explicitly asks for them; this skill designs the creative and director blueprint that downstream prompt skills can consume.
+- Ask only necessary clarification questions.
+- Do not generate detailed image/video prompts unless the user explicitly asks for them.
+
+## Preferred creative directions
+
+When they fit the project, strengthen:
+
+- event-driven relationship progression,
+- distinct character behavior,
+- meaningful action/reaction,
+- state carryover,
+- event-type variation,
+- practical life texture,
+- delayed reactions,
+- quiet consequences after high-energy scenes,
+- callbacks,
+- endings that transform or recall something established earlier,
+- destination/theme fingerprint,
+- believable time flow.
+
+None of these should become a mechanical quota.
 
 ## Reference loading
 
 Read only what the task needs:
 
 - Missing/ambiguous user requirements → references/brief-confirmation.md
+- User-supplied reference analysis / draft comparison → references/reference-deconstruction.md
+- Character traits → behavior patterns / story-generating contrast → references/character-behavior-engine.md
+- Scene-event design / action-reaction / state carryover / repetition control → references/event-engine.md
 - Venue/theme-driven creative expansion and activity selection → references/creative-expansion.md
 - Narrative architecture and dynamic shot count → references/story-structure.md
 - Concrete places, activities and full-video scene route → references/scene-specificity.md
 - Detailed 画面与表演 writing → references/performance-writing.md
-- AI-video grouping and 5–10 second production units → references/generation-segments.md
+- AI-video grouping and production units → references/generation-segments.md
 - Shot scale, framing, camera, movement, blocking → references/shot-language.md
 - Couple interaction and relationship beats → references/interaction-library.md
 - Supported content directions → references/style-modes.md
@@ -126,19 +231,19 @@ Read only what the task needs:
 
 ## Default output order
 
-When the user asks for a complete design, output:
+When the user asks for a complete design, use a structure such as:
 
-1. Creative concept
-2. Couple relationship dynamic
-3. Core Experience Mix — the concrete scene events selected across projects, wandering, food, rest, shopping, waiting, shows, and other venue-specific moments
-4. Emotional arc through those experiences
+1. Creative concept / story engine
+2. Character behavior & relationship dynamic
+3. Core Experience Mix
+4. Emotional / event progression
 5. Runtime and pacing strategy
 6. Full-video Content Map / Scene Route
 7. Story script
 8. Generation-segment plan when AI-video production is relevant
-9. Director shooting script / storyboard, with detailed 画面与表演 as the primary column
+9. Director shooting script / storyboard
 10. Editing and sound strategy
-11. Continuity and performance notes
+11. Continuity, state and performance notes
 12. Quality-control summary
 
-Do not force all sections when the user asks for only one layer.
+This is a default organization, not a mandatory presentation template. Compress, merge or omit sections when the request is simpler.
