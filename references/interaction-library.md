@@ -2,10 +2,20 @@
 
 ## 1. Purpose
 
-Use this library to create believable chemistry without repeating generic romantic gestures.
+Use this library as a **possibility space**, not a checklist or restriction system.
 
-The ideal relationship beat often contains:
-**action + reaction + relational meaning.**
+Eye contact, hand-holding, hugs, kisses, playful contact, practical care, shared tasks, silence and distance can all be appropriate. None is required; none is prohibited by default.
+
+Choose behavior from:
+- the characters,
+- relationship stage,
+- scene,
+- emotional purpose,
+- physical environment,
+- tone of the piece.
+
+A useful relationship beat may contain:
+**action + reaction + relational meaning**, but it does not have to follow this formula every time.
 
 Example:
 one person hands over a drink → the other accepts while still watching something → care is communicated without pausing the day for a “romantic pose.”
@@ -133,18 +143,17 @@ Use contrast to generate scenes instead of forcing dialogue.
 - routine details,
 - emotionally relaxed intimacy.
 
-## 9. Anti-repetition rules
+## 9. Repetition as a diagnostic
 
-Avoid repeated sequences such as:
-- look at each other,
-- hold hands,
-- hug,
-- kiss,
-- repeat.
+Do not reject a gesture simply because it has appeared before.
 
-Also avoid making every beat mutual and synchronized.
+Instead ask:
+- Is repetition accidental and flattening the piece?
+- Or is it intentional as a motif, escalation, comfort pattern, joke, callback or emotional payoff?
 
-Natural relationships contain asymmetry:
+If many scenes perform the same relational function, consider widening the behavior palette. But repeated eye contact, hand-holding, hugs or kisses may be completely appropriate when the situation earns them.
+
+Natural relationships often contain asymmetry:
 - one initiates,
 - one notices,
 - one reacts late,
@@ -152,10 +161,22 @@ Natural relationships contain asymmetry:
 - one waits,
 - one carries the practical load for a moment.
 
-## 10. Escalation
+## 10. Progression possibilities
 
-A strong Vlog often escalates relationship visibility gradually:
+One possible shape is:
 
 shared task → playful reaction → life detail → care → quiet companionship → emotional payoff
 
-The escalation does not need increased physical intimacy. It can increase emotional significance instead.
+This is only an example.
+
+Progression can also come from:
+- increased physical intimacy,
+- increased trust,
+- easier teasing,
+- role reversal,
+- shared failure,
+- comfortable silence,
+- one character becoming more主动,
+- or no obvious "escalation" at all in an observational slice-of-life piece.
+
+Let the story decide the relationship grammar.
