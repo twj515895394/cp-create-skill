@@ -1,21 +1,26 @@
 # cp-create-skill
 
-A standard Agent Skill for creating **couple/CP story scripts and director-level shooting scripts**, with **sweet daily-life Vlog** as the primary direction.
+A standard Agent Skill for creating **couple/CP story scripts and director-level shooting scripts**, with natural cinematic Vlog storytelling as the primary direction.
 
 ## What this skill does
 
 It designs the creative layer above image/video prompt generation:
 
 - couple story concept,
+- story engine / concept hook when useful,
+- character behavior dynamics,
 - relationship dynamics,
-- emotional arc,
+- concrete scene-event design,
+- scene-state continuity,
+- emotional and event progression,
 - runtime planning,
 - dynamic storyboard count,
 - necessary brief confirmation,
+- reference-video/script deconstruction,
 - AI-video generation segment planning,
 - venue/theme-driven creative expansion,
 - proactive activity/project selection,
-- concrete full-video scene route / activity map,
+- concrete full-video scene route,
 - director shooting script,
 - detailed Picture & Performance direction,
 - shot-size strategy,
@@ -27,43 +32,67 @@ It designs the creative layer above image/video prompt generation:
 - continuity,
 - quality control.
 
-It intentionally does **not** default to detailed image/video model prompts. The result is a professional production blueprint that can be passed to downstream prompt-generation skills.
+It intentionally does **not** default to detailed image/video model prompts. The result is a production blueprint that can be passed to downstream prompt-generation skills.
 
 ## Design philosophy
 
 The core idea is:
 
-> Couple sweetness should come from shared experience, natural reaction, tiny acts of care, companionship and emotional progression — not from stacking hugs, kisses and posed romance.
+> Strong CP content is not a collection of romantic poses. It is a shared-experience story in which two specific people reveal themselves through events, reactions, ordinary details, accumulated state and changing relationship rhythm.
 
-For Vlog language:
+A second principle is:
 
-> Close shots / close-ups / detail shots dominate; medium shots come next; wide and long shots are sparse and purposeful.
+> Character adjectives do not generate stories; behavior does.
+
+Instead of stopping at “稳重 / 活泼 / 温柔 / 高冷”, the skill can translate personality into:
+- who initiates,
+- who hesitates,
+- who reacts late,
+- who handles practical details,
+- how each person plays, cares, recovers or unexpectedly changes.
+
+For scene design:
+
+> Different backgrounds are not enough. Different scenes should ideally give the characters different things to do, notice, decide, react to or carry forward.
 
 For AI-video production:
 
-> A shot is not automatically a generation clip. Compatible micro-shots can be grouped into coherent 5–10 second generation segments, normally kept under 10 seconds.
+> A shot is not automatically a generation clip. Compatible micro-shots can be grouped into coherent production segments.
+
+## Creative freedom
+
+The skill deliberately separates guidance into:
+
+- **Required** — a small quality floor such as concrete major scenes, playable important shots and physically believable actions.
+- **Preferred** — strong enhancers such as action/reaction, state carryover, behavioral contrast and callbacks.
+- **Optional** — free creative devices such as recurring jokes, role reversal, surprise, mini-conflict, stylized transitions and nonlinear structure.
+
+This prevents quality rules from becoming a rigid template.
 
 ## Standard Skill structure
 
 This repository follows the Agent Skills pattern:
 
-- SKILL.md — required routing metadata and workflow
+- SKILL.md — routing metadata and core workflow
 - references/ — professional knowledge loaded on demand
 - agents/openai.yaml — optional ChatGPT/Codex UI metadata
 
 ## References
 
 - brief-confirmation.md — minimal necessary user confirmation gate
+- reference-deconstruction.md — structural analysis of reference videos/scripts without surface copying
+- character-behavior-engine.md — converting character traits into story-generating behavior
+- event-engine.md — scene events, action/reaction, state carryover and repetition control
 - creative-expansion.md — proactive venue-driven activity selection and anti-formula rules
 - story-structure.md — dynamic shot count and narrative modules
 - scene-specificity.md — concrete places, activities/projects and realistic scene progression
-- performance-writing.md — detailed 画面与表演 writing standard
-- generation-segments.md — 5–10 second AI-video production units
+- performance-writing.md — flexible but detailed 画面与表演 writing standard
+- generation-segments.md — practical AI-video production units
 - shot-language.md — Vlog shot scale, framing, camera, blocking
 - interaction-library.md — couple behavior and relationship beats
 - style-modes.md — Vlog-first content directions
 - output-schema.md — story, segment and director-script schema
-- quality-checklist.md — acceptance criteria and anti-patterns
+- quality-checklist.md — hard failures, strong signals and optional enrichment
 - examples.md — runtime-based planning examples
 
 ## Typical triggers
@@ -74,7 +103,8 @@ Examples:
 - 设计一个情侣在京都约会的导演分镜
 - 给这段情侣剧情做成可拍摄的导演脚本
 - 设计一个居家情侣 CP 60 秒短片
-- 分析这个情侣视频并抽象成新的 Vlog 结构
+- 分析这个情侣视频为什么好看，并用同类机制重新创作
+- 对比我的生成视频和参考案例，找出内容重复和分镜问题
 - 给我做情侣旅行纪录片的剧本和镜头规划
 
 ## Primary direction
@@ -89,4 +119,4 @@ Current priority:
 7. Observational couple diary
 8. Light narrative micro-film
 
-Future directions can be added as separate references without bloating the core SKILL.md.
+Future directions can be added as references without bloating the core SKILL.md.
