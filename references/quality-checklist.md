@@ -31,18 +31,13 @@ Important shots contain only mood labels such as:
 
 with no playable behavior.
 
-### 3. Generic romance loop
-A substantial portion of the piece is repeatedly solved with:
-look at each other → hold hands → hug → kiss → walk together,
-without story-specific reasons or variation.
-
-### 4. Physically implausible activity
+### 3. Physically implausible activity
 The planned action ignores basic constraints of the real activity or location.
 
-### 5. Incomprehensible scene route
+### 4. Incomprehensible scene route
 For a complete Vlog, the viewer/producer cannot tell what the video actually contains before reading individual shots.
 
-### 6. Shot / generation-segment confusion
+### 5. Shot / generation-segment confusion
 Tiny edit shots are automatically treated as separate generation clips, or unrelated scenes are bundled into one production unit.
 
 ## Strong signals to investigate
@@ -56,7 +51,8 @@ These do not automatically fail the script. Use judgment.
 - Does each major scene create a different type of action, reaction, rhythm, information, state or visual value?
 - Are character traits expressed through behavior rather than only labels?
 - Does at least part of the story feel caused by what happens rather than by abstract “关系升温” planning?
-- Can high-value activities benefit from before / during / after?
+- Could one or two high-value activities benefit from becoming a fuller mini-story?
+- If a scene naturally has setup, experience, reaction and aftermath, has enough room been given to it?
 - Does an action sometimes produce a reaction or consequence instead of ending immediately?
 - Does the piece have enough ordinary life texture to make stronger moments believable?
 
@@ -72,7 +68,7 @@ State continuity is an enhancer, not a requirement in every scene.
 
 - Do the two people have distinguishable behavior?
 - Is there asymmetry: one initiates, one reacts, one notices late, one handles practical details?
-- Is chemistry visible beyond eye contact and physical affection?
+- Are eye contact, physical affection, teasing, practical care or other relationship tools being chosen because they fit the scene rather than because a template expects or avoids them?
 - Does either character reveal a contradiction or new side?
 - Does the relationship change in behavior, not only in explicit intimacy?
 
@@ -140,7 +136,7 @@ Typical duration ranges are guidance, not a target to satisfy mechanically.
 
 Watch for:
 
-1. **AI romance loop** — generic affection repeated without story value.
+1. **Unmotivated repetition** — any behavior or relationship device repeats so mechanically that the content stops developing; repeated romance gestures are fine when context gives them meaning.
 2. **Pose catalog** — characters stop living so each shot can display a pose.
 3. **Scenic tourism reel** — place dominates while the relationship has little behavior.
 4. **Camera-movement decoration** — every shot pushes/orbits/cranes without reason.
