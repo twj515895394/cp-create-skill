@@ -2,65 +2,65 @@
 
 ## 1. Highest-priority field
 
-In the director shot table, **画面与表演 / Picture & Performance** is the most important field.
+In the director shot table, **画面与表演 / Picture & Performance** is the primary storytelling field.
 
-It must contain enough information that:
-- an actor knows what to do,
-- a director knows what emotional behavior to protect,
-- a storyboard artist can visualize the frame,
-- a downstream video-prompt skill can reconstruct the action,
-- the shot still makes sense even if the camera/sound columns are temporarily hidden.
+It should contain enough information that the shot can be visualized and performed without relying on vague emotional adjectives.
 
-Do not treat this field as a short caption.
+Detail should be proportional to the shot.
 
-## 2. Minimum content for each shot
+- Important interaction/reaction shots usually need richer action writing.
+- Short inserts and connective shots can be concise.
+- Quiet or static shots may intentionally contain very little action.
+- Do not over-choreograph every second merely to make the field longer.
 
-Write the field as a compact but complete action paragraph.
+## 2. Useful ingredients for an important shot
 
-It should normally cover:
+When relevant, consider:
 
 1. **Opening state**
    - where both people are,
-   - what each person is already doing,
+   - what they are already doing,
    - relevant prop/environment state.
 
-2. **Primary action progression**
-   - who initiates,
-   - exact visible action order,
-   - whether actions overlap.
+2. **Trigger**
+   - what changes or attracts attention.
 
-3. **Partner reaction**
+3. **Primary action progression**
+   - who initiates,
+   - visible action order,
+   - overlap or interruption.
+
+4. **Partner reaction**
    - physical response,
    - eye-line,
    - facial change,
    - delayed or immediate reaction.
 
-4. **Relationship behavior**
-   - what makes this feel like this particular couple,
-   - tease, care, familiarity, hesitation, comfort, etc.
+5. **Relationship behavior**
+   - what makes this feel like this particular pair.
 
-5. **Environment / prop interaction**
+6. **Environment / prop interaction**
    - restraint, cup, phone, map, bag, seat, railing, food, ticket, umbrella, etc.
 
-6. **End state / cut cue**
-   - what position or expression the shot ends on,
-   - what action motivates the next cut.
+7. **End state / cut cue**
+   - where the action lands,
+   - what can motivate the next cut or scene.
 
-Not every shot needs equal length, but generic one-line descriptions are unacceptable.
+These are ingredients, not seven mandatory boxes.
 
 ## 3. Write observable behavior, not abstract emotion
 
 Weak:
 “女生很开心，男生宠溺地看着她。”
 
-Better:
-“安全压杆刚扣下，女生先低头拉了两下确认是否锁紧，随后抬头盯着前方轨道，嘴里还在说‘应该没那么吓人吧’。列车开始缓慢滑出站台时，她下意识把右手搭到男生前臂上；男生没有立刻看她，先故意一本正经地盯着前方，等她抓紧后才侧过脸笑一下。女生发现他在笑，皱眉瞪他一眼，但手没有松开。”
+Stronger:
+“安全压杆刚扣下，她先低头拉了两下确认是否锁紧，随后抬头盯着前方轨道。列车开始缓慢滑出站台时，她下意识把右手搭到他的前臂上；他没有立刻看她，先一本正经盯着前方，等她抓紧后才侧过脸笑一下。她发现后皱眉瞪他一眼，但手没有松开。”
 
 The second version can be performed.
 
 ## 4. Preserve micro-behavior
 
-High-quality couple performance often depends on:
+Useful micro-behavior includes:
 - delayed smile,
 - half-finished sentence,
 - looking at the activity before looking at the partner,
@@ -71,15 +71,15 @@ High-quality couple performance often depends on:
 - turning back after walking two steps,
 - helping without making it a ceremony.
 
-Avoid:
-- both characters stopping to pose,
-- synchronized smiling,
-- constant eye contact,
-- every interaction ending in physical affection.
+Avoid making both characters:
+- stop to pose,
+- smile synchronously,
+- maintain constant eye contact,
+- end every interaction in physical affection.
 
-## 5. Action–reaction–aftermath
+## 5. Action–reaction–aftermath as a lens
 
-Whenever possible, build the shot around:
+For scenes with enough dramatic value, consider:
 
 **Action → Reaction → Aftermath**
 
@@ -88,64 +88,93 @@ Example:
 - he looks down at the suddenly lighter bucket,
 - she keeps chewing while pretending not to notice,
 - he moves the bucket to the other side,
-- she immediately follows it with her eyes.
+- her eyes immediately follow it.
 
 This is stronger than:
 “女生偷吃爆米花，男生笑。”
 
+But a tiny insert does not need a complete action-reaction-aftermath chain.
+
 ## 6. Physical realism
 
-Actions must respect the real environment.
+Actions must respect the environment.
 
 For a roller coaster:
 - bodies are seated and restrained,
 - movement is limited,
-- hands grip bars/restraints,
+- hands may grip bars/restraints,
 - hair/clothes react to wind,
-- facial reactions intensify during acceleration/drop,
-- characters cannot casually stand, turn around fully, or perform elaborate gestures.
+- reactions change during acceleration/drop,
+- characters cannot casually perform elaborate standing gestures.
 
 For walking:
-- dialogue and eye contact are intermittent,
-- people must watch where they are going,
+- eye contact is intermittent,
+- people still navigate space,
 - bags/food affect available hands,
-- speed and crowd density affect blocking.
+- crowd density affects blocking.
 
 For eating:
-- chewing, packaging, utensils, spills, and occupied hands matter.
+- chewing, packaging, utensils, spills and occupied hands can matter.
 
-## 7. Performance specificity without over-choreography
+Use only the realism details relevant to the shot.
 
-Be detailed about visible beats, but do not make performance robotic.
+## 7. Specific without robotic choreography
 
-Use:
+Be detailed about meaningful beats, but leave room for natural performance.
+
+Useful phrasing:
 - “先…随后…等到…才…”
 - “一边…一边…”
 - “下意识…”
 - “没有立刻…”
 - “短暂停顿后…”
 
-Avoid timestamping every hand motion unless necessary.
+Avoid timestamping every finger, glance and footstep unless production requires it.
 
 ## 8. Couple personality consistency
 
-Performance must reflect the established relationship dynamic.
+Performance should normally reflect the established behavior engine.
 
-If one person is playful and the other steady:
-- the playful person initiates more impulsive beats,
-- the steady person often reacts late, solves practical problems, or quietly helps.
+If one person is playful and the other restrained:
+- the playful person may initiate more impulsive beats,
+- the restrained person may react late or solve practical problems.
 
-Do not randomly swap personalities shot to shot unless the story motivates it.
+But character consistency does **not** mean repetition.
 
-## 9. Self-sufficiency test
+A believable deviation can reveal another side of the character if the situation motivates it.
 
-Before finalizing each shot, ask:
+Read `character-behavior-engine.md`.
+
+## 9. Scene-state awareness
+
+When useful, include what the scene inherits or leaves behind:
+
+- bag in hand,
+- drink half-finished,
+- hair slightly messy,
+- map folded badly,
+- one character visibly tired,
+- private joke established,
+- a prop rejected but kept,
+- change in who leads.
+
+This can help later scenes feel connected.
+
+Do not force a state change into every shot.
+
+Read `event-engine.md`.
+
+## 10. Self-sufficiency test
+
+For an important shot, ask:
 
 > If I only read “画面与表演”, can I clearly visualize what happens from the first frame to the cut?
 
-If no, rewrite it.
+If no, add the missing behavior.
 
-## 10. Bad examples
+For a short insert, transition or deliberate stillness, brevity is fine.
+
+## 11. Bad examples
 
 Bad:
 “男女一起走，女生开心，男生看她。”
@@ -156,4 +185,6 @@ Bad:
 Bad:
 “男生照顾女生，氛围甜蜜。”
 
-All three fail because they omit observable action, reaction, space, and progression.
+These fail when they are used as the complete description of an important scene because they omit observable progression.
+
+They may be acceptable as rough outline shorthand before the director layer is written.
