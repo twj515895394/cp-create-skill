@@ -116,8 +116,21 @@ Recommended fields:
 - character behavior,
 - relationship / story meaning,
 - important entering or exit state when relevant,
-- optional dialogue / voiceover,
+- dialogue / voiceover when appropriate to the brief,
 - transition to next beat.
+
+Dialogue density is **brief-dependent and creatively open**. Possible directions include:
+- a visual-first Vlog with almost no dialogue,
+- a complete story carried by only a few lines,
+- natural conversational back-and-forth,
+- dialogue-led scenes,
+- voiceover-led narration,
+- mixed dialogue + ambience,
+- or other structures that fit the concept.
+
+Use the user's request as the main anchor. When the brief leaves room, let the model decide whether spoken language adds character, story, rhythm, contrast or intimacy—or whether silence, action and sound are stronger.
+
+There is no preferred dialogue quantity by default.
 
 Not every beat needs a dramatic relationship advance. Some exist for rhythm, realism, place identity or time flow.
 

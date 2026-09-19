@@ -144,7 +144,7 @@ Watch for:
 4. **Camera-movement decoration** — every shot pushes/orbits/cranes without reason.
 5. **Emotional flatline** — no meaningful rhythm change.
 6. **Random montage** — clips can be reordered with almost no loss of meaning.
-7. **Dialogue dependency** — visuals do not carry the scene.
+7. **Dialogue-template mismatch** — dialogue is being added, reduced or stylized because of a generic formula rather than the user's brief or the piece's own creative logic. Minimal dialogue, dense dialogue, voiceover and silence can all be valid.
 8. **Generic beauty close-ups** — attractive faces but no behavior.
 9. **Abrupt ending** — footage stops rather than resolves.
 10. **Checklist storytelling** — “共同体验 / 玩闹 / 照顾 / 升温 / 浪漫结尾” appears as the story itself.

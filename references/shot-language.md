@@ -21,7 +21,69 @@ A practical default starting distribution is:
 Do not treat the percentages as a strict quota. The key rule is:
 **wide shots must justify themselves.**
 
-## 2. What close shots are for
+The distribution is useful planning guidance and may be made more specific for a concrete production when focal-length planning matters.
+
+## 2. Directing lenses before choosing technique
+
+These are **creative lenses, not approval rules**.
+
+Before choosing framing, movement or camera style, it can help to ask what kind of experience the shot might create.
+
+### What can this shot contribute?
+
+A shot may:
+- reveal an action,
+- make a reaction readable,
+- establish or distort spatial information,
+- expose a relationship shift,
+- create anticipation,
+- preserve a useful detail,
+- hold silence,
+- connect one event to another,
+- create rhythm,
+- create atmosphere,
+- become subjective or dreamlike,
+- emphasize spectacle,
+- or simply provide a deliberate visual pleasure that suits the piece.
+
+Narrative function is useful, but it is not the only valid reason for a shot.
+
+### What can camera movement contribute?
+
+Movement may:
+- follow a character,
+- discover new information,
+- redirect attention,
+- change spatial relationship,
+- increase or release energy,
+- enter or leave a scene,
+- support a subjective or emotional shift,
+- create rhythm with music or cutting,
+- stylize the world,
+- or create a deliberately expressive image.
+
+“Motivation” can therefore be narrative, emotional, rhythmic, spatial, subjective or stylistic.
+
+Static observation, handheld instability, precise choreography, orbiting, drifting or other movement styles can all work when they fit the piece. Avoid only the mechanical habit of applying the same movement because it is assumed to look cinematic.
+
+### Relationship is larger than facial reaction
+
+Relationship can be expressed through:
+- blocking and distance,
+- who leads or follows,
+- foreground/background placement,
+- screen direction,
+- shared or separated space,
+- pauses and timing,
+- sound bridges,
+- reaction timing,
+- object handoff,
+- edit order,
+- or physical intimacy when appropriate.
+
+Use whichever combination the material suggests. These are possibilities to consider, not required layers and not an exhaustive list.
+
+## 3. What close shots are for
 
 Use close framing for:
 - face reactions,
@@ -41,7 +103,7 @@ Close framing creates “I am there with them” Vlog intimacy.
 
 Avoid using close-ups only for beauty display. A close shot should ideally contain behavior, reaction, or relationship information.
 
-## 3. What medium shots are for
+## 4. What medium shots are for
 
 Use medium framing for:
 - two-person interaction,
@@ -55,7 +117,7 @@ Use medium framing for:
 
 Medium shots are the bridge between facial intimacy and spatial clarity.
 
-## 4. What wide and long shots are for
+## 5. What wide and long shots are for
 
 Use sparingly for:
 - establishing a new location,
@@ -76,7 +138,7 @@ A wide shot should usually answer a specific question:
 
 Do not insert wide shots just to make the work “cinematic.”
 
-## 5. Couple composition
+## 6. Couple composition
 
 Prefer two-person framing when the relationship itself is the subject.
 
@@ -99,7 +161,7 @@ Single shots are useful for:
 
 Return to relationship framing before singles fragment the scene too much.
 
-## 6. Camera position
+## 7. Camera position
 
 Default camera behavior should feel human and present.
 
@@ -126,7 +188,7 @@ Avoid:
 - constant crane-like movement,
 - arbitrary orbit shots.
 
-## 7. Camera movement
+## 8. Camera movement
 
 ### Handheld micro-movement
 Best for:
@@ -157,7 +219,7 @@ Use only when emotional focus benefits from it.
 ### Pan / tilt
 Use to follow an actual action, not as decoration.
 
-## 8. Blocking
+## 9. Blocking
 
 Direct the couple through relational blocking, not isolated posing.
 
@@ -176,7 +238,7 @@ Weak blocking:
 - repeated face-to-face staged romance,
 - every shot ending in a hug.
 
-## 9. Focus and depth
+## 10. Focus and depth
 
 For intimate Vlog language:
 - prioritize faces, hands, shared objects,
@@ -186,7 +248,7 @@ For intimate Vlog language:
 
 Do not blur away the partner when the point of the shot is the relationship.
 
-## 10. Visual continuity
+## 11. Visual continuity
 
 Maintain:
 - screen direction,
