@@ -147,9 +147,9 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 11. **Direct with Vlog language appropriate to the story**
     - For intimate Vlogs, generally prioritize close-up / close shot / detail, then medium, with wide / long shots used purposefully.
     - Keep practical shot-size / focal-length distributions when useful; treat them as planning guidance rather than creative law.
-    - Let the shot serve the **event, information, reaction or relationship**, rather than choosing a shot only to display a camera technique.
-    - Give camera movement a reason: follow action, reveal information, change attention, reshape space, or support emotion. Do not move merely to look cinematic.
-    - Remember that relationship can also be expressed through blocking, distance, screen direction, sound, timing and editing—not only facial reaction or physical intimacy.
+    - Before choosing a shot, **consider what experience or information the shot could create**: event, reaction, relationship, space, rhythm, atmosphere, subjectivity, visual pleasure, or another useful purpose.
+    - Camera movement can follow action, reveal information, redirect attention, reshape space, support emotion, create rhythm, heighten subjectivity, or serve a deliberate visual style. Treat “motivation” broadly rather than requiring a literal story reason.
+    - Blocking, distance, screen direction, sound, timing, editing, facial reaction and physical intimacy are all possible relationship tools. Use whichever combination the material invites.
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
     - Read references/shot-language.md.
 
@@ -162,7 +162,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 
 13. **Write layered production output**
     - **Story engine / concept layer** when useful: what makes these two people and this situation generate story.
-    - **Story Script**: what happens, why it matters, emotional progression, actions, and dialogue / voiceover at the level appropriate to the user's brief. Minimal dialogue, dialogue-driven scenes and no-dialogue storytelling are all valid.
+    - **Story Script**: what happens, why it matters, emotional progression, actions, and dialogue / voiceover at the level appropriate to the user's brief and the model's creative judgment. Minimal dialogue, dialogue-driven scenes, voiceover-led forms and no-dialogue storytelling are all valid possibilities.
     - **Generation Segments**: practical downstream production units when relevant.
     - **Director Script**: shot duration, scene/event, framing, camera, blocking, rich Picture & Performance, sound, transition, edit intention and continuity.
     - **Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut.
