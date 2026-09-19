@@ -23,36 +23,48 @@ Do not treat the percentages as a strict quota. The key rule is:
 
 The distribution is useful planning guidance and may be made more specific for a concrete production when focal-length planning matters.
 
-## 2. Directing principles before choosing technique
+## 2. Directing lenses before choosing technique
 
-Before choosing framing, movement or camera style, ask what the audience needs from the moment.
+These are **creative lenses, not approval rules**.
 
-### Shot serves the event
+Before choosing framing, movement or camera style, it can help to ask what kind of experience the shot might create.
 
-A shot can exist to:
+### What can this shot contribute?
+
+A shot may:
 - reveal an action,
 - make a reaction readable,
-- establish spatial information,
+- establish or distort spatial information,
 - expose a relationship shift,
 - create anticipation,
 - preserve a useful detail,
 - hold silence,
-- connect one event to another.
+- connect one event to another,
+- create rhythm,
+- create atmosphere,
+- become subjective or dreamlike,
+- emphasize spectacle,
+- or simply provide a deliberate visual pleasure that suits the piece.
 
-Do not choose a close-up, wide shot, push-in or orbit merely because the technique looks cinematic.
+Narrative function is useful, but it is not the only valid reason for a shot.
 
-### Camera movement should have motivation
+### What can camera movement contribute?
 
-Movement may be motivated by:
-- following a character,
-- discovering new information,
-- redirecting attention,
-- changing spatial relationship,
-- increasing or releasing energy,
-- entering or leaving a scene,
-- supporting a subjective or emotional shift.
+Movement may:
+- follow a character,
+- discover new information,
+- redirect attention,
+- change spatial relationship,
+- increase or release energy,
+- enter or leave a scene,
+- support a subjective or emotional shift,
+- create rhythm with music or cutting,
+- stylize the world,
+- or create a deliberately expressive image.
 
-A static shot is equally valid when the event is stronger without camera movement.
+“Motivation” can therefore be narrative, emotional, rhythmic, spatial, subjective or stylistic.
+
+Static observation, handheld instability, precise choreography, orbiting, drifting or other movement styles can all work when they fit the piece. Avoid only the mechanical habit of applying the same movement because it is assumed to look cinematic.
 
 ### Relationship is larger than facial reaction
 
@@ -69,7 +81,7 @@ Relationship can be expressed through:
 - edit order,
 - or physical intimacy when appropriate.
 
-Use whichever combination best serves the scene. These are creative possibilities, not required layers.
+Use whichever combination the material suggests. These are possibilities to consider, not required layers and not an exhaustive list.
 
 ## 3. What close shots are for
 
