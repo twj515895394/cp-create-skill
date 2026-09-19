@@ -65,7 +65,9 @@ These are creative ingredients, not requirements.
 
 Some scenes are only fragments. Others are strong enough to become a **mini-story** inside the larger video.
 
-A mini-story is not a mandatory unit and does not need to appear at a fixed frequency. Use it when a situation naturally contains enough change to deserve more screen time.
+A mini-story is not a mandatory unit, does not need to appear at a fixed frequency, and should not be added simply because the skill mentions it.
+
+Use it as a creative possibility: when a situation naturally contains enough change, reaction, escalation, reversal, recovery or emotional texture, consider giving that moment more room.
 
 Examples:
 - a roller coaster scene may include anticipation, the ride itself, involuntary reactions, and recovery afterward,
@@ -73,9 +75,11 @@ Examples:
 - a meal may include ordering, discovering a preference, sharing/stealing food, and a small consequence,
 - a navigation mistake may include confidence, getting lost, realizing it, and the partner's response.
 
-A useful internal lens for such scenes is:
+One useful internal lens for such scenes is:
 
 **Trigger → Action → Reaction → Counteraction / Aftermath → Exit State**
+
+Other structures are equally valid. A mini-story may be built around anticipation, discovery, failed expectation, shared observation, escalation, reversal, repetition, silence, or another shape that better fits the material.
 
 Example:
 
