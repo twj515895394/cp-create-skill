@@ -21,7 +21,6 @@ These are the few constraints that should normally be protected:
 - Major scenes must contain a concrete, observable situation rather than only an emotional label.
 - Avoid vague placeholders such as “互动一下 / 甜蜜游玩 / 看风景 / 开心地走”.
 - Character behavior must be visible through action or reaction when the scene is relationship-relevant.
-- Do not repeatedly solve different scenes with the same generic behavior loop.
 - Important activities must respect basic physical reality.
 - For complete Vlogs, the scene route must make the actual day / experience understandable before detailed shots are written.
 
@@ -62,9 +61,19 @@ Use freely when appropriate:
 
 These are creative ingredients, not requirements.
 
-## 3. Event chain lens
+## 3. Mini-story lens
 
-For an important scene, a useful internal lens is:
+Some scenes are only fragments. Others are strong enough to become a **mini-story** inside the larger video.
+
+A mini-story is not a mandatory unit and does not need to appear at a fixed frequency. Use it when a situation naturally contains enough change to deserve more screen time.
+
+Examples:
+- a roller coaster scene may include anticipation, the ride itself, involuntary reactions, and recovery afterward,
+- a game may include choosing sides, playing, winning/losing, and teasing afterward,
+- a meal may include ordering, discovering a preference, sharing/stealing food, and a small consequence,
+- a navigation mistake may include confidence, getting lost, realizing it, and the partner's response.
+
+A useful internal lens for such scenes is:
 
 **Trigger → Action → Reaction → Counteraction / Aftermath → Exit State**
 
@@ -81,6 +90,8 @@ This is stronger than:
 > 她给他戴上发箍，他无奈地笑。
 
 But do not expand a simple 2-second connective shot into a five-step mini-drama just to satisfy the model.
+
+A mini-story may span multiple shots, scenes or generation segments. Story structure should be designed first; production segmentation comes later.
 
 ## 4. Scene state
 
@@ -156,7 +167,9 @@ Prefer variation in what the characters must **do**:
 - rest,
 - remember.
 
-Repeated behavior can still be intentional when used as a motif or callback.
+Repeated behavior can still be intentional when used as a motif, callback, escalation, intimacy pattern or deliberate stylistic choice.
+
+Likewise, eye contact, hand-holding, hugging, kissing and other forms of intimacy are neither mandatory nor forbidden. Evaluate them by context and dramatic usefulness, not by category.
 
 ## 7. Event density versus breathing room
 
@@ -164,7 +177,7 @@ Rich content does not mean constant incident.
 
 Use event density selectively:
 
-- high-value scenes may contain several internal beats,
+- selected high-value scenes may grow into a multi-beat mini-story,
 - ordinary scenes may contain one small believable action,
 - quiet scenes may contain almost no action if their purpose is emotional deceleration,
 - endings often benefit from less action after stronger earlier events.
