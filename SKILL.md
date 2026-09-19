@@ -95,8 +95,10 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 
 4. **Translate character traits into behavior**
    - Do not stop at adjectives such as “稳重 / 活泼 / 高冷 / 温柔”.
-   - When character identity matters, determine how each person tends to initiate, react, handle novelty, recover, tease, care, solve practical problems, or deviate from their default.
-   - Use behavioral tendencies to generate scenes, not to lock characters into rigid archetypes.
+   - When character identity matters, consider how each person tends to initiate, react, handle novelty, recover, tease, care, solve practical problems, or deviate from their default.
+   - Treat these as **default tendencies and creative clues**, not shot-by-shot rules.
+   - When the situation supports it, consider revealing another side of the character: the restrained person may initiate, the playful person may hesitate, or both may react differently from expectation.
+   - Use behavioral tendencies to generate possibilities, not to lock characters into rigid archetypes.
    - Read references/character-behavior-engine.md.
 
 5. **Expand the premise creatively**
@@ -106,12 +108,13 @@ Do not reject a good creative choice merely because it does not fit a preferred 
    - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
    - Read references/creative-expansion.md.
 
-6. **Build Scene Events and discover mini-stories when they naturally emerge**
+6. **Build Scene Events and notice when a moment could become a mini-story**
    - Think in concrete Scene Events rather than abstract emotional labels alone.
-   - Some moments may remain brief fragments; others may naturally develop into a **mini-story** with setup, experience, reaction and aftermath.
-   - For a high-value activity such as a roller coaster, game, meal, argument, failed attempt or surprise, consider whether the material deserves a fuller micro-arc instead of compressing it into one beat.
+   - Some moments may remain brief fragments; others may naturally support a **mini-story** with more internal development.
+   - For a high-value activity such as a roller coaster, game, meal, argument, failed attempt or surprise, **consider** whether giving it more room would make the video richer instead of compressing it into one beat.
+   - Do not require a fixed number of mini-stories, and do not force every important scene to have a full setup/payoff structure.
    - A mini-story may span multiple shots and multiple generation segments. Do not equate scene, story beat, shot and generation segment.
-   - Trigger → action → reaction → aftermath → exit state is one useful lens, not a required structure.
+   - Trigger → action → reaction → aftermath → exit state is one useful lens among many, not a required structure.
    - Track useful state carryover such as props, fatigue, messy clothing, route choices, jokes, information, time of day or a change in who leads when it helps the experience feel cumulative.
    - Ordinary, romantic or quiet scenes may contain only one small action—or almost no action—if that is what the piece needs.
    - Read references/event-engine.md.
@@ -197,8 +200,8 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 When they fit the project, strengthen:
 
 - event-driven relationship progression when it serves the concept,
-- mini-stories inside selected high-value scenes,
-- distinct character behavior,
+- mini-stories inside selected high-value scenes when the material naturally supports them,
+- distinct character behavior without making personalities mechanically predictable,
 - meaningful action/reaction when useful,
 - state carryover,
 - event-type variation,
