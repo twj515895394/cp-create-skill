@@ -80,16 +80,18 @@ Contrast does not need conflict.
 A difference in timing is often enough:
 one acts → the other notices later → the second response creates the scene.
 
-## 6. Preserve contradiction
+## 6. Preserve contradiction and range
 
-Avoid writing characters as one behavior forever.
+Behavior patterns are tendencies, not obligations.
 
-A restrained person can unexpectedly become competitive.
-A playful person can become quiet when tired.
-A cautious person can be the brave one in one specific situation.
-A practical person can make one irrational choice.
+A restrained person **might** unexpectedly become competitive.
+A playful person **might** become quiet when tired.
+A cautious person **might** be the brave one in one specific situation.
+A practical person **might** make one irrational choice.
 
-These deviations are strongest when the audience already understands the default pattern.
+Do not insert a reversal merely to prove that the character has depth. Instead, keep this possibility available when the scene, relationship or environment naturally brings out another side.
+
+The goal is psychological readability with room for surprise, not mechanical consistency and not mandatory contradiction.
 
 ## 7. Character-specific scene design
 
@@ -123,9 +125,14 @@ This often produces stronger CP feeling than simply increasing hand-holding, hug
 
 The behavior engine should generate possibilities, not imprison the characters.
 
-If a more interesting scene requires a believable deviation:
-- use it,
-- motivate it through context,
-- let the deviation reveal another side of the character.
+Treat all behavior descriptions as:
+- likely tendencies,
+- useful starting points,
+- sources of contrast,
+- or hypotheses the scene can confirm, complicate or overturn.
 
-Consistency means psychological readability, not mechanical repetition.
+A scene does not need to preserve the expected pattern, and it does not need to break it either.
+
+If a more interesting and believable choice appears, follow the scene.
+
+Consistency means psychological readability across the whole piece, not repeating the same response in every moment.

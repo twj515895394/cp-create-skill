@@ -51,8 +51,9 @@ These do not automatically fail the script. Use judgment.
 - Does each major scene create a different type of action, reaction, rhythm, information, state or visual value?
 - Are character traits expressed through behavior rather than only labels?
 - Does at least part of the story feel caused by what happens rather than by abstract “关系升温” planning?
-- Could one or two high-value activities benefit from becoming a fuller mini-story?
-- If a scene naturally has setup, experience, reaction and aftermath, has enough room been given to it?
+- Is there any high-value activity that might become richer if allowed to develop into a fuller mini-story?
+- Conversely, is any scene being over-expanded just because a mini-story structure is available?
+- If a scene naturally has setup, experience, reaction and aftermath, would giving those beats more room improve the piece?
 - Does an action sometimes produce a reaction or consequence instead of ending immediately?
 - Does the piece have enough ordinary life texture to make stronger moments believable?
 
@@ -69,8 +70,9 @@ State continuity is an enhancer, not a requirement in every scene.
 - Do the two people have distinguishable behavior?
 - Is there asymmetry: one initiates, one reacts, one notices late, one handles practical details?
 - Are eye contact, physical affection, teasing, practical care or other relationship tools being chosen because they fit the scene rather than because a template expects or avoids them?
-- Does either character reveal a contradiction or new side?
-- Does the relationship change in behavior, not only in explicit intimacy?
+- Does the current behavior pattern feel natural rather than mechanically repeated?
+- Is there an opportunity for either character to reveal another side **if the situation supports it**?
+- Does the relationship change in behavior when the story calls for change, rather than because progression is treated as mandatory?
 
 ### Rhythm
 
