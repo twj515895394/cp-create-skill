@@ -26,7 +26,6 @@ Only a small number of rules are truly hard constraints:
 - Major scenes must be concrete and observable rather than vague emotional labels.
 - Complete Vlogs need a readable Content Map / Scene Route before detailed storyboard work.
 - Character-relevant scenes should express character through visible behavior or reaction.
-- Avoid repeatedly solving different scenes with the same generic romance loop.
 - Important activities must respect basic physical reality.
 - Shot planning and AI generation-segment planning are separate layers.
 - Detailed Picture & Performance must be performable and visualizable, not a one-line mood caption.
@@ -36,9 +35,9 @@ Only a small number of rules are truly hard constraints:
 
 Prefer:
 
-- scene events with internal progression,
-- action → reaction → aftermath,
-- before → during → after for important activities,
+- scene events with internal progression when the material benefits from it,
+- action → reaction → aftermath as one possible scene-development lens,
+- before → during → after for activities that naturally support a mini-story,
 - character-specific behavioral contrast,
 - scene-to-scene state carryover,
 - event and rhythm variation,
@@ -107,12 +106,14 @@ Do not reject a good creative choice merely because it does not fit a preferred 
    - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
    - Read references/creative-expansion.md.
 
-6. **Build Scene Events and continuity state**
-   - Think in concrete Scene Events rather than “romantic beats” alone.
-   - For important scenes, consider trigger → action → reaction → aftermath → exit state.
-   - Use this as a design lens, not a mandatory template.
-   - Track useful state carryover such as props, fatigue, messy clothing, route choices, jokes, information, time of day or a change in who leads.
-   - Ordinary or quiet scenes may contain only one small action or almost no action if that is their purpose.
+6. **Build Scene Events and discover mini-stories when they naturally emerge**
+   - Think in concrete Scene Events rather than abstract emotional labels alone.
+   - Some moments may remain brief fragments; others may naturally develop into a **mini-story** with setup, experience, reaction and aftermath.
+   - For a high-value activity such as a roller coaster, game, meal, argument, failed attempt or surprise, consider whether the material deserves a fuller micro-arc instead of compressing it into one beat.
+   - A mini-story may span multiple shots and multiple generation segments. Do not equate scene, story beat, shot and generation segment.
+   - Trigger → action → reaction → aftermath → exit state is one useful lens, not a required structure.
+   - Track useful state carryover such as props, fatigue, messy clothing, route choices, jokes, information, time of day or a change in who leads when it helps the experience feel cumulative.
+   - Ordinary, romantic or quiet scenes may contain only one small action—or almost no action—if that is what the piece needs.
    - Read references/event-engine.md.
 
 7. **Design the story before shots**
@@ -145,10 +146,11 @@ Do not reject a good creative choice merely because it does not fit a preferred 
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
     - Read references/shot-language.md.
 
-12. **Build relationship visibility without generic romance loops**
-    - Prioritize behavior, reaction, shared tasks, practical details, asymmetry, care, play and quiet companionship when they fit.
-    - Avoid repeatedly defaulting to “look at each other / hold hands / hug / kiss”.
-    - Physical intimacy is one option, not the only measure of progression.
+12. **Choose relationship expression from the actual situation**
+    - Eye contact, hand-holding, hugs, kisses, physical closeness, teasing, practical care, shared tasks, silence and many other behaviors are all valid tools.
+    - None of them is required, and none is prohibited by default.
+    - Choose them because they fit the characters, relationship stage, scene and emotional moment—not because the skill expects or avoids a category.
+    - If the same relational function dominates many scenes, consider whether more variety would make the piece richer; repetition may still be intentional and effective.
     - Read references/interaction-library.md.
 
 13. **Write layered production output**
@@ -181,7 +183,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 - **Picture & Performance must be playable from first frame to cut.**
 - **No vague scene placeholders when concrete events can be described.**
 - **Character identity should appear in behavior, not only labels.**
-- **Do not repeatedly solve the video with generic romance gestures.**
+- **Relationship gestures are context-dependent tools, not required beats or banned moves.**
 - **Reference inspiration means mechanism transfer, not cloning.**
 - **Physical activities must remain believable.**
 - **Rules are guardrails, not the content.**
@@ -194,9 +196,10 @@ Do not reject a good creative choice merely because it does not fit a preferred 
 
 When they fit the project, strengthen:
 
-- event-driven relationship progression,
+- event-driven relationship progression when it serves the concept,
+- mini-stories inside selected high-value scenes,
 - distinct character behavior,
-- meaningful action/reaction,
+- meaningful action/reaction when useful,
 - state carryover,
 - event-type variation,
 - practical life texture,

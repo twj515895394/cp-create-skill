@@ -6,7 +6,9 @@ A **shot** is a directing/editing unit.
 
 A **generation segment** is a downstream AI-video production unit.
 
-They are not the same thing.
+A **mini-story / scene arc** is a narrative unit and may be larger than either one.
+
+These layers are not the same thing.
 
 A director plan may contain 1–3 second shots, but downstream generation should normally avoid creating every tiny shot as a separate clip.
 
@@ -21,7 +23,28 @@ For AI-video-oriented workflows:
 
 This is a production guideline, not a mathematical rule.
 
-## 3. When shots should be grouped
+## 3. Mini-story versus generation segments
+
+Do not force one mini-story into one generated clip.
+
+A strong scene may naturally need multiple production segments.
+
+Example — roller coaster mini-story:
+- Segment A: queue / seat / restraint / anticipation,
+- Segment B: ride movement / involuntary reactions,
+- Segment C: exit / recovery / teasing or care.
+
+Depending on the generator, the same narrative material might instead use two segments or more. Choose segmentation for production reliability, not to satisfy a fixed count.
+
+Likewise, several tiny editorial shots may come from a single generated segment.
+
+The hierarchy is flexible:
+
+Story → Sequence / Mini-story → Scene Event → Generation Segment(s) → Shot / Micro-shot
+
+Not every story needs every layer explicitly.
+
+## 4. When shots should be grouped
 
 Group adjacent shots into one segment when they share most of these:
 
@@ -43,7 +66,7 @@ Segment 04 — café table, 8 seconds
 
 The segment is generated/managed as one production unit even though the director script still preserves three shot intentions.
 
-## 4. When to split segments
+## 5. When to split segments
 
 Create a new segment when there is:
 
@@ -58,7 +81,7 @@ Create a new segment when there is:
 
 Do not merge unrelated shots merely to reach 5 seconds.
 
-## 5. Two segment modes
+## 6. Two segment modes
 
 ### A. Multi-shot segment
 Use when the downstream video workflow supports:
@@ -79,19 +102,20 @@ Convert several micro-actions into:
 
 This preserves story intent without asking the model to perform unreliable hard cuts.
 
-## 6. Director-script hierarchy
+## 7. Director-script hierarchy
 
-Recommended hierarchy:
+A useful hierarchy is:
 
 Story
-→ Sequence / Scene
-→ Generation Segment
+→ Sequence / Mini-story / Scene
+→ Scene Event
+→ Generation Segment(s)
 → Shot / Micro-shot
 → Action / Reaction beat
 
-This lets the skill remain professionally detailed while still producing practical AI-video units.
+Use only the layers the project actually needs.
 
-## 7. Segment design fields
+## 8. Segment design fields
 
 Each generation segment should include:
 
@@ -111,7 +135,7 @@ Each generation segment should include:
 - transition out,
 - downstream generation note.
 
-## 8. Editing implication
+## 9. Editing implication
 
 The generated clip does not have to be used in full.
 
@@ -126,7 +150,7 @@ The director script therefore optimizes for both:
 - final edit rhythm,
 - practical source-footage generation.
 
-## 9. Quality rule
+## 10. Quality rule
 
 A good segment should feel like:
 “one coherent moment with internal progression.”
