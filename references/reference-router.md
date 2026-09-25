@@ -123,7 +123,7 @@ Primary references:
 Conditional:
 - `event-engine.md` when candidate activities must become Scene Events.
 
-When the future Scene Library exists, route to exactly one relevant scene domain by default. Never load all domains.
+When concrete location/activity knowledge is needed, route through `scene-library/index.md` and select exactly one relevant scene domain by default. Never load all domains.
 
 ### E. Story / event architecture
 
@@ -157,7 +157,7 @@ Primary:
 Conditional:
 - `shot-language.md` for framing/movement,
 - `performance-writing.md` for playable action,
-- future `ai-video-shot-safety.md` when that file is present.
+- `ai-video-shot-safety.md` when AI generation reliability or risky shot design is relevant.
 
 Do not load unrelated scene domains.
 
@@ -203,32 +203,52 @@ Use this registry as a **routing map**, not a reading list.
 | `examples.md` | an example is needed to resolve ambiguity | rules are already clear |
 | `quality-checklist.md` | final or explicit QC | early ideation before anything exists to inspect |
 | `qc-gates.md` | multi-stage task, production plan, or final QC | tiny factual/local edit where a gate adds no value |
+| `scene-library/index.md` | scene-domain selection is actually needed | exact scene content is already supplied |
+| `motif-library/scene-event-motifs.md` | setting exists but event seeds/variation are weak | event is already concrete |
+| `micro-moments/index.md` | lived-in physical texture needs expansion | event layer is still vague |
+| `ai-video-shot-safety.md` | AI shot/generation feasibility is relevant | non-AI story-only work |
 
-## 6. Future library routing contract
+## 6. Large-library routing contract
 
 Large libraries must be added behind an index/router boundary.
 
 ### Scene Library
 
-Expected pattern:
+Active pattern:
 
 `scene-library/index.md` → exactly one relevant domain file by default.
+
+Current domains:
+- `scene-library/home-life.md`
+- `scene-library/city-daily.md`
+- `scene-library/entertainment.md`
+- `scene-library/outdoor-leisure.md`
+- `scene-library/travel.md`
+- `scene-library/shared-tasks.md`
+- `scene-library/season-weather.md`
+- `scene-library/holidays-special-days.md`
 
 Rules:
 - open the index only when scene-domain selection is needed,
 - select one domain,
 - load a second domain only for a genuinely cross-domain story,
-- never enumerate all scene files for inspiration.
+- never enumerate all scene files for inspiration,
+- a scene-domain reference does not automatically authorize Micro Moment or Motif loading.
 
 ### Mother Motif Library
 
-Expected pattern:
+Active file:
 
 `motif-library/scene-event-motifs.md`
 
 Load when a concrete setting exists but the event engine needs reusable situation seeds such as waiting, choosing, searching, sharing, recovering, failing, or discovering.
 
-Do not load when the event is already concrete and the task is only directing/editing.
+Do not load when:
+- the event is already concrete,
+- the task is only directing/editing,
+- a domain-specific scene file already provides enough event affordance.
+
+Select motifs; do not treat the file as a sequence to complete.
 
 ### Micro Moments
 
@@ -244,13 +264,19 @@ Rules:
 
 ### AI Video Shot Safety
 
-Expected pattern:
+Active file:
 
 `ai-video-shot-safety.md`
 
-Load only when AI video generation feasibility, shot design, or generation segments are part of the task.
+Load when:
+- AI-video generation feasibility is in scope,
+- shot design must account for identity stability,
+- generation segments contain complex motion / multi-person / wide-shot demands,
+- QC-2 identifies compound generation risk.
 
 Do not load for ordinary story writing with no AI production requirement.
+
+This file complements `shot-language.md`; it does not replace directing judgment.
 
 ## 7. Routing manifest
 
