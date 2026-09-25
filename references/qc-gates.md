@@ -196,7 +196,7 @@ Run immediately before delivering a complete result.
 ### Routing check
 - Did the final work depend on unrelated references?
 - Did broad context dilute a more specific rule?
-- Were future-library materials loaded only when triggered?
+- Were large-library materials loaded only when triggered and directly routed when possible?
 
 ### Story/directing check
 - Can the content be understood before reading technical shot details?
