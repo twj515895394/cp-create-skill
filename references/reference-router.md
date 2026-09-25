@@ -250,6 +250,34 @@ Fallback only:
 - `scene-library/index.md` is for genuine domain ambiguity or future unregistered domains.
 - Do not open the index for a clear match such as "酒店" → travel or "便利店" → city-daily.
 
+### Primary-domain tie-break
+
+When more than one domain label appears to fit, do **not** load multiple domains to compare them.
+
+Choose the domain that most directly causes the observable behavior / state change.
+
+Use these tie-breaks:
+
+| Competing domains | Choose A when... | Choose B when... |
+|---|---|---|
+| Home Life vs Shared Tasks | Home Life: ordinary domestic routine / shared space is the point | Shared Tasks: coordination, role split, mistake/correction or completion is the story engine |
+| City Daily vs Shared Tasks | City Daily: store/café/public system shapes behavior | Shared Tasks: completing a mission/list/process is the point and could move locations |
+| Outdoor Leisure vs Season/Weather | Outdoor: terrain/equipment/leisure activity drives behavior | Weather: rain/snow/heat/wind causes adaptation, route or state change |
+| City Daily vs Season/Weather | City: weather is background only | Weather: weather materially changes movement, shelter, clothing or plan |
+| City Daily vs Holidays | City: ordinary shopping/dining with decoration | Holidays: gift, ritual, timing, countdown or special-day expectation drives behavior |
+| Travel vs Home Life | Travel: hotel/homestay/temporary-lodging arrival or departure state | Home: established domestic routine in the characters' actual home |
+| Travel vs Shared Tasks | Travel: journey lifecycle / luggage / transit state dominates | Shared Tasks: packing/organizing process itself is the narrative engine |
+| Travel vs Holidays | Travel: journey/arrival/return dominates | Holidays: milestone ritual or meaningful-date expectation dominates |
+| Outdoor vs Entertainment | Outdoor: terrain/equipment/open-air leisure is the activity | Entertainment: organized attraction/show/game/venue experience is the activity |
+| Holidays vs Shared Tasks | Holidays: ritual/reveal/timing gives the task meaning | Shared Tasks: process/coordination is more important than the occasion |
+
+Rules:
+- choose one Primary Domain for the current story section,
+- treat other matching labels as **Secondary Context only** and do not load their files,
+- a Secondary Context becomes loadable only if the workflow later enters a distinct section where it becomes Primary,
+- if the user's wording explicitly says what the focus is ("重点是分工", "重点是雨天避雨", "重点是生日惊喜"), honor that as the Primary Domain,
+- do not open two domain files merely to decide which one fits better.
+
 Rules:
 - open one domain by default,
 - load a second domain only for a genuinely cross-domain story section,
@@ -285,12 +313,16 @@ Direct runtime routing:
 | theme park, attraction, queue, show, arcade, exhibition | `micro-moments/entertainment.md` |
 | airport/station, transit, luggage, hotel, arrival/departure | `micro-moments/travel.md` |
 | park, beach, picnic, cycling, camping, trail | `micro-moments/outdoor.md` |
+| shared-task coordination, packing, assembling, cleaning, moving, repair | `micro-moments/shared-tasks.md` |
+| rain, snow, heat, wind, weather-caused physical behavior | `micro-moments/season-weather.md` |
+| birthday, anniversary, countdown, gifts, ritual, special-day aftermath | `micro-moments/holidays-special-days.md` |
 
 Fallback only:
 - `micro-moments/index.md` is for genuine ambiguity or future unregistered domains.
 - Do not open the index when the scene context is already obvious.
 
 Rules:
+- Micro-domain tie-break follows the Primary Scene Domain whenever a domain-specific micro file exists; do not reopen domain classification at the Micro stage,
 - load Micro Moments only after the underlying Scene Event is concrete,
 - prefer one domain file,
 - add `universal.md` only when it contributes a distinct need,
