@@ -6,12 +6,16 @@ Quality control is not a single checklist at the end.
 
 Use staged gates so routing errors, story errors, and AI-production errors are caught **before they contaminate later work**.
 
-The four gates are:
+The runtime production gates are:
 
 1. QC-0 — Routing Integrity
 2. QC-1 — Story & Scene Integrity
 3. QC-2 — Production & AI Feasibility
 4. QC-3 — Final Delivery Integrity
+
+A separate maintenance gate exists for knowledge-base updates:
+
+5. QC-K — Knowledge Ingestion Integrity
 
 Not every tiny task needs every gate. Complete scripts, reference-based redesigns, and AI-video production plans normally do.
 
@@ -220,7 +224,62 @@ When relevant:
 - Are examples clearly examples rather than hidden requirements?
 - Are QC notes concise and actionable?
 
-## 6. Gate severity
+## 6. QC-K — Knowledge Ingestion Integrity
+
+Run only when reference material is being intentionally promoted into persistent Scene / Motif / Micro Moment / AI Safety knowledge.
+
+Do not run QC-K for ordinary one-off reference analysis.
+
+### Pass conditions
+
+- Reference analysis and knowledge ingestion were treated as separate operations.
+- Each candidate was abstracted away from creator-specific wording/staging before storage.
+- Each accepted candidate has one exact target file.
+- Dedupe inspected only the routed target file, not the whole repository.
+- Existing/near-duplicate knowledge was marked Existing or Merge rather than appended again.
+- Secondary Context did not create duplicate entries in another domain.
+- Domain-specific Micro Moments were not copied into universal without true cross-domain value.
+- Mother Motifs genuinely survive setting changes.
+- AI Safety additions describe generation feasibility, not ordinary style preference.
+- Claims are proportionate to evidence; weak claims are Hold.
+- No exact dialogue, unique gag, creator signature, shot-for-shot sequence, or copyrighted text was stored.
+- Batch size is compact; extraction count is not treated as a success metric.
+- Router/index updates occur only if a genuinely new file/domain was created.
+
+### BLOCK failures
+
+- broad-searching references/repository for duplicate knowledge,
+- listing sibling library files to compare fit,
+- storing an exact creator gag/dialogue/sequence,
+- creating duplicate entries across several domains,
+- promoting a single ambiguous AI failure into a universal production rule,
+- creating a new top-level domain for a narrow subspace that fits an existing domain,
+- mutating runtime libraries when the user only asked for analysis.
+
+### REVISE
+
+- candidate abstraction is still too close to source wording,
+- one entry can be canonicalized into an existing broader concept,
+- too many small bullets represent the same behavior,
+- evidence supports a narrower rule than the proposed wording,
+- candidate belongs in a different exact target file.
+
+### OPTIONAL
+
+- preserve a compact internal candidate note for future confirmation,
+- collect another reference before promoting a Hold candidate,
+- improve wording of an existing canonical entry without changing its meaning.
+
+### Repair order
+
+1. Reject source-specific material.
+2. Narrow overgeneralized claims.
+3. Resolve exact target path.
+4. Merge duplicates.
+5. Reduce redundant candidates.
+6. Add only genuinely new canonical knowledge.
+
+## 7. Gate severity
 
 Use three severities:
 
@@ -256,7 +315,7 @@ Examples:
 
 Do not turn OPTIONAL items into quotas.
 
-## 7. Minimal gate usage by task
+## 8. Minimal gate usage by task
 
 | Task | Gates |
 |---|---|
@@ -266,8 +325,9 @@ Do not turn OPTIONAL items into quotas.
 | Complete Vlog | QC-0 + QC-1 + QC-3 |
 | AI-video director plan | QC-0 + QC-1 + QC-2 + QC-3 |
 | Existing draft diagnosis | Run the gate corresponding to the diagnosed layer, then QC-3 |
+| Knowledge-base ingestion from references | QC-0 + QC-K; add QC-1/QC-2 only if the candidate itself requires story/AI-production validation |
 
-## 8. Relationship to quality-checklist.md
+## 9. Relationship to quality-checklist.md
 
 `qc-gates.md` decides **when** and **at which layer** to inspect.
 
@@ -275,7 +335,7 @@ Do not turn OPTIONAL items into quotas.
 
 Do not treat them as duplicates.
 
-## 9. Core principle
+## 10. Core principle
 
 > Catch the cheapest error at the earliest layer where it can be diagnosed.
 
