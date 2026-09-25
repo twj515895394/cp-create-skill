@@ -16,6 +16,7 @@ Ordinary reference analysis does **not** automatically modify or expand the know
 Use this pipeline only when one of these is true:
 
 - the user explicitly asks to learn from / absorb / update the skill from reference material,
+- the user asks whether the reference contains assets/content worth adding to the reference library or Skill,
 - the task is maintaining the skill's knowledge base,
 - a reference analysis is being intentionally converted into reusable library knowledge.
 
@@ -24,6 +25,26 @@ Do not run this pipeline for:
 - a one-off script inspired by a reference,
 - local shot edits,
 - generic ideation with no library-maintenance goal.
+
+## 2.1 Concise trigger language
+
+The user does not need to request the maintenance workflow by name.
+
+Treat wording equivalent to any of these as explicit ingestion intent:
+
+- "有没有可以补进参考库的资产内容"
+- "有没有值得沉淀进 Skill 的东西"
+- "看看这个视频能不能给参考库补点资产"
+- "把可复用的东西学进去"
+- "看看有没有新的 Scene / Motif / Micro / AI Safety 内容"
+
+This intent means:
+
+> inspect the reference, decide whether reusable assets exist, and automatically write only QC-K-approved ADD/MERGE changes.
+
+Do not require a second confirmation after candidate review unless the user explicitly asks to approve changes manually.
+
+If every candidate is Existing / Hold / Reject, make no runtime-library changes and report that outcome.
 
 ## 3. Non-negotiable ingestion rules
 
