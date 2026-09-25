@@ -95,7 +95,11 @@ Large creative libraries sit behind routing boundaries:
 - micro-moments/index.md → one relevant lived-in-detail domain, optionally universal
 - ai-video-shot-safety.md → AI generation feasibility, identity/environment separation and complexity budgeting
 
+Current scene domains include Home, City, Entertainment, Outdoor, Travel, Shared Tasks, Season/Weather, and Holidays/Special Days. Domain-specific Micro Moments now cover Home, City, Entertainment, Outdoor, Travel, Shared Tasks, Season/Weather, and Holidays/Special Days.
+
 The libraries are intentionally not loaded as a bundle.
+
+Routing uses exact registered paths whenever the task is clear. Index files are ambiguity fallbacks only. When several labels fit one scene, one **Primary Domain** is selected by the behavior/state driver; Secondary Context does not trigger extra library loading.
 
 ### Specialized references
 
