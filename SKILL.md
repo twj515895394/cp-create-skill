@@ -88,9 +88,39 @@ Before reading specialized references for a substantial task:
 
 Reference count is a context budget, not a completeness score. More files should be loaded only when a new unresolved decision justifies them.
 
-**Persistent knowledge mutation is opt-in:** analyzing a reference never authorizes modifying Scene / Motif / Micro Moment / AI Safety libraries. Knowledge ingestion requires explicit user intent or deliberate skill-maintenance context, then references/knowledge-extraction-pipeline.md + QC-K.
+**Persistent knowledge mutation is opt-in:** analyzing a reference never authorizes modifying Scene / Motif / Micro Moment / AI Safety libraries. Concise intent is enough: wording such as "有没有可以补进参考库的资产内容 / 有没有值得沉淀进 Skill 的内容" counts as explicit opt-in and authorizes approved ADD/MERGE updates after references/knowledge-extraction-pipeline.md + QC-K.
 
 **Routing precedence:** this policy overrides every step-level line below that says `Read references/...`. Those lines identify candidate dependencies only. A candidate reference may be opened only when selected by the router for the current task/stage. Do not use repository-wide/reference-wide search as an inspiration mechanism when routing can identify the needed file directly.
+
+## Knowledge Maintenance trigger semantics
+
+Treat concise user language as sufficient authorization for reference-library maintenance when the meaning is clear.
+
+The following kinds of requests **activate Knowledge Maintenance Mode**:
+
+- "看下这个视频有没有可以补进参考库的资产内容"
+- "看看这个视频有什么可以沉淀进 Skill"
+- "这个参考视频有没有值得学进来的"
+- "把这个视频里可复用的东西补到参考库"
+- "看看有没有新的 Scene / Motif / Micro / AI Safety 资产"
+- equivalent wording that clearly asks whether reusable reference-library assets should be learned or added
+
+When Knowledge Maintenance Mode is activated:
+
+1. do not ask the user to restate the maintenance rules,
+2. do not ask for a second confirmation before updating approved target files,
+3. deconstruct the reference first,
+4. load `references/knowledge-extraction-pipeline.md`,
+5. classify candidates as ADD / MERGE / EXISTING / HOLD / REJECT,
+6. resolve an exact target path for each ADD/MERGE candidate,
+7. dedupe only inside that target file,
+8. run QC-K,
+9. write only approved ADD/MERGE changes,
+10. report what changed and what was skipped.
+
+If the user only says "分析这个视频 / 为什么好看 / 拆解一下" with no learning/library intent, remain in analysis-only mode and do not mutate persistent knowledge.
+
+The phrase "有没有可以补进参考库的资产内容" itself is explicit opt-in authorization to inspect and update the relevant reference assets if warranted.
 
 ## Core workflow
 
@@ -115,7 +145,7 @@ Reference count is a context budget, not a completeness score. More files should
    - Transfer principles, not exact scenes or surface decoration.
    - Candidate reference: references/reference-deconstruction.md.
    - Reference analysis does **not** imply persistent knowledge ingestion.
-   - Only when the user explicitly asks to absorb / learn / update the Skill from the reference, load references/knowledge-extraction-pipeline.md after deconstruction and run QC-K before any library mutation.
+   - When the user explicitly asks to absorb / learn / update the Skill from the reference **or asks whether the reference contains assets worth adding to the reference library**, enter Knowledge Maintenance Mode, load references/knowledge-extraction-pipeline.md after deconstruction, and run QC-K before any library mutation.
    - During ingestion, resolve one exact target file per candidate and dedupe only there; never scan the full reference tree.
 
 3. **Choose a narrative mode and find the story engine**
