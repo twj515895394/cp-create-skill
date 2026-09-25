@@ -200,10 +200,14 @@ Reference count is a context budget, not a completeness score. More files should
     - Use scene state and props selectively to make time feel continuous.
     - Cuts may be motivated by action, gaze, space, time, emotion, sound, rhythm or deliberate contrast.
 
-15. **Run quality control**
-    - Read references/quality-checklist.md.
-    - Fix hard failures.
-    - Treat preferred checks as creative diagnostics, not automatic rejection conditions.
+15. **Run staged quality control**
+    - Read references/qc-gates.md and run the gates appropriate to the task.
+    - QC-0 checks reference routing before context grows.
+    - QC-1 checks story / scene integrity before directing hides weak content.
+    - QC-2 checks production and AI-video feasibility when relevant.
+    - QC-3 checks final delivery against user intent and downstream usability.
+    - Read references/quality-checklist.md for broader final diagnostics.
+    - Fix BLOCK / hard failures; investigate REVISE signals; keep OPTIONAL enrichments optional.
     - Do not flatten an unusual but coherent idea merely to satisfy a checklist.
 
 ## Non-negotiable principles
