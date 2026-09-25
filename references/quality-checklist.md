@@ -179,6 +179,8 @@ Watch for:
 15. **Semantic repetition** — many shots, few distinct things actually happen.
 16. **Character adjective trap** — “稳重/活泼/温柔” never becomes behavior.
 17. **Reference surface copying** — only framing, costumes, sweetness or location is copied while the reference's story mechanism is missed.
+18. **Micro-detail stuffing** — many small gestures are added without revealing state, habit, continuity or relationship, making the scene busier rather than more lived-in.
+19. **Library stack reflex** — Scene, Motif, Micro Moment and AI Safety references are loaded together by default instead of being triggered by the task/stage.
 
 ## Final acceptance test
 
