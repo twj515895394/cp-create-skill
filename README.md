@@ -86,6 +86,17 @@ This repository follows the Agent Skills pattern:
 
 The control layer is intentionally separate from creative knowledge. For substantial tasks, routing happens before specialized reference loading.
 
+### Routed creative knowledge
+
+Large creative libraries sit behind routing boundaries:
+
+- scene-library/index.md → one relevant scene domain by default
+- motif-library/scene-event-motifs.md → cross-scene event seeds when event variety is weak
+- micro-moments/index.md → one relevant lived-in-detail domain, optionally universal
+- ai-video-shot-safety.md → AI generation feasibility, identity/environment separation and complexity budgeting
+
+The libraries are intentionally not loaded as a bundle.
+
 ### Specialized references
 
 - brief-confirmation.md — minimal necessary user confirmation gate
