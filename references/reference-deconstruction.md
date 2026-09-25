@@ -47,6 +47,28 @@ Use the dimensions that are relevant:
 - Does the ending recall or transform something established earlier?
 - Why does the final image feel earned?
 
+### Scene-library signals
+- Which concrete subspaces repeatedly create useful behavior?
+- What can people realistically do in those spaces?
+- Which visual anchors make the environment specific?
+- Separate reusable venue knowledge from the reference's unique story.
+
+### Mother Motif signals
+- Which cross-scene situation families are present: waiting, choosing, searching, sharing, recovering, failing, discovering, synchronized attention, etc.?
+- Identify the abstract event engine without copying the reference's exact gag or sequence.
+
+### Micro Moment signals
+- Which tiny physical behaviors create lived-in texture?
+- Which details show fatigue, object handling, clothing state, waiting, cleanup, or practical care?
+- Extract only reusable behavior; do not preserve creator-specific signature staging.
+
+### AI-safe visual strategy
+When the reference is AI-generated or the user is designing AI video:
+- Where are face-critical reactions placed?
+- Where are wide shots allowed to become back / side-back / silhouette / non-face-dominant?
+- Which complex actions are separated from identity-critical shots?
+- How are environment and identity functions split across adjacent shots?
+
 ## 3. Reference analysis output
 
 When detailed analysis is useful, summarize the reference as:
@@ -61,9 +83,15 @@ When detailed analysis is useful, summarize the reference as:
 | Rhythm | Density, pauses, escalation, cooldown |
 | Visual grammar | Shot/function patterns that support the story |
 | Payoff | What the ending resolves |
+| Scene-library signals | Reusable spaces, activities, visual anchors |
+| Mother Motifs | Cross-scene event families underneath the surface action |
+| Micro Moments | Small reusable lived-in behaviors |
+| AI-safe visual strategy | Identity/environment separation and complexity management when relevant |
 | Transferable principles | What can be reused without copying content |
 
 Do not force this table when the user only wants a quick answer.
+
+Do not automatically load the Scene Library, Motif Library or Micro Moments merely to label the reference. First extract from the supplied material itself. Load a library only when the user also asks to create/expand content and the main router selects it.
 
 ## 4. Surface imitation trap
 
