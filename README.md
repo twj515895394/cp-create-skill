@@ -83,6 +83,7 @@ This repository follows the Agent Skills pattern:
 
 - reference-router.md — selective reference routing, reference budgets, load / exclude rules, and future library routing contract
 - qc-gates.md — staged QC: routing integrity, story/scene integrity, production/AI feasibility, final delivery integrity
+- knowledge-extraction-pipeline.md — opt-in reference-to-library learning with abstraction, target-only dedupe, Add/Merge/Existing/Hold/Reject decisions and QC-K
 
 The control layer is intentionally separate from creative knowledge. For substantial tasks, routing happens before specialized reference loading.
 
@@ -100,6 +101,8 @@ Current scene domains include Home, City, Entertainment, Outdoor, Travel, Shared
 The libraries are intentionally not loaded as a bundle.
 
 Routing uses exact registered paths whenever the task is clear. Index files are ambiguity fallbacks only. When several labels fit one scene, one **Primary Domain** is selected by the behavior/state driver; Secondary Context does not trigger extra library loading.
+
+Reference analysis is not automatic learning. Persistent library updates happen only when explicitly requested or during deliberate Skill maintenance, using the knowledge-extraction pipeline and QC-K.
 
 ### Specialized references
 
@@ -122,6 +125,7 @@ Routing uses exact registered paths whenever the task is clear. Index files are 
 ## Routing regression tests
 
 - tests/reference-routing-cases.md — regression cases for validating include/exclude behavior, reference budgets, domain isolation, and QC-gate selection
+- tests/knowledge-extraction-cases.md — regression cases for abstraction, dedupe, anti-overfitting, evidence strength and safe knowledge promotion
 - Test files are development material and must not be loaded as runtime creative references.
 
 ## Typical triggers
