@@ -200,6 +200,24 @@ Final diagnostic reference:
 
 QC must inspect the work already produced. QC is not permission to load broad new creative references.
 
+### J. Knowledge-base ingestion from reference material
+
+Use only when the user explicitly asks to learn from / absorb / update the Skill from reference material, or during intentional knowledge-base maintenance.
+
+Primary:
+- `reference-deconstruction.md`
+- `knowledge-extraction-pipeline.md`
+
+Control:
+- `qc-gates.md` → QC-K
+
+Target knowledge files:
+- resolve exact Scene / Motif / Micro / AI Safety path only after candidate abstraction,
+- dedupe only inside that exact target file,
+- do not list directories or broad-search references for duplicates.
+
+Ordinary reference analysis must not trigger persistent library mutation.
+
 ## 5. Current reference registry
 
 Use this registry as a **routing map**, not a reading list.
@@ -222,6 +240,7 @@ Use this registry as a **routing map**, not a reading list.
 | `examples.md` | an example is needed to resolve ambiguity | rules are already clear |
 | `quality-checklist.md` | final or explicit QC | early ideation before anything exists to inspect |
 | `qc-gates.md` | multi-stage task, production plan, or final QC | tiny factual/local edit where a gate adds no value |
+| `knowledge-extraction-pipeline.md` | explicit reference-to-library learning / skill maintenance | ordinary reference analysis with no ingestion request |
 | `scene-library/index.md` | genuine domain ambiguity / unregistered future domain | domain is clear from the request |
 | `motif-library/scene-event-motifs.md` | setting exists but event seeds/variation are weak | event is already concrete |
 | `micro-moments/index.md` | genuine micro-domain ambiguity / unregistered future domain | concrete scene context already maps directly to a micro file |
@@ -371,7 +390,27 @@ Do not pre-load all three.
 
 Load a new domain only when the workflow reaches that section or when cross-domain continuity must be designed at the same time.
 
-## 9. Routing QC trigger
+## 9. Knowledge-ingestion routing
+
+Knowledge ingestion is target-first, not search-first.
+
+For each approved candidate:
+1. classify candidate type,
+2. select Primary Domain if applicable,
+3. resolve one exact target path from the direct registry,
+4. open only that target file for dedupe,
+5. decide Add / Merge / Existing / Hold / Reject,
+6. run QC-K.
+
+Do not:
+- search all reference files for similar wording,
+- inspect sibling domains to compare,
+- load indexes when the target path is already known,
+- duplicate the same abstraction across multiple domains.
+
+If the candidate cannot be confidently routed, Hold it. Do not expand the scan radius.
+
+## 10. Routing QC trigger
 
 Before expanding the reference set, ask:
 
@@ -383,7 +422,7 @@ Before expanding the reference set, ask:
 
 If the answer is weak, do not load it.
 
-## 10. Core principle
+## 11. Core principle
 
 > More knowledge is not automatically better context.
 
