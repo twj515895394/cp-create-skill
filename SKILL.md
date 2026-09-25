@@ -126,12 +126,14 @@ Reference count is a context budget, not a completeness score. More files should
    - Use behavioral tendencies to generate possibilities, not to lock characters into rigid archetypes.
    - Read references/character-behavior-engine.md.
 
-5. **Expand the premise creatively**
+5. **Expand the premise creatively and route scene-domain knowledge only when needed**
    - Treat rules and relationship modules as guardrails, not as the content itself.
    - When the user gives a destination/theme, proactively discover or invent concrete things worth doing there.
    - For named real venues, research public experience information when tools are available instead of asking the user to supply every project.
    - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
-   - Read references/creative-expansion.md.
+   - Candidate reference: references/creative-expansion.md.
+   - When concrete domain knowledge is needed, route through references/scene-library/index.md and load one relevant domain file by default.
+   - Do not load Scene Library when the user has already supplied complete concrete scenes and only later production work is requested.
 
 6. **Build Scene Events and notice when a moment could become a mini-story**
    - Think in concrete Scene Events rather than abstract emotional labels alone.
@@ -142,7 +144,10 @@ Reference count is a context budget, not a completeness score. More files should
    - Trigger → action → reaction → aftermath → exit state is one useful lens among many, not a required structure.
    - Track useful state carryover such as props, fatigue, messy clothing, route choices, jokes, information, time of day or a change in who leads when it helps the experience feel cumulative.
    - Ordinary, romantic or quiet scenes may contain only one small action—or almost no action—if that is what the piece needs.
-   - Read references/event-engine.md.
+   - Candidate reference: references/event-engine.md.
+   - If the setting is clear but event variety is weak, selectively load references/motif-library/scene-event-motifs.md.
+   - If the Scene Event is already concrete but lacks lived-in physical texture, selectively route through references/micro-moments/index.md and load only the relevant micro domain.
+   - Do not use Micro Moments to compensate for a vague Scene Event; fix the event first.
 
 7. **Design the story before shots**
    - Arrange events so the relationship and mood change because of what the couple experiences.
@@ -168,7 +173,8 @@ Reference count is a context budget, not a completeness score. More files should
     - Group adjacent shots when they share location, time, continuity, action and emotional purpose.
     - Prefer 5–10 second generation segments when appropriate, often 6–8 seconds, but do not force duration at the expense of coherence.
     - One segment should ideally feel like one coherent moment with internal progression.
-    - Read references/generation-segments.md.
+    - Candidate reference: references/generation-segments.md.
+    - For AI-video work with identity, motion, multi-person, wide-shot or continuity risk, load references/ai-video-shot-safety.md.
 
 11. **Direct with Vlog language appropriate to the story**
     - For intimate Vlogs, generally prioritize close-up / close shot / detail, then medium, with wide / long shots used purposefully.
@@ -177,8 +183,9 @@ Reference count is a context budget, not a completeness score. More files should
     - Camera movement can follow action, reveal information, redirect attention, reshape space, support emotion, create rhythm, heighten subjectivity, or serve a deliberate visual style. Treat “motivation” broadly rather than requiring a literal story reason.
     - Blocking, distance, screen direction, sound, timing, editing, facial reaction and physical intimacy are all possible relationship tools. Use whichever combination the material invites.
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
-    - Read references/shot-language.md.
-    - For AI-video work, run QC-2 Production & AI Feasibility after shot / generation-segment design. Do not ask one risky shot to carry facial identity, complex action, complex camera movement and environmental scale when the functions can be separated.
+    - Candidate reference: references/shot-language.md.
+    - For AI-video work, references/ai-video-shot-safety.md is the production-feasibility companion to shot-language when selected by the router.
+    - Run QC-2 Production & AI Feasibility after shot / generation-segment design. Do not ask one risky shot to carry facial identity, complex action, complex camera movement and environmental scale when the functions can be separated.
 
 12. **Choose relationship expression from the actual situation**
     - Eye contact, hand-holding, hugs, kisses, physical closeness, teasing, practical care, shared tasks, silence and many other behaviors are all valid tools.
@@ -277,6 +284,10 @@ Do not recursively load the references directory. A listed file is a routing opt
 - Output fields and handoff format → references/output-schema.md
 - Acceptance criteria and anti-patterns → references/quality-checklist.md
 - Concrete structural examples → references/examples.md
+- Scene-domain router / concrete environment possibilities → references/scene-library/index.md → one relevant domain
+- Cross-scene reusable event seeds when event variety is weak → references/motif-library/scene-event-motifs.md
+- Lived-in physical details after Scene Events are concrete → references/micro-moments/index.md → one relevant domain, optionally universal
+- AI-video identity / motion / wide-shot / complexity feasibility → references/ai-video-shot-safety.md
 
 ## Default output order
 
