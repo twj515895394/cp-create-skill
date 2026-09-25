@@ -36,6 +36,25 @@ Do not use broad repository/reference text search to discover inspiration across
 
 An index may point to a domain file. Loading the index does **not** authorize loading sibling files.
 
+### Zero-scan path resolution
+
+Runtime routing must prefer **known path resolution** over discovery.
+
+When the task clearly maps to a registered domain:
+- open the exact registered file directly,
+- do **not** list the directory,
+- do **not** search the repository for related reference files,
+- do **not** open the domain index first.
+
+Use an index only when:
+- the domain is materially ambiguous,
+- the request spans an unfamiliar category not covered by the direct routing table,
+- or a newly added domain has not yet been registered here.
+
+Directory listing or broad reference search is a maintenance/debug action, not a normal creative-routing action.
+
+If a new library/domain is added, update this router's direct path registry so future runtime work does not need discovery scans.
+
 ### No "just in case" loading
 
 A reference must have a concrete job in the current response.
@@ -123,7 +142,7 @@ Primary references:
 Conditional:
 - `event-engine.md` when candidate activities must become Scene Events.
 
-When concrete location/activity knowledge is needed, route through `scene-library/index.md` and select exactly one relevant scene domain by default. Never load all domains.
+When concrete location/activity knowledge is needed, use the direct Scene Domain table in this router and open exactly one relevant domain file by default. Open `scene-library/index.md` only if the domain is genuinely ambiguous. Never list or load all domains.
 
 ### E. Story / event architecture
 
@@ -203,9 +222,9 @@ Use this registry as a **routing map**, not a reading list.
 | `examples.md` | an example is needed to resolve ambiguity | rules are already clear |
 | `quality-checklist.md` | final or explicit QC | early ideation before anything exists to inspect |
 | `qc-gates.md` | multi-stage task, production plan, or final QC | tiny factual/local edit where a gate adds no value |
-| `scene-library/index.md` | scene-domain selection is actually needed | exact scene content is already supplied |
+| `scene-library/index.md` | genuine domain ambiguity / unregistered future domain | domain is clear from the request |
 | `motif-library/scene-event-motifs.md` | setting exists but event seeds/variation are weak | event is already concrete |
-| `micro-moments/index.md` | lived-in physical texture needs expansion | event layer is still vague |
+| `micro-moments/index.md` | genuine micro-domain ambiguity / unregistered future domain | concrete scene context already maps directly to a micro file |
 | `ai-video-shot-safety.md` | AI shot/generation feasibility is relevant | non-AI story-only work |
 
 ## 6. Large-library routing contract
@@ -214,25 +233,29 @@ Large libraries must remain behind an index/router boundary.
 
 ### Scene Library
 
-Active pattern:
+Direct runtime routing:
 
-`scene-library/index.md` → exactly one relevant domain file by default.
+| User setting / activity | Direct file |
+|---|---|
+| bedroom, kitchen, living room, bathroom, balcony, domestic routine, staying in | `scene-library/home-life.md` |
+| street, convenience store, supermarket, mall, café, restaurant, cinema, bookstore, elevator, parking | `scene-library/city-daily.md` |
+| theme/amusement park, zoo, aquarium, arcade, exhibition, public show, leisure venue | `scene-library/entertainment.md` |
+| park, picnic, cycling, lake, river, beach, camping, trail, open-air leisure | `scene-library/outdoor-leisure.md` |
+| airport, railway, road trip, transit, arrival, hotel, homestay, departure/return | `scene-library/travel.md` |
+| cooking/packing/cleaning/moving/repair/pet care where coordination itself is the story engine | `scene-library/shared-tasks.md` |
+| rain, snow, heat, wind, autumn, summer night, weather/season materially driving behavior | `scene-library/season-weather.md` |
+| birthday, anniversary, New Year, Christmas, Spring Festival, Valentine's, special-day ritual | `scene-library/holidays-special-days.md` |
 
-Current domains:
-- `scene-library/home-life.md`
-- `scene-library/city-daily.md`
-- `scene-library/entertainment.md`
-- `scene-library/outdoor-leisure.md`
-- `scene-library/travel.md`
-- `scene-library/shared-tasks.md`
-- `scene-library/season-weather.md`
-- `scene-library/holidays-special-days.md`
+Fallback only:
+- `scene-library/index.md` is for genuine domain ambiguity or future unregistered domains.
+- Do not open the index for a clear match such as "酒店" → travel or "便利店" → city-daily.
 
 Rules:
-- open the index only when scene-domain selection is needed,
-- select one domain,
-- load a second domain only for a genuinely cross-domain story,
-- never enumerate all scene files for inspiration,
+- open one domain by default,
+- load a second domain only for a genuinely cross-domain story section,
+- load additional domains lazily when the workflow reaches them,
+- never list the directory to discover inspiration,
+- never enumerate sibling files,
 - a scene-domain reference does not automatically authorize Micro Moment or Motif loading.
 
 ### Mother Motif Library
@@ -252,23 +275,26 @@ Select motifs; do not treat the file as a sequence to complete.
 
 ### Micro Moments
 
-Active pattern:
+Direct runtime routing:
 
-`micro-moments/index.md` → one relevant domain file, optionally `universal.md`.
+| Concrete scene context | Direct file |
+|---|---|
+| generic body/object handling needed across domains | `micro-moments/universal.md` |
+| bedroom, bathroom, kitchen, dining, living room, laundry, entryway | `micro-moments/home.md` |
+| street, store, supermarket, mall, café/restaurant, cinema, elevator, parking | `micro-moments/city.md` |
+| theme park, attraction, queue, show, arcade, exhibition | `micro-moments/entertainment.md` |
+| airport/station, transit, luggage, hotel, arrival/departure | `micro-moments/travel.md` |
+| park, beach, picnic, cycling, camping, trail | `micro-moments/outdoor.md` |
 
-Current domain files:
-- `micro-moments/home.md`
-- `micro-moments/city.md`
-- `micro-moments/entertainment.md`
-- `micro-moments/travel.md`
-- `micro-moments/outdoor.md`
+Fallback only:
+- `micro-moments/index.md` is for genuine ambiguity or future unregistered domains.
+- Do not open the index when the scene context is already obvious.
 
 Rules:
 - load Micro Moments only after the underlying Scene Event is concrete,
-- use them to add lived-in physical texture, state, habit, object continuity or transition,
-- do not use them as a mandatory checklist,
-- prefer one domain file; add `universal.md` only when it contributes a distinct need,
-- never load all micro-moment domains,
+- prefer one domain file,
+- add `universal.md` only when it contributes a distinct need,
+- never list or load all Micro Moment files,
 - do not use micro-detail to compensate for a vague event layer.
 
 ### AI Video Shot Safety
