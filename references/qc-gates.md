@@ -39,6 +39,9 @@ Run after task classification and before broad reference loading.
 - Loading AI production guidance for a non-AI screenplay.
 - Loading examples because the rules already loaded feel abstract.
 - Adding references without being able to name the decision they support.
+- Loading Scene + Motif + Micro Moment libraries by default simply because the task is a complete Vlog.
+- Loading Micro Moments before the underlying Scene Event is concrete.
+- Opening a second scene domain because it might provide extra inspiration rather than because the story actually enters that domain.
 
 ### Repair
 
@@ -74,6 +77,13 @@ Run after the Content Map / Scene Route or equivalent story-event layer exists a
 - High-value scenes are not made only of headline events.
 - Ordinary actions may appear between major beats when they strengthen realism.
 - Small details support the scene rather than becoming decorative clutter.
+- Micro-detail density remains subordinate to the main Scene Event.
+
+#### Micro-detail density
+- A scene does not accumulate many unrelated fidgets just to look realistic.
+- Micro Moments reveal state, habit, object continuity, transition, or relationship behavior.
+- If removing a micro action changes nothing and the shot is already busy, remove it.
+- For AI video, micro actions do not overload the complexity budget.
 
 #### Rhythm
 - The piece has appropriate variation in density, energy, and breathing room.
