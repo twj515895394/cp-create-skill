@@ -16,6 +16,8 @@ This file is a routing layer, not a creative knowledge library.
 
 ### Route first, load second
 
+Step-level reference mentions in `SKILL.md` are candidates, not unconditional reads. Router selection has precedence.
+
 Before opening specialized references:
 
 1. classify the user's task,
@@ -29,6 +31,8 @@ Do not browse references first and decide relevance afterward.
 ### No recursive browsing
 
 Never recursively read a reference directory merely because one file in that directory is relevant.
+
+Do not use broad repository/reference text search to discover inspiration across the whole library when the task can be routed by type/domain first. Search inside the selected file/domain only when exact retrieval is necessary.
 
 An index may point to a domain file. Loading the index does **not** authorize loading sibling files.
 
