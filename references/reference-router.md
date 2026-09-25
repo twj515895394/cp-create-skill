@@ -210,7 +210,7 @@ Use this registry as a **routing map**, not a reading list.
 
 ## 6. Large-library routing contract
 
-Large libraries must be added behind an index/router boundary.
+Large libraries must remain behind an index/router boundary.
 
 ### Scene Library
 
@@ -252,15 +252,24 @@ Select motifs; do not treat the file as a sequence to complete.
 
 ### Micro Moments
 
-Expected pattern:
+Active pattern:
 
-`micro-moments/index.md` → universal or one relevant domain file.
+`micro-moments/index.md` → one relevant domain file, optionally `universal.md`.
+
+Current domain files:
+- `micro-moments/home.md`
+- `micro-moments/city.md`
+- `micro-moments/entertainment.md`
+- `micro-moments/travel.md`
+- `micro-moments/outdoor.md`
 
 Rules:
-- use it to add lived-in behavioral texture,
-- do not use it as a mandatory checklist,
-- prefer one domain file plus `universal.md` only when both materially help,
-- never load all micro-moment domains.
+- load Micro Moments only after the underlying Scene Event is concrete,
+- use them to add lived-in physical texture, state, habit, object continuity or transition,
+- do not use them as a mandatory checklist,
+- prefer one domain file; add `universal.md` only when it contributes a distinct need,
+- never load all micro-moment domains,
+- do not use micro-detail to compensate for a vague event layer.
 
 ### AI Video Shot Safety
 
