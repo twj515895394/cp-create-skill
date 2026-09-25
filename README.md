@@ -104,6 +104,26 @@ Routing uses exact registered paths whenever the task is clear. Index files are 
 
 Reference analysis is not automatic learning. Persistent library updates happen only when explicitly requested or during deliberate Skill maintenance, using the knowledge-extraction pipeline and QC-K.
 
+### Short maintenance trigger
+
+You do not need to spell out the maintenance workflow.
+
+A request such as:
+
+> "参考这个视频，看下有没有可以补进参考库的资产内容。"
+
+is enough to activate Knowledge Maintenance Mode.
+
+The skill will automatically:
+- deconstruct the reference,
+- extract reusable candidates,
+- target-route and dedupe without broad scanning,
+- run QC-K,
+- write only approved ADD/MERGE changes,
+- report Existing / Hold / Reject items without adding them.
+
+Plain analysis requests do not mutate the reference library.
+
 ### Specialized references
 
 - brief-confirmation.md — minimal necessary user confirmation gate
