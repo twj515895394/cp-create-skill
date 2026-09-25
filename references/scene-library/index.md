@@ -32,6 +32,12 @@ This file is an index, not a creative scene catalog and not a discovery surface.
 
 ## Ambiguity rule
 
+### Primary Domain rule
+
+Route by **what causally drives the characters' behavior/state**, not only by background.
+
+Do not open multiple domain files to compare them. Use `references/reference-router.md` as the authoritative tie-break table.
+
 Route by **what the characters are actually doing**, not only by background.
 
 Examples:
