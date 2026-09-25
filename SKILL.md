@@ -135,6 +135,8 @@ Reference count is a context budget, not a completeness score. More files should
    - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
    - Candidate reference: references/creative-expansion.md.
    - When concrete domain knowledge is needed, use the direct Scene Domain map in references/reference-router.md and load the exact domain file directly.
+   - When multiple labels fit, choose one **Primary Domain** by the causal behavior/state driver using the router's tie-break table.
+   - Treat other matching labels as Secondary Context only; Secondary Context does not authorize loading another domain file.
    - Use references/scene-library/index.md only when the domain is genuinely ambiguous or unregistered.
    - Do not load Scene Library when the user has already supplied complete concrete scenes and only later production work is requested.
 
@@ -150,6 +152,7 @@ Reference count is a context budget, not a completeness score. More files should
    - Candidate reference: references/event-engine.md.
    - If the setting is clear but event variety is weak, selectively load references/motif-library/scene-event-motifs.md.
    - If the Scene Event is already concrete but lacks lived-in physical texture, use the direct Micro Moments map in references/reference-router.md and load the exact relevant micro file.
+   - Micro routing inherits the selected Primary Domain when a matching micro file exists; do not reopen domain classification or scan alternatives.
    - Use references/micro-moments/index.md only when the micro domain is genuinely ambiguous or unregistered.
    - Do not use Micro Moments to compensate for a vague Scene Event; fix the event first.
 
