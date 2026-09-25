@@ -29,6 +29,7 @@ Run after task classification and before broad reference loading.
 - Existing user-provided facts are being reused instead of rediscovered.
 - Scene-domain references are narrow and domain-specific.
 - AI-production references are loaded only when AI production is relevant.
+- Exact registered path resolution is used before any index, directory listing, or broad search.
 
 ### Failure patterns
 
@@ -42,6 +43,10 @@ Run after task classification and before broad reference loading.
 - Loading Scene + Motif + Micro Moment libraries by default simply because the task is a complete Vlog.
 - Loading Micro Moments before the underlying Scene Event is concrete.
 - Opening a second scene domain because it might provide extra inspiration rather than because the story actually enters that domain.
+- Listing a reference directory to discover files when a direct route is registered.
+- Broad-searching the repository/references for "possibly relevant" knowledge instead of resolving the path by task/domain.
+- Opening `scene-library/index.md` or `micro-moments/index.md` despite an obvious direct domain match.
+- Reading sibling library files to compare options before any concrete ambiguity exists.
 
 ### Repair
 
