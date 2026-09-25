@@ -202,7 +202,7 @@ QC must inspect the work already produced. QC is not permission to load broad ne
 
 ### J. Knowledge-base ingestion from reference material
 
-Use only when the user explicitly asks to learn from / absorb / update the Skill from reference material, or during intentional knowledge-base maintenance.
+Use when the user explicitly asks to learn from / absorb / update the Skill from reference material, **or asks whether the reference contains assets/content worth adding to the reference library**, or during intentional knowledge-base maintenance. Concise wording is sufficient; the user does not need to name this mode.
 
 Primary:
 - `reference-deconstruction.md`
@@ -217,6 +217,14 @@ Target knowledge files:
 - do not list directories or broad-search references for duplicates.
 
 Ordinary reference analysis must not trigger persistent library mutation.
+
+Trigger interpretation examples:
+- "分析这个视频为什么自然" → analysis only
+- "分析这个视频，有没有可以补进参考库的资产内容" → Knowledge Maintenance Mode
+- "看看这个参考能不能沉淀点东西" → Knowledge Maintenance Mode
+- "用这个视频做一个新剧本" → creation task, not ingestion unless library learning is also requested
+
+When maintenance intent is present, approved ADD/MERGE changes may be written without asking for a second confirmation.
 
 ## 5. Current reference registry
 
