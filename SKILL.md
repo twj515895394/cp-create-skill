@@ -87,6 +87,8 @@ Before reading specialized references for a substantial task:
 
 Reference count is a context budget, not a completeness score. More files should be loaded only when a new unresolved decision justifies them.
 
+**Routing precedence:** this policy overrides every step-level line below that says `Read references/...`. Those lines identify candidate dependencies only. A candidate reference may be opened only when selected by the router for the current task/stage. Do not use repository-wide/reference-wide search as an inspiration mechanism when routing can identify the needed file directly.
+
 ## Core workflow
 
 0. **Route references before specialized loading**
@@ -176,7 +178,7 @@ Reference count is a context budget, not a completeness score. More files should
     - Blocking, distance, screen direction, sound, timing, editing, facial reaction and physical intimacy are all possible relationship tools. Use whichever combination the material invites.
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
     - Read references/shot-language.md.
-   - For AI-video work, run QC-2 Production & AI Feasibility after shot / generation-segment design. Do not ask one risky shot to carry facial identity, complex action, complex camera movement and environmental scale when the functions can be separated.
+    - For AI-video work, run QC-2 Production & AI Feasibility after shot / generation-segment design. Do not ask one risky shot to carry facial identity, complex action, complex camera movement and environmental scale when the functions can be separated.
 
 12. **Choose relationship expression from the actual situation**
     - Eye contact, hand-holding, hugs, kisses, physical closeness, teasing, practical care, shared tasks, silence and many other behaviors are all valid tools.
