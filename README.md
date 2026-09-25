@@ -79,6 +79,15 @@ This repository follows the Agent Skills pattern:
 
 ## References
 
+### Control layer
+
+- reference-router.md — selective reference routing, reference budgets, load / exclude rules, and future library routing contract
+- qc-gates.md — staged QC: routing integrity, story/scene integrity, production/AI feasibility, final delivery integrity
+
+The control layer is intentionally separate from creative knowledge. For substantial tasks, routing happens before specialized reference loading.
+
+### Specialized references
+
 - brief-confirmation.md — minimal necessary user confirmation gate
 - reference-deconstruction.md — structural analysis of reference videos/scripts without surface copying
 - character-behavior-engine.md — converting character traits into story-generating behavior
@@ -94,6 +103,11 @@ This repository follows the Agent Skills pattern:
 - output-schema.md — story, segment and director-script schema
 - quality-checklist.md — hard failures, strong signals and optional enrichment
 - examples.md — runtime-based planning examples
+
+## Routing regression tests
+
+- tests/reference-routing-cases.md — regression cases for validating include/exclude behavior, reference budgets, domain isolation, and QC-gate selection
+- Test files are development material and must not be loaded as runtime creative references.
 
 ## Typical triggers
 
