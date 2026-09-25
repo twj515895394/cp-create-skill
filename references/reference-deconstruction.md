@@ -146,3 +146,24 @@ When both a reference and a draft/generated video are available, compare them by
 Do not reduce the comparison to “reference has more shots” or “reference is more cinematic.”
 
 Often the stronger reference has fewer shots but more meaningful event variation.
+
+
+## 7. Promotion into persistent knowledge
+
+Reference deconstruction identifies reusable signals; it does **not** automatically write them into the Skill's runtime knowledge libraries.
+
+When the user explicitly asks to absorb/learn/update the Skill from the reference:
+
+1. finish deconstruction first,
+2. read `knowledge-extraction-pipeline.md`,
+3. convert observations into creator-independent candidates,
+4. route each candidate to one exact target file,
+5. dedupe only in that target file,
+6. decide Add / Merge / Existing / Hold / Reject,
+7. run QC-K from `qc-gates.md`,
+8. modify only approved target files.
+
+When the user only asks for analysis:
+- do not mutate Scene/Motif/Micro/Safety libraries,
+- do not broad-search existing knowledge for ingestion,
+- do not run maintenance writes.
