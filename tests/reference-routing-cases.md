@@ -40,7 +40,7 @@ Expected:
 - Primary task: Complete Vlog + AI-video director plan
 - Load current core: `event-engine.md`, `story-structure.md`, `shot-language.md`, `generation-segments.md`
 - Conditional current: `character-behavior-engine.md` if character contrast matters; `creative-expansion.md` / `scene-specificity.md` for route specificity
-- Future libraries: exactly `scene-library/entertainment.md`, relevant Micro Moments, Motif Library, `ai-video-shot-safety.md`
+- Domain libraries: route through `scene-library/index.md` to exactly `scene-library/entertainment.md`; load `micro-moments/entertainment.md` only for lived-in texture; load `motif-library/scene-event-motifs.md` only if event variety is weak; load `ai-video-shot-safety.md` for AI production
 - Must exclude: home, travel, holiday domains unless the actual concept crosses into them
 - QC: QC-0 + QC-1 + QC-2 + QC-3
 
@@ -51,7 +51,7 @@ User intent:
 
 Expected:
 - Primary task: Scene / activity expansion
-- Future load: `scene-library/travel.md` + `micro-moments/travel.md`
+- Load: route through `scene-library/index.md` to `scene-library/travel.md`; route through `micro-moments/index.md` to `micro-moments/travel.md`
 - Conditional: Motif Library only if event seeds are also requested
 - Must exclude: `story-structure.md`, `generation-segments.md`, `shot-language.md`, unrelated scene domains
 - QC: QC-0 + lightweight QC-1 + QC-3
@@ -100,7 +100,7 @@ User intent:
 Expected:
 - Primary task: AI-video production segmentation
 - Load: `generation-segments.md`
-- Conditional: `shot-language.md`, `performance-writing.md`, future `ai-video-shot-safety.md`
+- Conditional: `shot-language.md`, `performance-writing.md`, `ai-video-shot-safety.md`
 - Must exclude: Scene Library, creative expansion, story structure unless the supplied structure itself is broken
 - QC: QC-0 + QC-2 + QC-3
 
@@ -112,7 +112,7 @@ User intent:
 Expected:
 - Primary task: Scene/event ideation
 - Load: `event-engine.md`
-- Conditional: `style-modes.md` if mode is unclear; future season/weather domain only if concrete scene expansion is needed
+- Conditional: `style-modes.md` if mode is unclear; `scene-library/season-weather.md` only if concrete scene expansion is needed
 - Must exclude: `shot-language.md`, `generation-segments.md`, `output-schema.md`, AI Shot Safety
 - QC: QC-0 + lightweight QC-1 + QC-3
 
@@ -181,3 +181,29 @@ The router passes this regression set when:
 ## Design rule under test
 
 > Route by task and stage first; retrieve knowledge second.
+
+
+## Case 13 — Scene is concrete, texture is weak
+
+User intent:
+"游乐园长椅休息这个场景已经确定了，但太像摆拍，帮我加一些真实生活小动作。"
+
+Expected:
+- Primary task: lived-in texture refinement
+- Load: `micro-moments/entertainment.md`
+- Conditional: `micro-moments/universal.md` only if distinct generic body/object details are still needed
+- Must exclude: full Scene Library, Motif Library, story structure, output schema
+- Reason: underlying Scene Event is already concrete; do not reopen story generation
+- QC: QC-0 + lightweight QC-1 + QC-3
+
+## Case 14 — Setting exists, event is vague
+
+User intent:
+"场景就是便利店，但我不知道两个人在里面发生什么，给我几个自然事件。"
+
+Expected:
+- Primary task: scene-event ideation
+- Load: `scene-library/city-daily.md`
+- Conditional: `motif-library/scene-event-motifs.md` if scene-domain affordances alone are insufficient
+- Must exclude: Micro Moments until one event is selected; AI Shot Safety unless AI directing is requested
+- QC: QC-0 + QC-1 + QC-3
