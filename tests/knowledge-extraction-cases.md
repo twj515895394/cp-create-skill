@@ -202,3 +202,61 @@ Expected:
 ## Core rule under test
 
 > Learn from the reference without making the library look like the reference.
+
+
+## Case K17 — Short asset-check trigger
+
+User:
+"参考这个视频，看下有没有可以补进参考库的资产内容。"
+
+Expected:
+- Activate Knowledge Maintenance Mode
+- No clarification asking the user to restate rules
+- Run deconstruction → extraction → target-only dedupe → QC-K
+- Automatically write approved ADD/MERGE changes
+- Report Existing / Hold / Reject
+- Do not ask for a second confirmation before approved writes
+
+## Case K18 — Analysis-only wording must not mutate
+
+User:
+"参考这个视频，分析下为什么做得自然。"
+
+Expected:
+- Reference deconstruction only
+- Do not activate Knowledge Maintenance Mode
+- Do not mutate Scene / Motif / Micro / AI Safety libraries
+- Do not run target-file dedupe for ingestion
+
+## Case K19 — Informal learning wording
+
+User:
+"看看这个视频有没有什么值得学进 Skill 的。"
+
+Expected:
+- Activate Knowledge Maintenance Mode
+- Treat wording as explicit opt-in
+- Apply the full extraction pipeline and QC-K
+- Write only approved ADD/MERGE changes
+
+## Case K20 — Creation from reference is not ingestion by itself
+
+User:
+"参考这个视频的感觉，帮我重新设计一个新的情侣 Vlog。"
+
+Expected:
+- Analyze mechanisms as needed for creation
+- Do not mutate persistent knowledge unless the user also asks to learn/沉淀/补参考库
+- Use normal creative routing after deconstruction
+
+## Trigger invariant
+
+Meaning controls the mode, not exact keywords.
+
+Equivalent concise wording about:
+- 补进参考库,
+- 沉淀进 Skill,
+- 学进 Skill,
+- 看有没有可复用资产
+
+counts as explicit Knowledge Maintenance authorization.
