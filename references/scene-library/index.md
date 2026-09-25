@@ -1,13 +1,16 @@
-# Scene Library Router
+# Scene Library Index — Ambiguity Fallback
 
 ## Purpose
 
-Route a scene-design task to the **smallest relevant scene domain**.
+This file exists only for **genuine routing ambiguity or future unregistered domains**.
 
-This file is an index, not a creative scene catalog.
+For normal runtime work, `references/reference-router.md` contains the direct setting → file map. If the user's setting clearly matches that map, do not load this file.
+
+This file is an index, not a creative scene catalog and not a discovery surface.
 
 ## Loading contract
 
+0. First confirm that direct routing in `reference-router.md` cannot resolve the domain.
 1. Identify the concrete environment or activity family.
 2. Select **one domain file by default**.
 3. Load a second domain only when the current story section genuinely crosses domains.
