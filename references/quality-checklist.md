@@ -84,6 +84,21 @@ State continuity is an enhancer, not a requirement in every scene.
 - Is there an opportunity for either character to reveal another side **if the situation supports it**?
 - Does the relationship change in behavior when the story calls for change, rather than because progression is treated as mandatory?
 
+### Knowledge-ingestion integrity
+
+When the task explicitly updates the Skill from references:
+
+- Was the reference first analyzed without mutating libraries?
+- Were candidates abstracted away from creator identity, exact dialogue, unique gags and shot-for-shot order?
+- Was each candidate routed to one exact target file?
+- Was duplicate checking restricted to that target file?
+- Were Existing/Merge/Hold/Reject used instead of treating every observation as Add?
+- Were Secondary Context and sibling domains left untouched?
+- Were broad AI-production claims held back unless evidence supports them?
+- Did the ingestion keep runtime files canonical and compact?
+
+Run QC-K from `qc-gates.md`.
+
 ### AI-video production feasibility
 
 When AI video is part of the workflow:
@@ -181,6 +196,11 @@ Watch for:
 17. **Reference surface copying** — only framing, costumes, sweetness or location is copied while the reference's story mechanism is missed.
 18. **Micro-detail stuffing** — many small gestures are added without revealing state, habit, continuity or relationship, making the scene busier rather than more lived-in.
 19. **Library stack reflex** — Scene, Motif, Micro Moment and AI Safety references are loaded together by default instead of being triggered by the task/stage.
+20. **Reference-ingestion bleed** — a one-off analysis silently mutates persistent knowledge even though the user did not ask the Skill to learn/update.
+21. **Source overfitting** — one creator's exact gag, timing, shot order or stylistic habit is promoted into general runtime knowledge.
+22. **Duplicate accretion** — near-identical knowledge is appended because another reference confirms it instead of marking Existing or merging into one canonical entry.
+23. **Cross-domain duplication** — the same abstraction is copied into Primary and Secondary Context domains rather than stored once at the correct level.
+24. **Evidence inflation** — one ambiguous AI outcome or one reference is promoted into a broad production rule beyond what the evidence supports.
 
 ## Final acceptance test
 
