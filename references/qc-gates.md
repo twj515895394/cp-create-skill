@@ -30,6 +30,7 @@ Run after task classification and before broad reference loading.
 - Scene-domain references are narrow and domain-specific.
 - AI-production references are loaded only when AI production is relevant.
 - Exact registered path resolution is used before any index, directory listing, or broad search.
+- One Primary Domain is selected per story section when domain knowledge is needed; Secondary Context does not trigger extra loading.
 
 ### Failure patterns
 
@@ -47,6 +48,9 @@ Run after task classification and before broad reference loading.
 - Broad-searching the repository/references for "possibly relevant" knowledge instead of resolving the path by task/domain.
 - Opening `scene-library/index.md` or `micro-moments/index.md` despite an obvious direct domain match.
 - Reading sibling library files to compare options before any concrete ambiguity exists.
+- Loading a second Scene Domain merely because it appears as Secondary Context (weather, holiday decoration, physical location, etc.) while another domain already drives the behavior.
+- Reopening domain classification at the Micro Moment stage instead of inheriting the selected Primary Domain.
+- Loading two domains in one story section without being able to name two distinct decisions that genuinely require both.
 
 ### Repair
 
