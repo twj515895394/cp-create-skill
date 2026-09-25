@@ -179,7 +179,10 @@ The router passes this regression set when:
 - shot references do not leak into story-only tasks,
 - story/scene expansion references do not leak into local shot edits,
 - final QC does not become an excuse to load the whole library,
-- the selected reference set can be justified file by file.
+- the selected reference set can be justified file by file,
+- one Primary Domain is chosen per story section when domain knowledge is needed,
+- Secondary Context alone never authorizes an additional domain load,
+- Micro routing inherits the Primary Domain instead of reclassifying/scanning.
 
 ## Design rule under test
 
@@ -263,3 +266,140 @@ Expected:
 - Do not list the directory or read sibling domain files
 - If the index still cannot resolve the domain, proceed with generic event logic or state the limitation rather than scanning the library
 - QC: QC-0 + QC-3
+
+
+## Case 19 — Rainy mall, weather is decorative
+
+User intent:
+"下雨天两个人去商场逛街，主要就是逛店、试东西、吃饭。"
+
+Expected:
+- Primary Domain: City Daily
+- Load: `scene-library/city-daily.md` directly
+- Secondary Context: rain
+- Must exclude: `scene-library/season-weather.md` because rain does not materially change the event engine
+- Micro: `micro-moments/city.md` only if lived-in detail is requested
+- Must not load: `micro-moments/season-weather.md`
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 20 — Sudden downpour changes the plan
+
+User intent:
+"两个人在街上突然遇到暴雨，只能一起冲到屋檐下避雨，衣服头发都湿了，等雨小再走。"
+
+Expected:
+- Primary Domain: Season / Weather
+- Load: `scene-library/season-weather.md` directly
+- Secondary Context: city street
+- Must exclude: `scene-library/city-daily.md`
+- Micro: `micro-moments/season-weather.md` when detail is needed
+- Reason: rain causes route, movement, clothing state and recovery
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 21 — Christmas mall shopping without ritual focus
+
+User intent:
+"圣诞装饰很多的商场里，两个人普通逛街买衣服喝咖啡。"
+
+Expected:
+- Primary Domain: City Daily
+- Load: `scene-library/city-daily.md`
+- Secondary Context: Christmas decoration
+- Must exclude: `scene-library/holidays-special-days.md`
+- Reason: shopping/café behavior is ordinary; holiday ritual does not cause action
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 22 — Christmas gift reveal in a mall
+
+User intent:
+"两个人在商场约会，但重点是男生一直藏着礼物，等到晚上才拿出来给女生。"
+
+Expected:
+- Primary Domain: Holidays / Special Days
+- Load: `scene-library/holidays-special-days.md`
+- Secondary Context: mall / City Daily
+- Must exclude: `scene-library/city-daily.md` unless a later separate shopping section specifically needs city knowledge
+- Micro: `micro-moments/holidays-special-days.md` when ritual detail is needed
+- Reason: conceal/reveal/timing drives the story
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 23 — Windy beach, beach activity remains primary
+
+User intent:
+"两个人去海边散步坐一会，风有点大但没有改变行程。"
+
+Expected:
+- Primary Domain: Outdoor Leisure
+- Load: `scene-library/outdoor-leisure.md`
+- Secondary Context: wind
+- Must exclude: `scene-library/season-weather.md`
+- Micro: `micro-moments/outdoor.md`; use universal only if distinct generic detail is needed
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 24 — Wind destroys picnic setup
+
+User intent:
+"野餐刚铺好，突然大风把纸巾和轻包装吹得到处都是，两个人赶紧压住东西重新收拾位置。"
+
+Expected:
+- Primary Domain: Season / Weather
+- Load: `scene-library/season-weather.md`
+- Secondary Context: picnic / Outdoor
+- Must exclude: `scene-library/outdoor-leisure.md` for this specific section
+- Micro: `micro-moments/season-weather.md`
+- Reason: wind interruption and adaptation are the event engine
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 25 — Trip packing focused on teamwork
+
+User intent:
+"视频就拍两个人在家一起收拾旅行行李，重点是一个很有计划，一个总漏东西，最后又重新打开箱子。"
+
+Expected:
+- Primary Domain: Shared Tasks
+- Load: `scene-library/shared-tasks.md`
+- Secondary Context: future travel / home
+- Must exclude: `scene-library/travel.md`, `scene-library/home-life.md`
+- Micro: `micro-moments/shared-tasks.md` when detail is needed
+- Reason: packing coordination and mistake/correction are the subject
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 26 — Outdoor music festival
+
+User intent:
+"两个人去户外音乐节，看演出、排队买吃的、在人群里找位置。"
+
+Expected:
+- Primary Domain: Entertainment
+- Load: `scene-library/entertainment.md`
+- Secondary Context: outdoor environment
+- Must exclude: `scene-library/outdoor-leisure.md`
+- Reason: organized show/event experience drives behavior
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 27 — First night after moving, milestone is primary
+
+User intent:
+"搬家第一晚，家具还没装好，两个人坐在纸箱中间吃外卖，重点是终于有自己的新家了。"
+
+Expected:
+- Primary Domain: Holidays / Special Days
+- Load: `scene-library/holidays-special-days.md`
+- Secondary Context: Shared Tasks / Home
+- Must exclude: `scene-library/shared-tasks.md` unless the scene later switches to unpacking/assembly as the actual task
+- Reason: milestone meaning and first-night ritual drive the scene
+- QC: QC-0 + QC-1 + QC-3
+
+## Case 28 — Moving day process, task is primary
+
+User intent:
+"两个人搬家，重点是搬箱子、决定家具放哪、装错位置又重新调整。"
+
+Expected:
+- Primary Domain: Shared Tasks
+- Load: `scene-library/shared-tasks.md`
+- Secondary Context: Home / first-day milestone
+- Must exclude: `scene-library/holidays-special-days.md`
+- Micro: `micro-moments/shared-tasks.md`
+- Reason: task coordination and correction drive behavior
+- QC: QC-0 + QC-1 + QC-3
