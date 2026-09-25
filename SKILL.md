@@ -88,6 +88,8 @@ Before reading specialized references for a substantial task:
 
 Reference count is a context budget, not a completeness score. More files should be loaded only when a new unresolved decision justifies them.
 
+**Persistent knowledge mutation is opt-in:** analyzing a reference never authorizes modifying Scene / Motif / Micro Moment / AI Safety libraries. Knowledge ingestion requires explicit user intent or deliberate skill-maintenance context, then references/knowledge-extraction-pipeline.md + QC-K.
+
 **Routing precedence:** this policy overrides every step-level line below that says `Read references/...`. Those lines identify candidate dependencies only. A candidate reference may be opened only when selected by the router for the current task/stage. Do not use repository-wide/reference-wide search as an inspiration mechanism when routing can identify the needed file directly.
 
 ## Core workflow
@@ -111,7 +113,10 @@ Reference count is a context budget, not a completeness score. More files should
    - If the user supplies a reference video, script, storyboard, creator example or generated draft, analyze the mechanism before designing the new work.
    - Extract hook, behavior contrast, scene events, state changes, rhythm, relationship construction, shot function and payoff when relevant.
    - Transfer principles, not exact scenes or surface decoration.
-   - Read references/reference-deconstruction.md.
+   - Candidate reference: references/reference-deconstruction.md.
+   - Reference analysis does **not** imply persistent knowledge ingestion.
+   - Only when the user explicitly asks to absorb / learn / update the Skill from the reference, load references/knowledge-extraction-pipeline.md after deconstruction and run QC-K before any library mutation.
+   - During ingestion, resolve one exact target file per candidate and dedupe only there; never scan the full reference tree.
 
 3. **Choose a narrative mode and find the story engine**
    - Default to Daily Sweet Vlog when the brief does not suggest another direction.
@@ -278,6 +283,7 @@ Do not recursively load the references directory. A listed file is a routing opt
 
 - Missing/ambiguous user requirements → references/brief-confirmation.md
 - User-supplied reference analysis / draft comparison → references/reference-deconstruction.md
+- Reference-to-library knowledge extraction, only when explicitly requested → references/knowledge-extraction-pipeline.md + QC-K
 - Character traits → behavior patterns / story-generating contrast → references/character-behavior-engine.md
 - Scene-event design / action-reaction / state carryover / repetition control → references/event-engine.md
 - Venue/theme-driven creative expansion and activity selection → references/creative-expansion.md
