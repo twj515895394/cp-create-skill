@@ -1,6 +1,10 @@
-# Micro Moments Router
+# Micro Moments Index — Ambiguity Fallback
 
 ## Purpose
+
+This file exists only for **genuine micro-domain ambiguity or future unregistered domains**.
+
+For normal runtime work, `references/reference-router.md` contains the direct scene-context → micro file map. If the scene clearly matches that map, do not load this index.
 
 Micro Moments are small physical behaviors that create lived-in texture.
 
