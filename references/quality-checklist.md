@@ -12,6 +12,16 @@ This checklist has three strengths:
 
 These are the small set of issues that normally require correction.
 
+### 0. Reference routing contamination
+
+The task context was polluted before creation because:
+- references were loaded without a concrete job,
+- a whole directory/domain family was browsed for inspiration,
+- unrelated story / shot / AI-production references were mixed into a local task,
+- user-provided facts were ignored and rediscovered through references.
+
+Repair routing first. Do not attempt to solve context pollution by adding more references.
+
 ### 1. Vague major scenes
 Major sections say only:
 - 游玩项目,
@@ -73,6 +83,20 @@ State continuity is an enhancer, not a requirement in every scene.
 - Does the current behavior pattern feel natural rather than mechanically repeated?
 - Is there an opportunity for either character to reveal another side **if the situation supports it**?
 - Does the relationship change in behavior when the story calls for change, rather than because progression is treated as mandatory?
+
+### AI-video production feasibility
+
+When AI video is part of the workflow:
+
+- Is any shot carrying too many simultaneous demands: multiple characters, face identity, complex action, complex camera movement and complex environment?
+- Is a wide / long shot unnecessarily responsible for recognizable faces?
+- Can identity and environmental scale be separated into adjacent shots?
+- Would back / side-back / silhouette / partial-body composition reduce risk without losing the shot's function?
+- Are generation segments coherent production moments rather than arbitrary groups of edit shots?
+- Are first-frame, action progression and end-state clear enough for downstream generation?
+- Are continuity-critical props, positions and travel directions preserved across generated clips?
+
+Treat these as feasibility diagnostics, not a ban on ambitious shots.
 
 ### Rhythm
 
@@ -169,3 +193,15 @@ not merely:
 And the production plan should feel:
 
 > detailed enough to direct, flexible enough to create, and practical enough for downstream AI-video generation.
+
+
+## QC gate integration
+
+Use this checklist together with `qc-gates.md`:
+
+- QC-0 catches reference-routing and context-hygiene failures before creative work expands.
+- QC-1 catches scene/event/continuity/rhythm failures before detailed directing.
+- QC-2 catches shot, generation-segment and AI-feasibility failures before production handoff.
+- QC-3 performs final user-intent and output-integrity review.
+
+A later gate should not compensate for a failure that belongs to an earlier layer.
