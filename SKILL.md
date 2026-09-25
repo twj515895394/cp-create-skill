@@ -71,7 +71,30 @@ Freely use:
 
 Do not reject a good creative choice merely because it does not fit a preferred pattern.
 
+## Reference routing policy
+
+This skill uses a growing reference library, so **selective loading is mandatory**.
+
+Before reading specialized references for a substantial task:
+
+- read `references/reference-router.md`,
+- classify the primary task and current workflow stage,
+- select the smallest reference set that has a concrete job,
+- run QC-0 Routing Integrity from `references/qc-gates.md`,
+- do not recursively browse reference directories,
+- do not load references "just in case",
+- when a domain library exists, load only the relevant domain by default.
+
+Reference count is a context budget, not a completeness score. More files should be loaded only when a new unresolved decision justifies them.
+
 ## Core workflow
+
+0. **Route references before specialized loading**
+   - For substantial tasks, read `references/reference-router.md` before specialized reference files.
+   - Classify the primary task, current stage, relevant domain if any, and whether AI-video production is in scope.
+   - Select the minimum useful reference set; explicitly exclude unrelated groups.
+   - Run QC-0 from `references/qc-gates.md` before broadening the set.
+   - Do not recursively enumerate reference directories or load sibling domain files without a concrete need.
 
 1. **Resolve the brief**
    - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, desired output depth, and any dialogue / voiceover preference when the user specifies one.
@@ -130,6 +153,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
    - Ban vague placeholders such as “游玩项目 / 互动 / 吃东西 / 看风景” when a concrete event can be named.
    - Do not force every scene to contain an attraction, game or dramatic incident.
    - Read references/scene-specificity.md and references/event-engine.md.
+   - For complete designs, run QC-1 Story & Scene Integrity from references/qc-gates.md before detailed shot planning.
 
 9. **Determine shot count dynamically**
    - Never force a fixed storyboard count.
@@ -152,6 +176,7 @@ Do not reject a good creative choice merely because it does not fit a preferred 
     - Blocking, distance, screen direction, sound, timing, editing, facial reaction and physical intimacy are all possible relationship tools. Use whichever combination the material invites.
     - This is a default visual tendency, not a universal law. Change it when the concept benefits from distance, choreography, environment or spectacle.
     - Read references/shot-language.md.
+   - For AI-video work, run QC-2 Production & AI Feasibility after shot / generation-segment design. Do not ask one risky shot to carry facial identity, complex action, complex camera movement and environmental scale when the functions can be separated.
 
 12. **Choose relationship expression from the actual situation**
     - Eye contact, hand-holding, hugs, kisses, physical closeness, teasing, practical care, shared tasks, silence and many other behaviors are all valid tools.
@@ -221,7 +246,15 @@ None of these should become a mechanical quota.
 
 ## Reference loading
 
-Read only what the task needs:
+Read only what the task needs.
+
+**Control layer first for substantial tasks:**
+- Reference routing / selective-loading control → references/reference-router.md
+- Stage-aware QC / routing-story-production-final gates → references/qc-gates.md
+
+Do not recursively load the references directory. A listed file is a routing option, not a requirement. Domain libraries added in the future must be selected through their index/router and should default to one relevant domain.
+
+**Specialized references:**
 
 - Missing/ambiguous user requirements → references/brief-confirmation.md
 - User-supplied reference analysis / draft comparison → references/reference-deconstruction.md
