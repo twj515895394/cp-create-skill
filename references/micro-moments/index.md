@@ -16,6 +16,7 @@ This index routes to a **small micro-detail set**. It is not permission to read 
 
 ## Loading rules
 
+- When a Primary Scene Domain has already been selected, follow that domain to its matching micro file when one exists; do not re-scan or reclassify.
 - Load `universal.md` only when general body/object behavior is useful.
 - Load one domain file when domain-specific texture is needed.
 - Load both universal + one domain only when each serves a distinct need.
@@ -33,6 +34,9 @@ This index routes to a **small micro-detail set**. It is not permission to read 
 | attraction/show/game routines | `entertainment.md` |
 | transit/hotel/arrival routines | `travel.md` |
 | park/beach/camping/outdoor routines | `outdoor.md` |
+| shared task coordination / assembly / packing / cleaning | `shared-tasks.md` |
+| weather-caused behavior | `season-weather.md` |
+| holiday / special-day ritual | `holidays-special-days.md` |
 
 ## Distinction from Mother Motif
 
