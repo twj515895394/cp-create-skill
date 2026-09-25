@@ -83,7 +83,8 @@ Before reading specialized references for a substantial task:
 - run QC-0 Routing Integrity from `references/qc-gates.md`,
 - do not recursively browse reference directories,
 - do not load references "just in case",
-- when a domain library exists, load only the relevant domain by default.
+- when a domain library exists, resolve the exact path from `reference-router.md` and load only the relevant domain by default,
+- do not list reference directories or search the repository to discover candidate reference files during normal execution.
 
 Reference count is a context budget, not a completeness score. More files should be loaded only when a new unresolved decision justifies them.
 
@@ -96,7 +97,8 @@ Reference count is a context budget, not a completeness score. More files should
    - Classify the primary task, current stage, relevant domain if any, and whether AI-video production is in scope.
    - Select the minimum useful reference set; explicitly exclude unrelated groups.
    - Run QC-0 from `references/qc-gates.md` before broadening the set.
-   - Do not recursively enumerate reference directories or load sibling domain files without a concrete need.
+   - Do not recursively enumerate reference directories, list library folders, broad-search references, or load sibling domain files without a concrete need.
+   - If the router already maps the request to an exact domain path, open that path directly; use an index only for genuine ambiguity.
 
 1. **Resolve the brief**
    - Identify target duration, aspect ratio/platform, scene/theme, relationship stage, tone, must-have moments, prohibited elements, desired output depth, and any dialogue / voiceover preference when the user specifies one.
@@ -132,7 +134,8 @@ Reference count is a context budget, not a completeness score. More files should
    - For named real venues, research public experience information when tools are available instead of asking the user to supply every project.
    - Choose activities for story affordance: choice, reaction, competition, fear/bravery, teamwork, inconvenience, care, shared attention, recovery, visual payoff, or other useful behavior.
    - Candidate reference: references/creative-expansion.md.
-   - When concrete domain knowledge is needed, route through references/scene-library/index.md and load one relevant domain file by default.
+   - When concrete domain knowledge is needed, use the direct Scene Domain map in references/reference-router.md and load the exact domain file directly.
+   - Use references/scene-library/index.md only when the domain is genuinely ambiguous or unregistered.
    - Do not load Scene Library when the user has already supplied complete concrete scenes and only later production work is requested.
 
 6. **Build Scene Events and notice when a moment could become a mini-story**
@@ -146,7 +149,8 @@ Reference count is a context budget, not a completeness score. More files should
    - Ordinary, romantic or quiet scenes may contain only one small action—or almost no action—if that is what the piece needs.
    - Candidate reference: references/event-engine.md.
    - If the setting is clear but event variety is weak, selectively load references/motif-library/scene-event-motifs.md.
-   - If the Scene Event is already concrete but lacks lived-in physical texture, selectively route through references/micro-moments/index.md and load only the relevant micro domain.
+   - If the Scene Event is already concrete but lacks lived-in physical texture, use the direct Micro Moments map in references/reference-router.md and load the exact relevant micro file.
+   - Use references/micro-moments/index.md only when the micro domain is genuinely ambiguous or unregistered.
    - Do not use Micro Moments to compensate for a vague Scene Event; fix the event first.
 
 7. **Design the story before shots**
@@ -284,9 +288,9 @@ Do not recursively load the references directory. A listed file is a routing opt
 - Output fields and handoff format → references/output-schema.md
 - Acceptance criteria and anti-patterns → references/quality-checklist.md
 - Concrete structural examples → references/examples.md
-- Scene-domain router / concrete environment possibilities → references/scene-library/index.md → one relevant domain
+- Scene-domain knowledge → resolve direct path in references/reference-router.md; references/scene-library/index.md is ambiguity fallback only
 - Cross-scene reusable event seeds when event variety is weak → references/motif-library/scene-event-motifs.md
-- Lived-in physical details after Scene Events are concrete → references/micro-moments/index.md → one relevant domain, optionally universal
+- Lived-in physical details after Scene Events are concrete → resolve direct micro path in references/reference-router.md; references/micro-moments/index.md is ambiguity fallback only
 - AI-video identity / motion / wide-shot / complexity feasibility → references/ai-video-shot-safety.md
 
 ## Default output order
