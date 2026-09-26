@@ -60,6 +60,13 @@
 - face reaction appears before the environment payoff,
 - after the spectacle starts, interaction becomes quieter rather than more performative.
 
+### Zoo / animal encounter
+- passenger leans forward or lifts binoculars / camera when movement appears beyond the vehicle,
+- point briefly across the windshield, then lower the hand once the partner has found the target,
+- driver keeps route control while following the passenger's cue,
+- both turn toward the same side, then return to the forward view as the animal passes,
+- hold a quieter shared look for a beat after a near pass before moving on.
+
 ## Use rule
 
 Entertainment Micro Moments should create the feeling of **spending time at the venue**, not merely visiting headline attractions.

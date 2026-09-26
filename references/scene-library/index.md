@@ -21,14 +21,14 @@ This file is an index, not a creative scene catalog and not a discovery surface.
 
 | Domain | Typical triggers | File |
 |---|---|---|
-| Home Life | bedroom, kitchen, living room, bathroom, balcony, chores, staying in | `home-life.md` |
+| Home Life | bedroom, kitchen, living room, bathroom, balcony, domestic-routine chores, staying in | `home-life.md` |
 | City Daily | street, convenience store, supermarket, mall, café, restaurant, cinema, bookstore, elevator, parking | `city-daily.md` |
 | Entertainment | theme park, amusement park, zoo, aquarium, arcade, exhibition, live show, leisure venue | `entertainment.md` |
 | Outdoor Leisure | park, picnic, cycling, lakeside, beach, camping, trail, riverside, open-air leisure | `outdoor-leisure.md` |
-| Travel | airport, rail, road trip, arrival, hotel, homestay, destination street, departure/return | `travel.md` |
+| Travel | airport, rail, road trip, arrival, hotel, homestay, destination street during the journey lifecycle, departure/return | `travel.md` |
 | Shared Tasks | shopping mission, cooking, packing, cleaning, moving, pet care, repair, preparation | `shared-tasks.md` |
-| Season / Weather | rain, snow, heat, wind, autumn, summer night, cold snap, sunset | `season-weather.md` |
-| Holidays / Special Days | birthday, anniversary, New Year, Christmas, Spring Festival, first night after moving | `holidays-special-days.md` |
+| Season / Weather | rain, snow, heat, wind, autumn, summer night when it changes behavior/state, cold snap, sunset when it changes timing/visibility | `season-weather.md` |
+| Holidays / Special Days | birthday, anniversary, New Year, Christmas, Spring Festival, first night after moving, housewarming ritual | `holidays-special-days.md` |
 
 ## Ambiguity rule
 

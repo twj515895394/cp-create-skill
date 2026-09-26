@@ -62,7 +62,7 @@ Evaluate candidate scenes by:
 
 Select a mix of strong events and ordinary moments.
 
-Read `creative-expansion.md`.
+Cross-reference only: `creative-expansion.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ## 4. Required content-map fields
 

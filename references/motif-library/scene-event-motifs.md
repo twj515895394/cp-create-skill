@@ -289,6 +289,8 @@ Produces:
 - spontaneous route deviation,
 - "one notices first" behavior.
 
+In a moving setting, a reusable chain is: one person notices first, the other follows the gaze or gesture, the carrier slows or holds briefly, and the route resumes toward the next cue.
+
 ### Miss / Misunderstand
 
 **Engine:** information or timing briefly fails.

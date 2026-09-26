@@ -300,6 +300,34 @@ This is a high-value place for lived-in Micro Moments.
 
 ## Zoo / Aquarium
 
+### Night safari / open-vehicle animal drive
+
+**Realistic activity**
+- move slowly through a dark animal area while scanning both the route ahead and the sides,
+- ease off or pause when an animal crosses or approaches the vehicle,
+- alternate between windshield / rear-view environment and passenger reaction,
+- let one passenger point, use binoculars or track movement while the driver keeps route control,
+- resume the route after the encounter, carrying forward surprise, fatigue or quieter attention.
+
+**Visual anchors**
+- open-sided jeep, windshield frame, dashboard, dim path lamps, water or reflective surfaces, animal crossing close to the vehicle.
+
+**Useful Motifs**
+- discover / notice,
+- synchronized attention,
+- environment interrupts.
+
+**Relationship affordances**
+- the passenger spots something first and redirects the driver's attention without asking them to abandon control,
+- the driver slows or turns while the passenger tracks the animal, then both settle into shared observation.
+
+**State possibilities**
+- each encounter changes pace and attention; repeated near encounters can accumulate into a quieter end-of-route sense of wonder.
+
+**AI-friendly notes**
+- separate close / medium-close face reactions from animal and environment plates; use rear / side-back two-shots for spatial scale,
+- keep vehicle movement simple and let cuts carry animal proximity; avoid requiring two exact faces, a moving vehicle and complex animal interaction in one long take.
+
 Useful subspaces:
 - entrance map,
 - viewing glass,

@@ -224,6 +224,8 @@ A generation segment should:
 - avoid abrupt location/time/object resets,
 - preserve prop ownership and relative positions when continuity matters.
 
+For vehicle-plus-animal or other busy environment encounters, a safer reusable split is: route / space plate → face or reaction shot → subject detail → back / side-back shared view. Let the edit carry the near pass or occlusion instead of demanding one long generation to maintain exact faces, vehicle motion and a complex moving subject simultaneously.
+
 Split a segment when complexity—not only duration—becomes unreliable.
 
 ## Repair ladder

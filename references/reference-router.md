@@ -271,7 +271,7 @@ Direct runtime routing:
 | airport, railway, road trip, transit, arrival, hotel, homestay, departure/return | `scene-library/travel.md` |
 | cooking/packing/cleaning/moving/repair/pet care where coordination itself is the story engine | `scene-library/shared-tasks.md` |
 | rain, snow, heat, wind, autumn, summer night, weather/season materially driving behavior | `scene-library/season-weather.md` |
-| birthday, anniversary, New Year, Christmas, Spring Festival, Valentine's, special-day ritual | `scene-library/holidays-special-days.md` |
+| birthday, anniversary, New Year, Christmas, Spring Festival, Valentine's, first night after moving, housewarming, special-day ritual | `scene-library/holidays-special-days.md` |
 
 Fallback only:
 - `scene-library/index.md` is for genuine domain ambiguity or future unregistered domains.

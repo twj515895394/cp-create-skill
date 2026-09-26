@@ -245,7 +245,7 @@ Story → Sequence / Scene → Generation Segment → Shot / Micro-shot → Acti
 
 This preserves professional directing detail while making the plan practical for video-generation workflows.
 
-Read `generation-segments.md` for grouping rules.
+Cross-reference only: `generation-segments.md` for grouping rules. Load it only when selected by `reference-router.md` for the current task/stage.
 
 
 ## 8. Scene route before storyboard
@@ -275,7 +275,7 @@ Better:
 - 爆米花摊：点焦糖爆米花，女生先偷吃一把，男生发现后把桶换到另一侧
 - 喷泉休息区：坐下整理购物袋，男生拧开水递过去
 
-Read `scene-specificity.md`.
+Cross-reference only: `scene-specificity.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ## 9. Activity realism
 
@@ -325,4 +325,4 @@ After outlining the story, ask:
 
 If yes, the outline is too abstract. Return to venue/activity design and rewrite.
 
-Read `creative-expansion.md`.
+Cross-reference only: `creative-expansion.md`. Load it only when selected by `reference-router.md` for the current task/stage.

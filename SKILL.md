@@ -137,7 +137,7 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
    - Do not interrogate the user.
    - Ask only when missing information would materially change the story or production plan.
    - Infer minor creative details and proceed.
-   - Read references/brief-confirmation.md.
+   - Candidate reference: `references/brief-confirmation.md`; load it only when the brief is materially incomplete or ambiguous and the Router selects it.
 
 2. **Deconstruct references when provided**
    - If the user supplies a reference video, script, storyboard, creator example or generated draft, analyze the mechanism before designing the new work.
@@ -153,7 +153,7 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
    - Other supported modes: travel diary, home-life diary, date-day Vlog, seasonal/holiday memory, anniversary film, observational couple diary, light narrative micro-film.
    - Look for a useful **concept hook**, **relationship engine**, **character-world mismatch**, **shared objective**, or another source of repeatable story energy.
    - A strong hook is encouraged, not mandatory. Quiet slice-of-life can work without a high-concept premise.
-   - Read references/style-modes.md and references/character-behavior-engine.md.
+   - Candidate reference: `references/style-modes.md` when the narrative mode is unclear. Character behavior is routed in Step 4; do not preload it here.
 
 4. **Translate character traits into behavior**
    - Do not stop at adjectives such as “稳重 / 活泼 / 高冷 / 温柔”.
@@ -161,7 +161,7 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
    - Treat these as **default tendencies and creative clues**, not shot-by-shot rules.
    - When the situation supports it, consider revealing another side of the character: the restrained person may initiate, the playful person may hesitate, or both may react differently from expectation.
    - Use behavioral tendencies to generate possibilities, not to lock characters into rigid archetypes.
-   - Read references/character-behavior-engine.md.
+   - Load `references/character-behavior-engine.md` only when character contrast is materially relevant and the Router selects it.
 
 5. **Expand the premise creatively and route scene-domain knowledge only when needed**
    - Treat rules and relationship modules as guardrails, not as the content itself.
@@ -195,20 +195,20 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
    - Arrange events so the relationship and mood change because of what the couple experiences.
    - Use functional story modules only as diagnostic options.
    - Avoid abstract “关系升温” planning without a physical cause.
-   - Read references/story-structure.md.
+   - Candidate reference: `references/story-structure.md`; load it for multi-scene narrative architecture only when selected by the Router.
 
 8. **Build a concrete Content Map / Scene Route**
    - For complete Vlogs, state where the couple is, what specific scene event happens, what visible behavior occurs, what important state enters/leaves the scene, and how the story moves onward.
    - Ban vague placeholders such as “游玩项目 / 互动 / 吃东西 / 看风景” when a concrete event can be named.
    - Do not force every scene to contain an attraction, game or dramatic incident.
-   - Read references/scene-specificity.md and references/event-engine.md.
+   - Candidate references: `references/scene-specificity.md` and `references/event-engine.md`; load only when route specificity or event diagnosis remains unresolved and the Router selects them.
    - For complete designs, run QC-1 Story & Scene Integrity from references/qc-gates.md before detailed shot planning.
 
 9. **Determine shot count dynamically**
    - Never force a fixed storyboard count.
    - Derive shot count from runtime, pace, event density, reaction needs, scene count and breathing room.
    - A stronger reference may have fewer shots but more event variation; do not chase shot count by itself.
-   - Read references/story-structure.md.
+   - Reuse the story-structure decision from Step 7; do not reload `references/story-structure.md` unless a new unresolved narrative question justifies it and the Router selects it.
 
 10. **Create generation segments for AI-video handoff**
     - A shot is an editing/directing unit; a generation segment is a production unit.
@@ -234,7 +234,7 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
     - None of them is required, and none is prohibited by default.
     - Choose them because they fit the characters, relationship stage, scene and emotional moment—not because the skill expects or avoids a category.
     - If the same relational function dominates many scenes, consider whether more variety would make the piece richer; repetition may still be intentional and effective.
-    - Read references/interaction-library.md.
+   - Load `references/interaction-library.md` only when relationship expression needs additional options and the Router selects it.
 
 13. **Write layered production output**
     - **Story engine / concept layer** when useful: what makes these two people and this situation generate story.
@@ -242,7 +242,7 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
     - **Generation Segments**: practical downstream production units when relevant.
     - **Director Script**: shot duration, scene/event, framing, camera, blocking, rich Picture & Performance, sound, transition, edit intention and continuity.
     - **Picture & Performance is the primary shot field.** It must describe observable action and reaction from first frame to cut.
-    - Read references/performance-writing.md and references/output-schema.md.
+   - Candidate references: `references/performance-writing.md` for playable shot writing and `references/output-schema.md` for a structured handoff; load only the one(s) selected by the Router.
 
 14. **Check event variety, rhythm and continuity**
     - Ask whether multiple scenes are secretly the same behavior with different backgrounds.
@@ -252,12 +252,12 @@ The phrase "有没有可以补进参考库的资产内容" itself is explicit op
     - Cuts may be motivated by action, gaze, space, time, emotion, sound, rhythm or deliberate contrast.
 
 15. **Run staged quality control**
-    - Read references/qc-gates.md and run the gates appropriate to the task.
+   - Use `references/qc-gates.md` as the control layer and run only the gates appropriate to the task; it does not authorize loading unrelated references.
     - QC-0 checks reference routing before context grows.
     - QC-1 checks story / scene integrity before directing hides weak content.
     - QC-2 checks production and AI-video feasibility when relevant.
     - QC-3 checks final delivery against user intent and downstream usability.
-    - Read references/quality-checklist.md for broader final diagnostics.
+   - Candidate reference: `references/quality-checklist.md`; load it only for explicit/final QC or when an applicable gate leaves an unresolved diagnostic, as selected by the Router.
     - Fix BLOCK / hard failures; investigate REVISE signals; keep OPTIONAL enrichments optional.
     - Do not flatten an unusual but coherent idea merely to satisfy a checklist.
 

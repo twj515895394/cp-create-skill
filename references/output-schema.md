@@ -31,7 +31,7 @@ This is **not mandatory** for every simple Vlog.
 
 Do not invent a high-concept premise when ordinary observation is the intended style.
 
-Read `character-behavior-engine.md` and `event-engine.md`.
+Cross-reference only: `character-behavior-engine.md` and `event-engine.md`. Loading remains controlled by `reference-router.md` for the current task/stage.
 
 ## 3. Core Experience Mix — expected for venue-based Vlogs
 
@@ -53,7 +53,7 @@ For a named venue, reveal the venue fingerprint **without turning the plan into 
 
 Do not output only abstract bullets such as “共同体验 / 性格反差 / 玩闹 / 照顾”. Those are analysis labels, not content.
 
-Read `creative-expansion.md`.
+Cross-reference only: `creative-expansion.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ## 4. Full-video Content Map / Scene Route — required for complete Vlogs
 
@@ -89,7 +89,7 @@ Examples of acceptable specificity:
 
 Avoid vague labels such as “游玩”“互动”“吃东西”“看景色”.
 
-Read `scene-specificity.md` and `event-engine.md`.
+Cross-reference only: `scene-specificity.md` and `event-engine.md`. Load them only when selected by `reference-router.md` for the current task/stage.
 
 ## 5. Runtime strategy
 
@@ -197,7 +197,7 @@ For important shots, consider:
 
 Do not turn this into a form-filling exercise. Include what is necessary to make the shot playable.
 
-Read `performance-writing.md`.
+Cross-reference only: `performance-writing.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ### Expanded internal shot fields
 

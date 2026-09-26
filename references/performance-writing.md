@@ -143,7 +143,7 @@ But character consistency does **not** mean repetition.
 
 A believable deviation can reveal another side of the character if the situation motivates it.
 
-Read `character-behavior-engine.md`.
+Cross-reference only: `character-behavior-engine.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ## 9. Scene-state awareness
 
@@ -162,7 +162,7 @@ This can help later scenes feel connected.
 
 Do not force a state change into every shot.
 
-Read `event-engine.md`.
+Cross-reference only: `event-engine.md`. Load it only when selected by `reference-router.md` for the current task/stage.
 
 ## 10. Self-sufficiency test
 

@@ -91,9 +91,9 @@ The control layer is intentionally separate from creative knowledge. For substan
 
 Large creative libraries sit behind routing boundaries:
 
-- scene-library/index.md → one relevant scene domain by default
+- scene-library/index.md → ambiguity fallback only; bypass it when direct routing is clear
 - motif-library/scene-event-motifs.md → cross-scene event seeds when event variety is weak
-- micro-moments/index.md → one relevant lived-in-detail domain, optionally universal
+- micro-moments/index.md → ambiguity fallback only; bypass it when the scene context maps directly
 - ai-video-shot-safety.md → AI generation feasibility, identity/environment separation and complexity budgeting
 
 Current scene domains include Home, City, Entertainment, Outdoor, Travel, Shared Tasks, Season/Weather, and Holidays/Special Days. Domain-specific Micro Moments now cover Home, City, Entertainment, Outdoor, Travel, Shared Tasks, Season/Weather, and Holidays/Special Days.
@@ -146,6 +146,7 @@ Plain analysis requests do not mutate the reference library.
 
 - tests/reference-routing-cases.md — regression cases for validating include/exclude behavior, reference budgets, domain isolation, and QC-gate selection
 - tests/knowledge-extraction-cases.md — regression cases for abstraction, dedupe, anti-overfitting, evidence strength and safe knowledge promotion
+- tests/route-integrity.ps1 — lightweight static guard for direct route registration, fallback-index wording, and implicit cross-load instructions
 - Test files are development material and must not be loaded as runtime creative references.
 
 ## Typical triggers
